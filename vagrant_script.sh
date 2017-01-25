@@ -1,4 +1,6 @@
 #!/bin/bash
+mkdir -p files
+mkdir -p inventory_files
 # Check if OS is Unix or Linux based
 if [ "$(uname)" == "Darwin" ]; then
   # Is puppet installed?
@@ -22,8 +24,8 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
     echo "Puppet is running"
       # The package lsb_release is found on Debian and Ubuntu machines
       # So this narrows those down
-      if [ -f /etc/lsb-release ] && echo "lsb_release package installed" || echo "lsb_release package not installed"; then
-        if lsb_release -is | grep -q "Debian"; then
+      if [ -f /etc/lsb-release ]; then
+        if lsb_release -is | grep -q "Debian" ; then
           echo "Debian machine"
           puppet module install --force puppetlabs-inventory
           mkdir -p /etc/puppet/modules
@@ -31,7 +33,7 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
           cd /tmp/inventory
           puppet inventory --verbose
           puppet inventory > inventory-debian.json
-        elif lsb_release -is | grep -q "Ubuntu"; then
+        elif lsb_release -is | grep -q "Ubuntu" ; then
           echo "Ubuntu machine"
           sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 7F438280EF8D349F
           puppet module install puppetlabs-inventory
@@ -40,7 +42,7 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
           puppet inventory > inventory-ubuntu.json
           set +x
         fi
-      elif [ cat /etc/redhat-release | grep -q "Centos" ]; then
+      elif [ -f /etc/redhat-release ] && echo "Redhat machine" || echo "Not Redhat Machine"; then
         echo "Centos machine"
         puppet module install puppetlabs-inventory
         cd /tmp/inventory
@@ -60,7 +62,7 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
           puppet module install --force puppetlabs-inventory
           puppet inventory
           puppet inventory > inventory-debian.json
-        elif lsb_release -is | grep -q "Ubuntu"; then
+        elif [ lsb_release -is | grep -q "Ubuntu"; then
           echo "Ubuntu machine"
           set -x
           sudo puppet module install puppetlabs-inventory
@@ -70,7 +72,7 @@ elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
           set +x
         fi
       # Strangely Debian and Ubuntu both have puppet running but Centos does not
-      # It also doesn't work if you include the last bracket  
+      # It also doesn't work if you include the last bracket
       elif [ -f /etc/redhat-release ] && echo "Redhat machine" || echo "Not Redhat Machine"; then
         echo "Centos machine"
         puppet module install puppetlabs-inventory
