@@ -26,9 +26,3 @@ The script then runs through various conditions to first determine if it is runn
 Once the inventory files have been added to the inventory files directory (check to confirm), you can now run the application to migrate the data to the database. Using the command line from the main directory, type the following command:
 
 `python3 manage.py runserver`
-
-This will run the application locally, which you can access at the URL specified. You can also login to Heroku CLI using the following credentials (username: eglenfield01@qub.ac.uk, password: Password123), and run the application locally with Heroku with the following command:
-
-`heroku local`
-
-This will also output a URL where you can access the application.
