@@ -1,20 +1,34 @@
-# unicorn-puppet
-An analyser of puppet managed systems. Using bash, Python and R to gather data from a puppet run and display the similarities between their packages, users and groups - colourful and magic filled, hence unicorn-puppet!
+# Puppet Run Analyser
 
-## What you'll need to have installed
-To run the analyser you'll need to have:
-* Vagrant
-* (by extent) Virtualbox or VMWare Fusion
-* Python 2.7.10 (and above)
-* Text editor of choice (I used vim for convenience) 
+If you would like to install the application locally and run the data gathering bash script yourself, you will need to be on a Linux/Unix machine, where you will run the following command:
 
-## Run
-First run `vagrant up`. Once that completes, you will have two directories created, **files** and **inventory_files**. **inventory_files** will contain the data structure output from running `puppet inventory` on the vagrant machines. Next run the python parser from the top level dir by running `python python_parser.py`.
+`git clone https://gitlab.eeecs.qub.ac.uk/40101382/puppetrunanalyser.git`
 
-## Vagrant
-On `vagrant up` the Vagrant file creates and provisions (running the bash script vagrant_script.sh) a Debian, Ubuntu and Centos machine. The boxes for each machine are all puppetlabs boxes, so all have puppet preinstalled.
+You will also need permission to access the EEECS Gitlab domain. When the repository has been downloaded successfully, make sure you have the following software installed to utilise all application functionality:
 
-## Bash script
-The script is run when vagrant is provisioning the machines, where it checks the operating system (and distro) to install a puppet module ([puppetlabs-inventoy](https://github.com/puppetlabs/puppetlabs-inventory)) and output the data structure describing properties of the system on which it's run. This is then used by the python parser and separated into packages, versions, users and volumes.
+-	Vagrant
+-	VirtualBox
+-	Python >= 3.5.2
+-	Pip (a Python package manager); with Pip installed you will need to install
+-	Django
+-	Heroku (if you have homebrew installed Heroku with it)
 
+Django can be installed with pip, and Heroku can be installed with brew using the following command:
 
+`brew install heroku`
+
+Once you have the required software installed, to run the data gathering bash script, simply enter the following into the terminal:
+
+`./data.sh`
+
+The script then runs through various conditions to first determine if it is running on a Darwin operating system, and if it is not to run the Vagrant command ‘vagrant up’. The Vagrant command gathers the relevant boxes, and provisions each box using the vagrant_script.sh file to gathering data regarding each machine. After the execution of the scripts, an inventory_files will be generated with four files inside it, one for each node.
+
+Once the inventory files have been added to the inventory files directory (check to confirm), you can now run the application to migrate the data to the database. Using the command line from the main directory, type the following command:
+
+`python3 manage.py runserver`
+
+This will run the application locally, which you can access at the URL specified. You can also login to Heroku CLI using the following credentials (username: eglenfield01@qub.ac.uk, password: Password123), and run the application locally with Heroku with the following command:
+
+`heroku local`
+
+This will also output a URL where you can access the application.

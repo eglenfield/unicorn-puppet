@@ -1,0 +1,43 @@
+ id | os  | resource |  provider  |           title           |  version  
+----+-----+----------+------------+---------------------------+-----------
+  1 | mac | package  | gem        | bigdecimal                | {1.2.0}
+  2 | mac | package  | gem        | CFPropertyList            | {2.2.8}
+  3 | mac | package  | gem        | io-console                | {0.4.2}
+  4 | mac | package  | gem        | json                      | {1.7.7}
+  5 | mac | package  | gem        | libxml-ruby               | {2.6.0}
+  6 | mac | package  | gem        | minitest                  | {4.3.2}
+  7 | mac | package  | gem        | nokogiri                  | {1.5.6}
+  8 | mac | package  | gem        | psych                     | {2.0.0}
+  9 | mac | package  | gem        | rake                      | {0.9.6}
+ 10 | mac | package  | gem        | rdoc                      | {4.0.0}
+ 11 | mac | package  | gem        | sqlite3                   | {1.3.7}
+ 12 | mac | package  | gem        | test-unit                 | {2.0.0.0}
+ 13 | mac | package  | pip        | beautifulsoup4            | {4.5.3}
+ 14 | mac | package  | pip        | dj-database-url           | {0.4.2}
+ 15 | mac | package  | pip        | dj-static                 | {0.0.6}
+ 16 | mac | package  | pip        | Django                    | {1.10.5}
+ 17 | mac | package  | pip        | django-bootstrap3         | {8.1.0}
+ 18 | mac | package  | pip        | django-cors-headers       | {2.0.2}
+ 19 | mac | package  | pip        | django-livereload-server  | {0.2.3}
+ 20 | mac | package  | pip        | django-static-precompiler | {1.5}
+ 21 | mac | package  | pip        | django-toolbelt           | {0.0.1}
+ 22 | mac | package  | pip        | gunicorn                  | {19.7.1}
+ 23 | mac | package  | pip        | psycopg2                  | {2.6.2}
+ 24 | mac | package  | pip        | rpy2                      | {2.8.5}
+ 25 | mac | package  | pip        | six                       | {1.10.0}
+ 26 | mac | package  | pip        | South                     | {1.0.2}
+ 27 | mac | package  | pip        | static3                   | {0.7.0}
+ 28 | mac | package  | pip        | tornado                   | {4.4.2}
+ 29 | mac | package  | pip        | whitenoise                | {3.3.0}
+ 30 | mac | package  | pip        | pip                       | {9.0.1}
+ 31 | mac | package  | pip3       | pip3                      | {9.0.1}
+ 32 | mac | package  | puppet_gem | deep_merge                | {1.0.1}
+ 33 | mac | package  | puppet_gem | facter                    | {3.4.1}
+ 34 | mac | package  | puppet_gem | hiera                     | {3.2.1}
+ 35 | mac | package  | puppet_gem | hocon                     | {0.9.3}
+ 36 | mac | package  | puppet_gem | net-ssh                   | {2.9.2}
+ 37 | mac | package  | puppet_gem | puppet                    | {4.7.0}
+ 38 | mac | package  | puppet_gem | semantic_puppet           | {0.1.2}
+ 39 | mac | package  | puppet_gem | stomp                     | {1.3.3}
+(39 rows)
+

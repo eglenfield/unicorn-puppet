@@ -1,0 +1,6688 @@
+{
+  "schema_version": 1,
+  "created": "2017-04-03T20:04:30Z",
+  "resources": [
+    {
+      "title": "_amavisd",
+      "resource": "group",
+      "gid": 83
+    },
+    {
+      "title": "_appleevents",
+      "resource": "group",
+      "gid": 55
+    },
+    {
+      "title": "_applepay",
+      "resource": "group",
+      "gid": 260
+    },
+    {
+      "title": "_appowner",
+      "resource": "group",
+      "gid": 87
+    },
+    {
+      "title": "_appserveradm",
+      "resource": "group",
+      "gid": 81
+    },
+    {
+      "title": "_appserverusr",
+      "resource": "group",
+      "gid": 79
+    },
+    {
+      "title": "_appstore",
+      "resource": "group",
+      "gid": 33
+    },
+    {
+      "title": "_ard",
+      "resource": "group",
+      "gid": 67
+    },
+    {
+      "title": "_assetcache",
+      "resource": "group",
+      "gid": 235
+    },
+    {
+      "title": "_astris",
+      "resource": "group",
+      "gid": 245
+    },
+    {
+      "title": "_atsserver",
+      "resource": "group",
+      "gid": 97
+    },
+    {
+      "title": "_calendar",
+      "resource": "group",
+      "gid": 93
+    },
+    {
+      "title": "_captiveagent",
+      "resource": "group",
+      "gid": 258
+    },
+    {
+      "title": "_ces",
+      "resource": "group",
+      "gid": 32
+    },
+    {
+      "title": "_clamav",
+      "resource": "group",
+      "gid": 82
+    },
+    {
+      "title": "_coreaudiod",
+      "resource": "group",
+      "gid": 202
+    },
+    {
+      "title": "_coremediaiod",
+      "resource": "group",
+      "gid": 236
+    },
+    {
+      "title": "_ctkd",
+      "resource": "group",
+      "gid": 259
+    },
+    {
+      "title": "_cvms",
+      "resource": "group",
+      "gid": 212
+    },
+    {
+      "title": "_cvs",
+      "resource": "group",
+      "gid": 72
+    },
+    {
+      "title": "_datadetectors",
+      "resource": "group",
+      "gid": 257
+    },
+    {
+      "title": "_detachedsig",
+      "resource": "group",
+      "gid": 207
+    },
+    {
+      "title": "_devdocs",
+      "resource": "group",
+      "gid": 59
+    },
+    {
+      "title": "_developer",
+      "resource": "group",
+      "gid": 204
+    },
+    {
+      "title": "_devicemgr",
+      "resource": "group",
+      "gid": 220
+    },
+    {
+      "title": "_displaypolicyd",
+      "resource": "group",
+      "gid": 244
+    },
+    {
+      "title": "_distnote",
+      "resource": "group",
+      "gid": 241
+    },
+    {
+      "title": "_dovenull",
+      "resource": "group",
+      "gid": 227
+    },
+    {
+      "title": "_eppc",
+      "resource": "group",
+      "gid": 71
+    },
+    {
+      "title": "_findmydevice",
+      "resource": "group",
+      "gid": 254
+    },
+    {
+      "title": "_gamecontrollerd",
+      "resource": "group",
+      "gid": 247
+    },
+    {
+      "title": "_geod",
+      "resource": "group",
+      "gid": 56
+    },
+    {
+      "title": "_guest",
+      "resource": "group",
+      "gid": 201
+    },
+    {
+      "title": "_hidd",
+      "resource": "group",
+      "gid": 261
+    },
+    {
+      "title": "_iconservices",
+      "resource": "group",
+      "gid": 240
+    },
+    {
+      "title": "_installassistant",
+      "resource": "group",
+      "gid": 25
+    },
+    {
+      "title": "_installer",
+      "resource": "group",
+      "gid": 96
+    },
+    {
+      "title": "_jabber",
+      "resource": "group",
+      "gid": 84
+    },
+    {
+      "title": "_keytabusers",
+      "resource": "group",
+      "gid": 30
+    },
+    {
+      "title": "_launchservicesd",
+      "resource": "group",
+      "gid": 239
+    },
+    {
+      "title": "_lda",
+      "resource": "group",
+      "gid": 211
+    },
+    {
+      "title": "_locationd",
+      "resource": "group",
+      "gid": 205
+    },
+    {
+      "title": "_lp",
+      "resource": "group",
+      "gid": 26
+    },
+    {
+      "title": "_lpadmin",
+      "resource": "group",
+      "gid": 98
+    },
+    {
+      "title": "_lpoperator",
+      "resource": "group",
+      "gid": 100
+    },
+    {
+      "title": "_mailman",
+      "resource": "group",
+      "gid": 78
+    },
+    {
+      "title": "_mbsetupuser",
+      "resource": "group",
+      "gid": 248
+    },
+    {
+      "title": "_mcxalr",
+      "resource": "group",
+      "gid": 54
+    },
+    {
+      "title": "_mdnsresponder",
+      "resource": "group",
+      "gid": 65
+    },
+    {
+      "title": "_mobileasset",
+      "resource": "group",
+      "gid": 253
+    },
+    {
+      "title": "_mysql",
+      "resource": "group",
+      "gid": 74
+    },
+    {
+      "title": "_netbios",
+      "resource": "group",
+      "gid": 222
+    },
+    {
+      "title": "_netstatistics",
+      "resource": "group",
+      "gid": 228
+    },
+    {
+      "title": "_networkd",
+      "resource": "group",
+      "gid": 24
+    },
+    {
+      "title": "_nsurlsessiond",
+      "resource": "group",
+      "gid": 242
+    },
+    {
+      "title": "_nsurlstoraged",
+      "resource": "group",
+      "gid": 243
+    },
+    {
+      "title": "_odchpass",
+      "resource": "group",
+      "gid": 209
+    },
+    {
+      "title": "_ondemand",
+      "resource": "group",
+      "gid": 249
+    },
+    {
+      "title": "_postdrop",
+      "resource": "group",
+      "gid": 28
+    },
+    {
+      "title": "_postfix",
+      "resource": "group",
+      "gid": 27
+    },
+    {
+      "title": "_postgres",
+      "resource": "group",
+      "gid": 216
+    },
+    {
+      "title": "_qtss",
+      "resource": "group",
+      "gid": 76
+    },
+    {
+      "title": "_sandbox",
+      "resource": "group",
+      "gid": 60
+    },
+    {
+      "title": "_screensaver",
+      "resource": "group",
+      "gid": 203
+    },
+    {
+      "title": "_scsd",
+      "resource": "group",
+      "gid": 31
+    },
+    {
+      "title": "_securityagent",
+      "resource": "group",
+      "gid": 92
+    },
+    {
+      "title": "_serialnumberd",
+      "resource": "group",
+      "gid": 58
+    },
+    {
+      "title": "_softwareupdate",
+      "resource": "group",
+      "gid": 200
+    },
+    {
+      "title": "_spotlight",
+      "resource": "group",
+      "gid": 89
+    },
+    {
+      "title": "_sshd",
+      "resource": "group",
+      "gid": 75
+    },
+    {
+      "title": "_svn",
+      "resource": "group",
+      "gid": 73
+    },
+    {
+      "title": "_taskgated",
+      "resource": "group",
+      "gid": 13
+    },
+    {
+      "title": "_teamsserver",
+      "resource": "group",
+      "gid": 94
+    },
+    {
+      "title": "_timezone",
+      "resource": "group",
+      "gid": 210
+    },
+    {
+      "title": "_tokend",
+      "resource": "group",
+      "gid": 91
+    },
+    {
+      "title": "_trustevaluationagent",
+      "resource": "group",
+      "gid": 208
+    },
+    {
+      "title": "_unknown",
+      "resource": "group",
+      "gid": 99
+    },
+    {
+      "title": "_update_sharing",
+      "resource": "group",
+      "gid": 95
+    },
+    {
+      "title": "_usbmuxd",
+      "resource": "group",
+      "gid": 213
+    },
+    {
+      "title": "_uucp",
+      "resource": "group",
+      "gid": 66
+    },
+    {
+      "title": "_warmd",
+      "resource": "group",
+      "gid": 224
+    },
+    {
+      "title": "_webauthserver",
+      "resource": "group",
+      "gid": 221
+    },
+    {
+      "title": "_windowserver",
+      "resource": "group",
+      "gid": 88
+    },
+    {
+      "title": "_www",
+      "resource": "group",
+      "gid": 70
+    },
+    {
+      "title": "_wwwproxy",
+      "resource": "group",
+      "gid": 252
+    },
+    {
+      "title": "_xserverdocs",
+      "resource": "group",
+      "gid": 251
+    },
+    {
+      "title": "accessibility",
+      "resource": "group",
+      "gid": 90
+    },
+    {
+      "title": "admin",
+      "resource": "group",
+      "gid": 80
+    },
+    {
+      "title": "authedusers",
+      "resource": "group",
+      "gid": 50
+    },
+    {
+      "title": "bin",
+      "resource": "group",
+      "gid": 7
+    },
+    {
+      "title": "certusers",
+      "resource": "group",
+      "gid": 29
+    },
+    {
+      "title": "com.apple.access_disabled",
+      "resource": "group",
+      "gid": 396
+    },
+    {
+      "title": "com.apple.access_ftp",
+      "resource": "group",
+      "gid": 395
+    },
+    {
+      "title": "com.apple.access_screensharing",
+      "resource": "group",
+      "gid": 398
+    },
+    {
+      "title": "com.apple.access_sessionkey",
+      "resource": "group",
+      "gid": 397
+    },
+    {
+      "title": "com.apple.access_ssh",
+      "resource": "group",
+      "gid": 399
+    },
+    {
+      "title": "com.apple.sharepoint.group.1",
+      "resource": "group",
+      "gid": 701
+    },
+    {
+      "title": "consoleusers",
+      "resource": "group",
+      "gid": 53
+    },
+    {
+      "title": "daemon",
+      "resource": "group",
+      "gid": 1
+    },
+    {
+      "title": "dialer",
+      "resource": "group",
+      "gid": 68
+    },
+    {
+      "title": "everyone",
+      "resource": "group",
+      "gid": 12
+    },
+    {
+      "title": "group",
+      "resource": "group",
+      "gid": 16
+    },
+    {
+      "title": "interactusers",
+      "resource": "group",
+      "gid": 51
+    },
+    {
+      "title": "kmem",
+      "resource": "group",
+      "gid": 2
+    },
+    {
+      "title": "localaccounts",
+      "resource": "group",
+      "gid": 61
+    },
+    {
+      "title": "macports",
+      "resource": "group",
+      "gid": 501
+    },
+    {
+      "title": "mail",
+      "resource": "group",
+      "gid": 6
+    },
+    {
+      "title": "netaccounts",
+      "resource": "group",
+      "gid": 62
+    },
+    {
+      "title": "netusers",
+      "resource": "group",
+      "gid": 52
+    },
+    {
+      "title": "network",
+      "resource": "group",
+      "gid": 69
+    },
+    {
+      "title": "nobody",
+      "resource": "group",
+      "gid": -2
+    },
+    {
+      "title": "nogroup",
+      "resource": "group",
+      "gid": -1
+    },
+    {
+      "title": "operator",
+      "resource": "group",
+      "gid": 5
+    },
+    {
+      "title": "owner",
+      "resource": "group",
+      "gid": 10
+    },
+    {
+      "title": "procmod",
+      "resource": "group",
+      "gid": 9
+    },
+    {
+      "title": "procview",
+      "resource": "group",
+      "gid": 8
+    },
+    {
+      "title": "staff",
+      "resource": "group",
+      "gid": 20
+    },
+    {
+      "title": "sys",
+      "resource": "group",
+      "gid": 3
+    },
+    {
+      "title": "tty",
+      "resource": "group",
+      "gid": 4
+    },
+    {
+      "title": "utmp",
+      "resource": "group",
+      "gid": 45
+    },
+    {
+      "title": "wheel",
+      "resource": "group",
+      "gid": 0
+    },
+    {
+      "title": "bigdecimal",
+      "resource": "package",
+      "provider": "gem",
+      "versions": [
+        "1.2.0"
+      ]
+    },
+    {
+      "title": "CFPropertyList",
+      "resource": "package",
+      "provider": "gem",
+      "versions": [
+        "2.2.8"
+      ]
+    },
+    {
+      "title": "io-console",
+      "resource": "package",
+      "provider": "gem",
+      "versions": [
+        "0.4.2"
+      ]
+    },
+    {
+      "title": "json",
+      "resource": "package",
+      "provider": "gem",
+      "versions": [
+        "1.7.7"
+      ]
+    },
+    {
+      "title": "libxml-ruby",
+      "resource": "package",
+      "provider": "gem",
+      "versions": [
+        "2.6.0"
+      ]
+    },
+    {
+      "title": "minitest",
+      "resource": "package",
+      "provider": "gem",
+      "versions": [
+        "4.3.2"
+      ]
+    },
+    {
+      "title": "nokogiri",
+      "resource": "package",
+      "provider": "gem",
+      "versions": [
+        "1.5.6"
+      ]
+    },
+    {
+      "title": "psych",
+      "resource": "package",
+      "provider": "gem",
+      "versions": [
+        "2.0.0"
+      ]
+    },
+    {
+      "title": "rake",
+      "resource": "package",
+      "provider": "gem",
+      "versions": [
+        "0.9.6"
+      ]
+    },
+    {
+      "title": "rdoc",
+      "resource": "package",
+      "provider": "gem",
+      "versions": [
+        "4.0.0"
+      ]
+    },
+    {
+      "title": "sqlite3",
+      "resource": "package",
+      "provider": "gem",
+      "versions": [
+        "1.3.7"
+      ]
+    },
+    {
+      "title": "test-unit",
+      "resource": "package",
+      "provider": "gem",
+      "versions": [
+        "2.0.0.0"
+      ]
+    },
+    {
+      "title": "beautifulsoup4",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "4.5.3"
+      ]
+    },
+    {
+      "title": "dj-database-url",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "0.4.2"
+      ]
+    },
+    {
+      "title": "dj-static",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "0.0.6"
+      ]
+    },
+    {
+      "title": "Django",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "1.10.5"
+      ]
+    },
+    {
+      "title": "django-bootstrap3",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "8.1.0"
+      ]
+    },
+    {
+      "title": "django-cors-headers",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "2.0.2"
+      ]
+    },
+    {
+      "title": "django-livereload-server",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "0.2.3"
+      ]
+    },
+    {
+      "title": "django-static-precompiler",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "1.5"
+      ]
+    },
+    {
+      "title": "django-toolbelt",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "0.0.1"
+      ]
+    },
+    {
+      "title": "gunicorn",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "19.7.1"
+      ]
+    },
+    {
+      "title": "psycopg2",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "2.6.2"
+      ]
+    },
+    {
+      "title": "rpy2",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "2.8.5"
+      ]
+    },
+    {
+      "title": "six",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "1.10.0"
+      ]
+    },
+    {
+      "title": "South",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "1.0.2"
+      ]
+    },
+    {
+      "title": "static3",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "0.7.0"
+      ]
+    },
+    {
+      "title": "tornado",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "4.4.2"
+      ]
+    },
+    {
+      "title": "whitenoise",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "3.3.0"
+      ]
+    },
+    {
+      "title": "pip",
+      "resource": "package",
+      "provider": "pip",
+      "versions": [
+        "9.0.1"
+      ]
+    },
+    {
+      "title": "pip3",
+      "resource": "package",
+      "provider": "pip3",
+      "versions": [
+        "9.0.1"
+      ]
+    },
+    {
+      "title": "deep_merge",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "1.0.1"
+      ]
+    },
+    {
+      "title": "facter",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "3.4.1"
+      ]
+    },
+    {
+      "title": "hiera",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "3.2.1"
+      ]
+    },
+    {
+      "title": "hocon",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "0.9.3"
+      ]
+    },
+    {
+      "title": "net-ssh",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "2.9.2"
+      ]
+    },
+    {
+      "title": "puppet",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "4.7.0"
+      ]
+    },
+    {
+      "title": "semantic_puppet",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "0.1.2"
+      ]
+    },
+    {
+      "title": "stomp",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "1.3.3"
+      ]
+    },
+    {
+      "title": "com.google.keystone.system.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.oracle.java.Java-Updater",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "Adobe_Genuine_Software_Integrity_Service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.adobe.fpsaud",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.docker.vmnetd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.google.keystone.daemon",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.microsoft.autoupdate.helper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.microsoft.office.licensingV2.helper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.oracle.java.Helper-Tool",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "mcollective",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "puppet",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "pxp-agent",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "org.virtualbox.startup",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.accessibility.dfrhud",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.accountsd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AddressBook.abd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AddressBook.AssistantService",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AddressBook.ContactsAccountsService",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AddressBook.SourceSync",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AirPlayUIAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AirPortBaseStationAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.akd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.alf.useragent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AOSHeartbeat",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AOSPushRelay",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AppleGraphicsWarning",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.appleseed.seedusaged",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.appsleep",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.appstoreupdateagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.apsctl",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.askpermissiond",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AskPermissionUI",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AssetCacheLocatorService",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.assistant_service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.assistantd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AssistiveControl",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.videoconference.camera",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.bird",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.bluetooth.PacketLogger",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.bluetoothUIServer",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.btsa",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cache_delete",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.CalendarAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.CallHistoryPluginHelper",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.CallHistorySyncHelper",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cdpd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cfnetwork.AuthBrokerAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cfnetwork.cfnetworkagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cfprefsd.xpc.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cloudd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cloudfamilyrestrictionsd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cloudpaird",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cloudphotosd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cmfsyncagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.CommCenter",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ContactsAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ContainerRepairAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.controlstrip",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.CoreAuthentication.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.CoreLocationAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.CoreRAIDAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.coreservices.appleid.authentication",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.coreservices.useractivityd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.coreservices.sharedfilelistd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.coreservices.UASharedPasteboardProgressUI",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.coreservices.uiagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.CryptoTokenKit.ahp.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.csuseragent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ctkbind",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ctkd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgent3425AMD_i386",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgent3425AMD_i386_1",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgent3425AMD_x86_64",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgent3425AMD_x86_64_1",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgent3600_i386",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgent3600_i386_1",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgent3600_x86_64",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgent3600_x86_64_1",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgent_i386",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgent_i386_1",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgent_x86_64",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgent_x86_64_1",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgentLegacy_i386",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgentLegacy_i386_1",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgentLegacy_x86_64",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsCompAgentLegacy_x86_64_1",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.DataDetectorsLocalSources",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.DiagnosticReportCleanup.plist",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.diagnostics_agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.DictationIM",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.DiskArbitrationAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.diskspaced",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.distnoted.xpc.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.Dock.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.dt.CommandLineTools.installondemand",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.DwellControl",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.eosauthagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.eospreflightagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.EscrowSecurityAlert",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.familycircled",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.familycontrols.useragent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.familynotificationd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.FileStatsAgent",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.FilesystemUI",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.Finder",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.findmymacmessenger",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.FirmwareUpdateHelper",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.FolderActionsDispatcher",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.followupd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.FollowUpUI",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.fontd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.FontRegistryUIAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ATS.FontValidator",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ATS.FontValidatorConduit",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.FontWorker",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.FTCleanup",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.gamed",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.geodMachServiceBridge",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.helpd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.icdd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.icloud.findmydeviced.findmydevice-user-agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.icloud.fmfd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.iCloudUserNotificationsd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.iconservices.iconservicesagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.identityservicesd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.idsfoundation.IDSRemoteURLConnectionAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.imagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.imautomatichistorydeletionagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.imavagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.imklaunchagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.IMLoggingAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.imcore.imtransferagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.installandsetup.migrationhelper.user",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.installd.user",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.InstallerProgress",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.isst",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.java.InstallOnDemand",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.java.updateSharing",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.keyboardservicesd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.languageassetd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.lateragent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.LocalAuthentication.UIAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.locationmenu",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.loginwindow.LWWeeklyMessageTracer",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.lsd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ManagedClientAgent.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ManagedClientAgent.enrollagent",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.Maps.mapspushd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.maspushagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mbbackgrounduseragent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mbfloagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mbuseragent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mdmclient.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mdworker.32bit",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mdworker.bundles",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mdworker.isolation",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mdworker.lsb",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mdworker.mail",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mdworker.shared",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mdworker.single",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mdworker.sizing",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mediaanalysisd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mediaremoteagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.metadata.mdbulkimport",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.metadata.mdflagwriter",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.metadata.mdwrite",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.midiserver",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.MRTa",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.navd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.neagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.netauth.user.auth",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.netauth.user.gui",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.NetworkDiagnostics",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.networkserviceproxy",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.noticeboard.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.notificationcenterui.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.nowplayingtouchui",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.nsurlsessiond",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.nsurlstoraged",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.OSDUIHelper",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.PackageKit.InstallStatus",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.parentalcontrols.check",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.parsecd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.passd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.pboard",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.pbs",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.PCIESlotCheck",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.personad",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.photoanalysisd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.photolibraryd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.PhotoLibraryMigrationUtility.XPC",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.pictd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.PIPAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.pluginkit.pkd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.pluginkit.pkreporter",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.powerchime",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.printtool.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.printuitool.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.protectedcloudstorage.protectedcloudkeysyncing",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.PubSub.Agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.quicklook.32bit",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.quicklook.config",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.quicklook",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.quicklook.ThumbnailsAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.quicklook.ui.helper",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.rcd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.recentsd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.RemoteDesktop.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ReportCrash",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ReportCrash.Self",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ReportGPURestart",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ReportPanic",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.reversetemplated",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.Safari.SafeBrowsing.Service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.SafariCloudHistoryPushAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.safaridavclient",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.SafariNotificationAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.SafariPlugInUpdateNotifier",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.scopedbookmarksagent.xpc",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.screencapturetb.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ScreenReaderUIServer",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.screensharing.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.screensharing.MessagesAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.scrod",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.secd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.secinitd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.security.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.security.cloudkeychainproxy3",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.security.DiskUnmountWatcher",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.security.idskeychainsyncingproxy",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.security.keychain-circle-notification",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.sharingd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.Siri.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.soagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.SocialPushAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.softwareupdate_notify_agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.speech.speechdatainstallerd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.speech.speechsynthesisd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.speech.synthesisserver",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.spindump_agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.spotlight.IndexAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.Spotlight",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ssinvitationagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.STMUIHelper",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.storeaccountd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.storeassetd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.storedownloadd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.storeinappd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.storeinstallagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.storelegacy",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.storeuid",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.suggestd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.sulogoutmonitor",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.swcd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.syncdefaultsd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.syncservices.SyncServer",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.syncservices.uihandler",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.sysdiagnose_agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.systemprofiler",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.SystemUIServer.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.talagent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.tccd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.telephonyutilities.callservicesd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.thermaltrap",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.tiswitcher",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.TMHelperAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.TMHelperAgent.SetupOffer",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.touchbar.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.touristd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.trustd.agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.TrustEvaluationAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.universalaccessAuthWarn",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.universalaccesscontrol",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.universalaccessd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.universalaccessHUD",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.unmountassistant.useragent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.USBAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.UserEventAgent-Aqua",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.UserEventAgent-LoginWindow",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.usernoted",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.UserNotificationCenterAgent-LoginWindow",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.UserNotificationCenterAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.VoiceOver",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.warmd_agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.webdriverd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.webinspectord",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.WebKit.PluginAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.wifi.WiFiAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.WiFiVelocityAgent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.xpc.loginitemregisterd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.xpc.otherbsd",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ZoomWindow",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.openssh.ssh-agent",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.bootpd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.afpfs_afpLoad",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.afpfs_checkafp",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.airplaydiagnostics.server.mac",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AirPlayXPCHelper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.airport.wps",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.airportd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.alf",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AppleFileServer",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.appleseed.fbahelperd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.applessdstatistics",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.apsd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.aslmanager",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.atrun",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.audio.coreaudiod",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.audio.systemsoundserverd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.auditd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.autofsd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.automountd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.avbdeviced",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.awacsd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.awdd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.backupd-auto",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.backupd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.biokitaggdd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.biometrickitd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.blued",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.bluetoothaudiod",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.bluetoothReporter",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.bnepd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.bsd.dirhelper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.captiveagent",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cfprefsd.xpc.daemon",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cmio.AppleCameraAssistant",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cmio.AVCAssistant",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cmio.IIDCVideoAssistant",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cmio.iOSScreenCaptureAssistant",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cmio.VDCAssistant",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.colorsyncd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.CommCenterRootHelper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.comsat",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.configd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.configureLocalKDC",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.CoreAuthentication.daemon",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.corecaptured",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.coreduetd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.CoreRAID",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.coreservices.appleevents",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.coreservices.appleid.passwordcheck",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.coreservices.launchservicesd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.coreservicesd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.corestorage.corestoraged",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.corestorage.corestoragehelperd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.coresymbolicationd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.CrashReporterSupportHelper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.CryptoTokenKit.ahp",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.csrutil.report",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.cvmsServ",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.DataDetectorsSourceAccess",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.defragx",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.DesktopServicesHelper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.diagnosticd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.diagnosticextensions.osx.bluetooth.helper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.diagnosticextensions.osx.getmobilityinfo.helper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.diagnosticextensions.osx.spotlight.helper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.diagnosticextensions.osx.timemachine.helper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.diagnosticextensions.osx.wifi.helper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.diskarbitrationd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.diskmanagementd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.diskmanagementstartup",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.displaypolicyd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.distnoted.xpc.daemon",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.dnsextd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.dpaudiothru",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.dpd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.dprivacyd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.dspluginhelperd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.DuetHeuristic-BM",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.DumpGPURestart",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.DumpPanic",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.dvdplayback.setregion",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.dynamic_pager",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.dz.dznd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.eapolcfg_auth",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.efilogin-helper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.emlog",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.emond.aslmanager",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.emond",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.eoshostd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.AEServer",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.familycontrols",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.FileCoordination",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.findmymacd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.firmwaresyncd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.fontmover",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.fseventsd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ftp-proxy",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.GameController.gamecontrollerd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.getty",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.gkreport",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.GSSCred",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.gssd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.hdiejectd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.hidd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.hidfud",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.icloud.findmydeviced",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.iconservices.iconservicesd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.IFCStart",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ifdreader",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.installandsetup.systemmigrationd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.installd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.InstallerDiagnostics.installerdiagd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.InstallerDiagnostics.installerdiagwatcher",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.IOAccelMemoryInfoCollector",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.IOBluetoothUSBDFU",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ionodecache",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.kcproxy",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.kdumpd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.Kerberos.digest-service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.Kerberos.kadmind",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.Kerberos.kcm",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.Kerberos.kdc",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.Kerberos.kpasswdd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.KernelEventAgent",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.kextd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.kuncd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.locate",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.locationd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.lockd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.logd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.logind",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.loginwindow.LFVTracer",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.loginwindow",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.logkextloadsd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ManagedClient.cloudconfigurationd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ManagedClient.enroll",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ManagedClient",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ManagedClient.startup",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mbsystemadministration",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mbusertrampoline",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mdmclient.daemon",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mdmclient.daemon.runatboot",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mDNSResponder.reloaded",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mDNSResponderHelper.reloaded",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mediaremoted",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.metadata.mds.index",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.metadata.mds",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.metadata.mds.scan",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.metadata.mds.spindump",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.MobileAccessoryUpdater",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mobile.keybagd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mobileassetd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.MobileFileIntegrity",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.MRTd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.msrpc.echosvc",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.msrpc.lsarpc",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.msrpc.mdssvc",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.msrpc.netlogon",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.msrpc.srvsvc",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.msrpc.wkssvc",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mtmd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mtmfs",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.mtmhelper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.nehelper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.nesessionmanager",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.netauth.sys.auth",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.netauth.sys.gui",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.netbiosd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.NetBootClientStatus",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.nlcd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.NetworkSharing",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.newsyslog",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.nfcd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.nfrestore_service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.nfsconf",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.nfsd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.nis.ypbind",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.noticeboard.state",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.notifyd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.nsurlsessiond_privileged",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ocspd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.odproxyd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ODSAgent",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.opendirectoryd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.PasswordService",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.PCIELaneConfigTool",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.periodic-daily",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.periodic-monthly",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.periodic-weekly",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.pfctl",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.pfd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.platform.ptmd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.postfix.master",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.postfix.newaliases",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.powerd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.powerd.swd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.preferences.timezone.admintool",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.preferences.timezone.auto",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.printtool.daemon",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.racoon",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.RemoteDesktop.PrivilegeProxy",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.RemotePairTool",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ReportCrash.Root",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ReportPanicService",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.revisiond",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.RFBEventHelper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.rootless.init",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.rpcbind",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.rtcreportingd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.sandboxd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.SCHelper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.screensharing",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.scsid",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.security.agent.login",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.security.authhost",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.security.FDERecoveryAgent",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.security.syspolicy",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.securityd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.securityd_service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.seld",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.sessionlogoutd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.smb.preferences",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.smbd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.softwareupdate_download_service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.softwareupdate_firstrun_tasks",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.softwareupdated",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.spindump",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.startupdiskhelper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.statd.notify",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.storagekitd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.storeaccountd.daemon",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.storeagent.daemon",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.storeassetd.daemon",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.storedownloadd.daemon",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.storeinstalld",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.storereceiptinstaller",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.SubmitDiagInfo",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.suhelperd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.symptomsd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.sysdiagnose",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.syslogd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.sysmond",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.system_installd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.systemkeychain",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.systemstats.analysis",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.systemstats.daily",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.tailspind",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.taskgated-helper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.taskgated",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.tccd.system",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.thermald",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.TMCacheDelete",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.touchbar.user-device",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.trustd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.TrustEvaluationAgent.system",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ucupdate.plist",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.uninstalld",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.unmountassistant.sysagent",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.updateEFIDesktopPicture",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.usbd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.usbmuxd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.UserEventAgent-System",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.UserNotificationCenter",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.uucp",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.var-db-dslocal-backup",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.vsdbutil",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.warmd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.watchdogd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.wdhelper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.wifid",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.wifivelocityd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.WindowServer",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.wirelessproxd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.WirelessRadioManagerd-osx",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.wwand",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.xartstorageremoted",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.xpc.smd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.xpc.uscwoap",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.xsan",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.xsandaily",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.xscertadmin",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.xscertd-helper",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.xscertd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.vix.cron",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.fingerd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ftpd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.ntalkd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "org.apache.httpd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "org.cups.cups-lpd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "org.cups.cupsd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "org.net-snmp.snmpd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "org.ntp.ntpd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "org.openldap.slapd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "org.postfix.master",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.openssh.sshd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.telnetd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "com.apple.tftpd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "launchd"
+    },
+    {
+      "title": "_amavisd",
+      "resource": "user",
+      "uid": 83,
+      "gid": 83,
+      "groups": [
+
+      ],
+      "home": "/var/virusmails",
+      "shell": "/usr/bin/false",
+      "comment": "AMaViS Daemon"
+    },
+    {
+      "title": "_appleevents",
+      "resource": "user",
+      "uid": 55,
+      "gid": 55,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "AppleEvents Daemon"
+    },
+    {
+      "title": "_applepay",
+      "resource": "user",
+      "uid": 260,
+      "gid": 260,
+      "groups": [
+
+      ],
+      "home": "/var/db/applepay",
+      "shell": "/usr/bin/false",
+      "comment": "applepay Account"
+    },
+    {
+      "title": "_appowner",
+      "resource": "user",
+      "uid": 87,
+      "gid": 87,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Application Owner"
+    },
+    {
+      "title": "_appserver",
+      "resource": "user",
+      "uid": 79,
+      "gid": 79,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Application Server"
+    },
+    {
+      "title": "_ard",
+      "resource": "user",
+      "uid": 67,
+      "gid": 67,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Apple Remote Desktop"
+    },
+    {
+      "title": "_assetcache",
+      "resource": "user",
+      "uid": 235,
+      "gid": 235,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Asset Cache Service"
+    },
+    {
+      "title": "_astris",
+      "resource": "user",
+      "uid": 245,
+      "gid": 245,
+      "groups": [
+
+      ],
+      "home": "/var/db/astris",
+      "shell": "/usr/bin/false",
+      "comment": "Astris Services"
+    },
+    {
+      "title": "_atsserver",
+      "resource": "user",
+      "uid": 97,
+      "gid": 97,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "ATS Server"
+    },
+    {
+      "title": "_avbdeviced",
+      "resource": "user",
+      "uid": 229,
+      "gid": -2,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Ethernet AVB Device Daemon"
+    },
+    {
+      "title": "_calendar",
+      "resource": "user",
+      "uid": 93,
+      "gid": 93,
+      "groups": [
+        "_keytabusers",
+        "_postgres",
+        "certusers"
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Calendar"
+    },
+    {
+      "title": "_captiveagent",
+      "resource": "user",
+      "uid": 258,
+      "gid": 258,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "captiveagent"
+    },
+    {
+      "title": "_ces",
+      "resource": "user",
+      "uid": 32,
+      "gid": 32,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Certificate Enrollment Service"
+    },
+    {
+      "title": "_clamav",
+      "resource": "user",
+      "uid": 82,
+      "gid": 82,
+      "groups": [
+
+      ],
+      "home": "/var/virusmails",
+      "shell": "/usr/bin/false",
+      "comment": "ClamAV Daemon"
+    },
+    {
+      "title": "_coreaudiod",
+      "resource": "user",
+      "uid": 202,
+      "gid": 202,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Core Audio Daemon"
+    },
+    {
+      "title": "_coremediaiod",
+      "resource": "user",
+      "uid": 236,
+      "gid": 236,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Core Media IO Daemon"
+    },
+    {
+      "title": "_ctkd",
+      "resource": "user",
+      "uid": 259,
+      "gid": 259,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "ctkd Account"
+    },
+    {
+      "title": "_cvmsroot",
+      "resource": "user",
+      "uid": 212,
+      "gid": 212,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "CVMS Root"
+    },
+    {
+      "title": "_cvs",
+      "resource": "user",
+      "uid": 72,
+      "gid": 72,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "CVS Server"
+    },
+    {
+      "title": "_cyrus",
+      "resource": "user",
+      "uid": 77,
+      "gid": 6,
+      "groups": [
+        "certusers"
+      ],
+      "home": "/var/imap",
+      "shell": "/usr/bin/false",
+      "comment": "Cyrus Administrator"
+    },
+    {
+      "title": "_datadetectors",
+      "resource": "user",
+      "uid": 257,
+      "gid": 257,
+      "groups": [
+
+      ],
+      "home": "/var/db/datadetectors",
+      "shell": "/usr/bin/false",
+      "comment": "DataDetectors"
+    },
+    {
+      "title": "_devdocs",
+      "resource": "user",
+      "uid": 59,
+      "gid": 59,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Developer Documentation"
+    },
+    {
+      "title": "_devicemgr",
+      "resource": "user",
+      "uid": 220,
+      "gid": 220,
+      "groups": [
+        "_postgres",
+        "_teamsserver",
+        "_webauthserver",
+        "_www"
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Device Management Server"
+    },
+    {
+      "title": "_displaypolicyd",
+      "resource": "user",
+      "uid": 244,
+      "gid": 244,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Display Policy Daemon"
+    },
+    {
+      "title": "_distnote",
+      "resource": "user",
+      "uid": 241,
+      "gid": 241,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "DistNote"
+    },
+    {
+      "title": "_dovecot",
+      "resource": "user",
+      "uid": 214,
+      "gid": 6,
+      "groups": [
+        "certusers"
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Dovecot Administrator"
+    },
+    {
+      "title": "_dovenull",
+      "resource": "user",
+      "uid": 227,
+      "gid": 227,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Dovecot Authentication"
+    },
+    {
+      "title": "_dpaudio",
+      "resource": "user",
+      "uid": 215,
+      "gid": 215,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "DP Audio"
+    },
+    {
+      "title": "_eppc",
+      "resource": "user",
+      "uid": 71,
+      "gid": 71,
+      "groups": [
+        "_eppc"
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Apple Events User"
+    },
+    {
+      "title": "_findmydevice",
+      "resource": "user",
+      "uid": 254,
+      "gid": 254,
+      "groups": [
+
+      ],
+      "home": "/var/db/findmydevice",
+      "shell": "/usr/bin/false",
+      "comment": "Find My Device Daemon"
+    },
+    {
+      "title": "_ftp",
+      "resource": "user",
+      "uid": 98,
+      "gid": -2,
+      "groups": [
+        "certusers"
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "FTP Daemon"
+    },
+    {
+      "title": "_gamecontrollerd",
+      "resource": "user",
+      "uid": 247,
+      "gid": 247,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Game Controller Daemon"
+    },
+    {
+      "title": "_geod",
+      "resource": "user",
+      "uid": 56,
+      "gid": 56,
+      "groups": [
+
+      ],
+      "home": "/var/db/geod",
+      "shell": "/usr/bin/false",
+      "comment": "Geo Services Daemon"
+    },
+    {
+      "title": "_hidd",
+      "resource": "user",
+      "uid": 261,
+      "gid": 261,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "HID Service User"
+    },
+    {
+      "title": "_iconservices",
+      "resource": "user",
+      "uid": 240,
+      "gid": 240,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "IconServices"
+    },
+    {
+      "title": "_installassistant",
+      "resource": "user",
+      "uid": 25,
+      "gid": 25,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Install Assistant"
+    },
+    {
+      "title": "_installer",
+      "resource": "user",
+      "uid": 96,
+      "gid": -2,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Installer"
+    },
+    {
+      "title": "_jabber",
+      "resource": "user",
+      "uid": 84,
+      "gid": 84,
+      "groups": [
+        "_keytabusers",
+        "certusers"
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Jabber XMPP Server"
+    },
+    {
+      "title": "_kadmin_admin",
+      "resource": "user",
+      "uid": 218,
+      "gid": -2,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Kerberos Admin Service"
+    },
+    {
+      "title": "_kadmin_changepw",
+      "resource": "user",
+      "uid": 219,
+      "gid": -2,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Kerberos Change Password Service"
+    },
+    {
+      "title": "_krb_anonymous",
+      "resource": "user",
+      "uid": 234,
+      "gid": -2,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Open Directory Kerberos Anonymous"
+    },
+    {
+      "title": "_krb_changepw",
+      "resource": "user",
+      "uid": 232,
+      "gid": -2,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Open Directory Kerberos Change Password Service"
+    },
+    {
+      "title": "_krb_kadmin",
+      "resource": "user",
+      "uid": 231,
+      "gid": -2,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Open Directory Kerberos Admin Service"
+    },
+    {
+      "title": "_krb_kerberos",
+      "resource": "user",
+      "uid": 233,
+      "gid": -2,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Open Directory Kerberos"
+    },
+    {
+      "title": "_krb_krbtgt",
+      "resource": "user",
+      "uid": 230,
+      "gid": -2,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Open Directory Kerberos Ticket Granting Ticket"
+    },
+    {
+      "title": "_krbfast",
+      "resource": "user",
+      "uid": 246,
+      "gid": -2,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Kerberos FAST Account"
+    },
+    {
+      "title": "_krbtgt",
+      "resource": "user",
+      "uid": 217,
+      "gid": -2,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Kerberos Ticket Granting Ticket"
+    },
+    {
+      "title": "_launchservicesd",
+      "resource": "user",
+      "uid": 239,
+      "gid": 239,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "_launchservicesd"
+    },
+    {
+      "title": "_lda",
+      "resource": "user",
+      "uid": 211,
+      "gid": 211,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Local Delivery Agent"
+    },
+    {
+      "title": "_locationd",
+      "resource": "user",
+      "uid": 205,
+      "gid": 205,
+      "groups": [
+        "_detachedsig"
+      ],
+      "home": "/var/db/locationd",
+      "shell": "/usr/bin/false",
+      "comment": "Location Daemon"
+    },
+    {
+      "title": "_lp",
+      "resource": "user",
+      "uid": 26,
+      "gid": 26,
+      "groups": [
+
+      ],
+      "home": "/var/spool/cups",
+      "shell": "/usr/bin/false",
+      "comment": "Printing Services"
+    },
+    {
+      "title": "_mailman",
+      "resource": "user",
+      "uid": 78,
+      "gid": 78,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Mailman List Server"
+    },
+    {
+      "title": "_mbsetupuser",
+      "resource": "user",
+      "uid": 248,
+      "gid": 248,
+      "groups": [
+
+      ],
+      "home": "/var/setup",
+      "shell": "/bin/bash",
+      "comment": "Setup User"
+    },
+    {
+      "title": "_mcxalr",
+      "resource": "user",
+      "uid": 54,
+      "gid": 54,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "MCX AppLaunch"
+    },
+    {
+      "title": "_mdnsresponder",
+      "resource": "user",
+      "uid": 65,
+      "gid": 65,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "mDNSResponder"
+    },
+    {
+      "title": "_mobileasset",
+      "resource": "user",
+      "uid": 253,
+      "gid": 253,
+      "groups": [
+
+      ],
+      "home": "/var/ma",
+      "shell": "/usr/bin/false",
+      "comment": "MobileAsset User"
+    },
+    {
+      "title": "_mysql",
+      "resource": "user",
+      "uid": 74,
+      "gid": 74,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "MySQL Server"
+    },
+    {
+      "title": "_netbios",
+      "resource": "user",
+      "uid": 222,
+      "gid": 222,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "NetBIOS"
+    },
+    {
+      "title": "_netstatistics",
+      "resource": "user",
+      "uid": 228,
+      "gid": 228,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Network Statistics Daemon"
+    },
+    {
+      "title": "_networkd",
+      "resource": "user",
+      "uid": 24,
+      "gid": 24,
+      "groups": [
+
+      ],
+      "home": "/var/networkd",
+      "shell": "/usr/bin/false",
+      "comment": "Network Services"
+    },
+    {
+      "title": "_nsurlsessiond",
+      "resource": "user",
+      "uid": 242,
+      "gid": 242,
+      "groups": [
+
+      ],
+      "home": "/var/db/nsurlsessiond",
+      "shell": "/usr/bin/false",
+      "comment": "NSURLSession Daemon"
+    },
+    {
+      "title": "_nsurlstoraged",
+      "resource": "user",
+      "uid": 243,
+      "gid": 243,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "NSURLStorage Daemon"
+    },
+    {
+      "title": "_ondemand",
+      "resource": "user",
+      "uid": 249,
+      "gid": 249,
+      "groups": [
+
+      ],
+      "home": "/var/db/ondemand",
+      "shell": "/usr/bin/false",
+      "comment": "On Demand Resource Daemon"
+    },
+    {
+      "title": "_postfix",
+      "resource": "user",
+      "uid": 27,
+      "gid": 27,
+      "groups": [
+        "_keytabusers",
+        "certusers"
+      ],
+      "home": "/var/spool/postfix",
+      "shell": "/usr/bin/false",
+      "comment": "Postfix Mail Server"
+    },
+    {
+      "title": "_postgres",
+      "resource": "user",
+      "uid": 216,
+      "gid": 216,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "PostgreSQL Server"
+    },
+    {
+      "title": "_qtss",
+      "resource": "user",
+      "uid": 76,
+      "gid": 76,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "QuickTime Streaming Server"
+    },
+    {
+      "title": "_sandbox",
+      "resource": "user",
+      "uid": 60,
+      "gid": 60,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Seatbelt"
+    },
+    {
+      "title": "_screensaver",
+      "resource": "user",
+      "uid": 203,
+      "gid": 203,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Screensaver"
+    },
+    {
+      "title": "_scsd",
+      "resource": "user",
+      "uid": 31,
+      "gid": 31,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Service Configuration Service"
+    },
+    {
+      "title": "_securityagent",
+      "resource": "user",
+      "uid": 92,
+      "gid": 92,
+      "groups": [
+
+      ],
+      "home": "/var/db/securityagent",
+      "shell": "/usr/bin/false",
+      "comment": "SecurityAgent"
+    },
+    {
+      "title": "_serialnumberd",
+      "resource": "user",
+      "uid": 58,
+      "gid": 58,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Serial Number Daemon"
+    },
+    {
+      "title": "_softwareupdate",
+      "resource": "user",
+      "uid": 200,
+      "gid": 200,
+      "groups": [
+        "_softwareupdate"
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Software Update Service"
+    },
+    {
+      "title": "_spotlight",
+      "resource": "user",
+      "uid": 89,
+      "gid": 89,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Spotlight"
+    },
+    {
+      "title": "_sshd",
+      "resource": "user",
+      "uid": 75,
+      "gid": 75,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "sshd Privilege separation"
+    },
+    {
+      "title": "_svn",
+      "resource": "user",
+      "uid": 73,
+      "gid": 73,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "SVN Server"
+    },
+    {
+      "title": "_taskgated",
+      "resource": "user",
+      "uid": 13,
+      "gid": 13,
+      "groups": [
+        "_taskgated"
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Task Gate Daemon"
+    },
+    {
+      "title": "_teamsserver",
+      "resource": "user",
+      "uid": 94,
+      "gid": 94,
+      "groups": [
+        "_calendar",
+        "_odchpass",
+        "_postgres",
+        "_webauthserver",
+        "_www",
+        "mail"
+      ],
+      "home": "/var/teamsserver",
+      "shell": "/usr/bin/false",
+      "comment": "TeamsServer"
+    },
+    {
+      "title": "_timezone",
+      "resource": "user",
+      "uid": 210,
+      "gid": 210,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "AutoTimeZoneDaemon"
+    },
+    {
+      "title": "_tokend",
+      "resource": "user",
+      "uid": 91,
+      "gid": 91,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Token Daemon"
+    },
+    {
+      "title": "_trustevaluationagent",
+      "resource": "user",
+      "uid": 208,
+      "gid": 208,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Trust Evaluation Agent"
+    },
+    {
+      "title": "_unknown",
+      "resource": "user",
+      "uid": 99,
+      "gid": 99,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Unknown User"
+    },
+    {
+      "title": "_update_sharing",
+      "resource": "user",
+      "uid": 95,
+      "gid": -2,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Update Sharing"
+    },
+    {
+      "title": "_usbmuxd",
+      "resource": "user",
+      "uid": 213,
+      "gid": 213,
+      "groups": [
+
+      ],
+      "home": "/var/db/lockdown",
+      "shell": "/usr/bin/false",
+      "comment": "iPhone OS Device Helper"
+    },
+    {
+      "title": "_uucp",
+      "resource": "user",
+      "uid": 4,
+      "gid": 4,
+      "groups": [
+
+      ],
+      "home": "/var/spool/uucp",
+      "shell": "/usr/sbin/uucico",
+      "comment": "Unix to Unix Copy Protocol"
+    },
+    {
+      "title": "_warmd",
+      "resource": "user",
+      "uid": 224,
+      "gid": 224,
+      "groups": [
+        "_warmd"
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Warm Daemon"
+    },
+    {
+      "title": "_webauthserver",
+      "resource": "user",
+      "uid": 221,
+      "gid": 221,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Web Auth Server"
+    },
+    {
+      "title": "_windowserver",
+      "resource": "user",
+      "uid": 88,
+      "gid": 88,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "WindowServer"
+    },
+    {
+      "title": "_www",
+      "resource": "user",
+      "uid": 70,
+      "gid": 70,
+      "groups": [
+
+      ],
+      "home": "/Library/WebServer",
+      "shell": "/usr/bin/false",
+      "comment": "World Wide Web Server"
+    },
+    {
+      "title": "_wwwproxy",
+      "resource": "user",
+      "uid": 252,
+      "gid": 252,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "WWW Proxy"
+    },
+    {
+      "title": "_xserverdocs",
+      "resource": "user",
+      "uid": 251,
+      "gid": 251,
+      "groups": [
+        "_postgres"
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "macOS Server Documents Service"
+    },
+    {
+      "title": "bethglenfield",
+      "resource": "user",
+      "uid": 501,
+      "gid": 20,
+      "groups": [
+        "_appserveradm",
+        "_appserverusr",
+        "_lpadmin",
+        "admin",
+        "com.apple.sharepoint.group.1",
+        "staff"
+      ],
+      "home": "/Users/bethglenfield",
+      "shell": "/bin/zsh",
+      "comment": "Elizabeth Glenfield"
+    },
+    {
+      "title": "daemon",
+      "resource": "user",
+      "uid": 1,
+      "gid": 1,
+      "groups": [
+
+      ],
+      "home": "/var/root",
+      "shell": "/usr/bin/false",
+      "comment": "System Services"
+    },
+    {
+      "title": "Guest",
+      "resource": "user",
+      "uid": 201,
+      "gid": 201,
+      "groups": [
+
+      ],
+      "home": "/Users/Guest",
+      "shell": "/bin/bash",
+      "comment": "Guest User"
+    },
+    {
+      "title": "macports",
+      "resource": "user",
+      "uid": 502,
+      "gid": 501,
+      "groups": [
+        "staff"
+      ],
+      "home": "/opt/local/var/macports/home",
+      "shell": "/usr/bin/false",
+      "comment": "MacPorts"
+    },
+    {
+      "title": "nobody",
+      "resource": "user",
+      "uid": -2,
+      "gid": -2,
+      "groups": [
+
+      ],
+      "home": "/var/empty",
+      "shell": "/usr/bin/false",
+      "comment": "Unprivileged User"
+    },
+    {
+      "title": "root",
+      "resource": "user",
+      "uid": 0,
+      "gid": 0,
+      "groups": [
+        "admin",
+        "certusers",
+        "daemon",
+        "kmem",
+        "operator",
+        "procmod",
+        "procview",
+        "staff",
+        "sys",
+        "tty",
+        "wheel"
+      ],
+      "home": "/var/root",
+      "shell": "/bin/sh",
+      "comment": "System Administrator"
+    }
+  ],
+  "facts": {
+    "aio_agent_version": "1.7.0",
+    "architecture": "x86_64",
+    "augeas": {
+      "version": "1.4.0"
+    },
+    "augeasversion": "1.4.0",
+    "dhcp_servers": {
+      "en0": "192.168.1.254",
+      "system": "192.168.1.254"
+    },
+    "dmi": {
+      "product": {
+        "name": "MacBookPro12,1"
+      }
+    },
+    "domain": "home",
+    "facterversion": "3.4.1",
+    "filesystems": "autofs,devfs,hfs",
+    "fqdn": "BethG.home",
+    "gid": "staff",
+    "hardwareisa": "i386",
+    "hardwaremodel": "x86_64",
+    "hostname": "BethG",
+    "id": "bethglenfield",
+    "identity": {
+      "gid": 20,
+      "group": "staff",
+      "privileged": false,
+      "uid": 501,
+      "user": "bethglenfield"
+    },
+    "interfaces": "awdl0,bridge0,en0,en1,en2,gif0,lo0,p2p0,stf0,utun0,vboxnet0",
+    "ipaddress": "192.168.1.73",
+    "ipaddress6": "fe80::c11:f6fc:a25b:45d6",
+    "ipaddress6_awdl0": "fe80::ac68:31ff:fe93:d94a",
+    "ipaddress6_en0": "fe80::c11:f6fc:a25b:45d6",
+    "ipaddress6_lo0": "::1",
+    "ipaddress6_utun0": "fe80::6021:9482:c34b:4502",
+    "ipaddress_en0": "192.168.1.73",
+    "ipaddress_lo0": "127.0.0.1",
+    "is_virtual": false,
+    "kernel": "Darwin",
+    "kernelmajversion": "16.4",
+    "kernelrelease": "16.4.0",
+    "kernelversion": "16.4.0",
+    "load_averages": {
+      "15m": 2.052734375,
+      "1m": 1.962890625,
+      "5m": 1.9609375
+    },
+    "macaddress": "f4:5c:89:c8:ed:1d",
+    "macaddress_awdl0": "ae:68:31:93:d9:4a",
+    "macaddress_bridge0": "4a:00:05:cf:a5:d0",
+    "macaddress_en0": "f4:5c:89:c8:ed:1d",
+    "macaddress_en1": "4a:00:05:cf:a5:d0",
+    "macaddress_en2": "4a:00:05:cf:a5:d1",
+    "macaddress_p2p0": "06:5c:89:c8:ed:1d",
+    "macaddress_vboxnet0": "0a:00:27:00:00:00",
+    "macosx_buildversion": "16D32",
+    "macosx_productname": "Mac OS X",
+    "macosx_productversion": "10.12.3",
+    "macosx_productversion_major": "10.12",
+    "macosx_productversion_minor": "3",
+    "memory": {
+      "swap": {
+        "available": "1.31 GiB",
+        "available_bytes": 1402732544,
+        "capacity": "34.68%",
+        "encrypted": true,
+        "total": "2.00 GiB",
+        "total_bytes": 2147483648,
+        "used": "710.25 MiB",
+        "used_bytes": 744751104
+      },
+      "system": {
+        "available": "1.01 GiB",
+        "available_bytes": 1081761792,
+        "capacity": "87.41%",
+        "total": "8.00 GiB",
+        "total_bytes": 8589934592,
+        "used": "6.99 GiB",
+        "used_bytes": 7508172800
+      }
+    },
+    "memoryfree": "1.01 GiB",
+    "memoryfree_mb": 1031.6484375,
+    "memorysize": "8.00 GiB",
+    "memorysize_mb": 8192.0,
+    "mountpoints": {
+      "/": {
+        "available": "24.21 GiB",
+        "available_bytes": 25997234176,
+        "capacity": "78.36%",
+        "device": "/dev/disk1",
+        "filesystem": "hfs",
+        "options": [
+          "local",
+          "root",
+          "journaled"
+        ],
+        "size": "111.86 GiB",
+        "size_bytes": 120108089344,
+        "used": "87.65 GiB",
+        "used_bytes": 94110855168
+      },
+      "/dev": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "devfs",
+        "filesystem": "devfs",
+        "options": [
+          "local",
+          "nobrowse"
+        ],
+        "size": "183.50 KiB",
+        "size_bytes": 187904,
+        "used": "183.50 KiB",
+        "used_bytes": 187904
+      },
+      "/home": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "map auto_home",
+        "filesystem": "autofs",
+        "options": [
+          "nobrowse",
+          "automounted"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "/net": {
+        "available": "0 bytes",
+        "available_bytes": 0,
+        "capacity": "100%",
+        "device": "map -hosts",
+        "filesystem": "autofs",
+        "options": [
+          "nosuid",
+          "nobrowse",
+          "automounted"
+        ],
+        "size": "0 bytes",
+        "size_bytes": 0,
+        "used": "0 bytes",
+        "used_bytes": 0
+      }
+    },
+    "mtu_awdl0": 1484,
+    "mtu_bridge0": 1500,
+    "mtu_en0": 1500,
+    "mtu_en1": 1500,
+    "mtu_en2": 1500,
+    "mtu_gif0": 1280,
+    "mtu_lo0": 16384,
+    "mtu_p2p0": 2304,
+    "mtu_stf0": 1280,
+    "mtu_utun0": 2000,
+    "mtu_vboxnet0": 1500,
+    "netmask": "255.255.255.0",
+    "netmask6": "ffff:ffff:ffff:ffff::",
+    "netmask6_awdl0": "ffff:ffff:ffff:ffff::",
+    "netmask6_en0": "ffff:ffff:ffff:ffff::",
+    "netmask6_lo0": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+    "netmask6_utun0": "ffff:ffff:ffff:ffff::",
+    "netmask_en0": "255.255.255.0",
+    "netmask_lo0": "255.0.0.0",
+    "network": "192.168.1.0",
+    "network6": "fe80::",
+    "network6_awdl0": "fe80::",
+    "network6_en0": "fe80::",
+    "network6_lo0": "::1",
+    "network6_utun0": "fe80::",
+    "network_en0": "192.168.1.0",
+    "network_lo0": "127.0.0.0",
+    "networking": {
+      "dhcp": "192.168.1.254",
+      "domain": "home",
+      "fqdn": "BethG.home",
+      "hostname": "BethG",
+      "interfaces": {
+        "awdl0": {
+          "bindings6": [
+            {
+              "address": "fe80::ac68:31ff:fe93:d94a",
+              "netmask": "ffff:ffff:ffff:ffff::",
+              "network": "fe80::"
+            }
+          ],
+          "ip6": "fe80::ac68:31ff:fe93:d94a",
+          "mac": "ae:68:31:93:d9:4a",
+          "mtu": 1484,
+          "netmask6": "ffff:ffff:ffff:ffff::",
+          "network6": "fe80::"
+        },
+        "bridge0": {
+          "mac": "4a:00:05:cf:a5:d0",
+          "mtu": 1500
+        },
+        "en0": {
+          "bindings": [
+            {
+              "address": "192.168.1.73",
+              "netmask": "255.255.255.0",
+              "network": "192.168.1.0"
+            }
+          ],
+          "bindings6": [
+            {
+              "address": "fe80::c11:f6fc:a25b:45d6",
+              "netmask": "ffff:ffff:ffff:ffff::",
+              "network": "fe80::"
+            }
+          ],
+          "dhcp": "192.168.1.254",
+          "ip": "192.168.1.73",
+          "ip6": "fe80::c11:f6fc:a25b:45d6",
+          "mac": "f4:5c:89:c8:ed:1d",
+          "mtu": 1500,
+          "netmask": "255.255.255.0",
+          "netmask6": "ffff:ffff:ffff:ffff::",
+          "network": "192.168.1.0",
+          "network6": "fe80::"
+        },
+        "en1": {
+          "mac": "4a:00:05:cf:a5:d0",
+          "mtu": 1500
+        },
+        "en2": {
+          "mac": "4a:00:05:cf:a5:d1",
+          "mtu": 1500
+        },
+        "gif0": {
+          "mtu": 1280
+        },
+        "lo0": {
+          "bindings": [
+            {
+              "address": "127.0.0.1",
+              "netmask": "255.0.0.0",
+              "network": "127.0.0.0"
+            }
+          ],
+          "bindings6": [
+            {
+              "address": "::1",
+              "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+              "network": "::1"
+            },
+            {
+              "address": "fe80::1",
+              "netmask": "ffff:ffff:ffff:ffff::",
+              "network": "fe80::"
+            }
+          ],
+          "ip": "127.0.0.1",
+          "ip6": "::1",
+          "mtu": 16384,
+          "netmask": "255.0.0.0",
+          "netmask6": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+          "network": "127.0.0.0",
+          "network6": "::1"
+        },
+        "p2p0": {
+          "mac": "06:5c:89:c8:ed:1d",
+          "mtu": 2304
+        },
+        "stf0": {
+          "mtu": 1280
+        },
+        "utun0": {
+          "bindings6": [
+            {
+              "address": "fe80::6021:9482:c34b:4502",
+              "netmask": "ffff:ffff:ffff:ffff::",
+              "network": "fe80::"
+            }
+          ],
+          "ip6": "fe80::6021:9482:c34b:4502",
+          "mtu": 2000,
+          "netmask6": "ffff:ffff:ffff:ffff::",
+          "network6": "fe80::"
+        },
+        "vboxnet0": {
+          "mac": "0a:00:27:00:00:00",
+          "mtu": 1500
+        }
+      },
+      "ip": "192.168.1.73",
+      "ip6": "fe80::c11:f6fc:a25b:45d6",
+      "mac": "f4:5c:89:c8:ed:1d",
+      "mtu": 1500,
+      "netmask": "255.255.255.0",
+      "netmask6": "ffff:ffff:ffff:ffff::",
+      "network": "192.168.1.0",
+      "network6": "fe80::",
+      "primary": "en0"
+    },
+    "operatingsystem": "Darwin",
+    "operatingsystemmajrelease": "16",
+    "operatingsystemrelease": "16.4.0",
+    "os": {
+      "architecture": "x86_64",
+      "family": "Darwin",
+      "hardware": "x86_64",
+      "macosx": {
+        "build": "16D32",
+        "product": "Mac OS X",
+        "version": {
+          "full": "10.12.3",
+          "major": "10.12",
+          "minor": "3"
+        }
+      },
+      "name": "Darwin",
+      "release": {
+        "full": "16.4.0",
+        "major": "16",
+        "minor": "4"
+      }
+    },
+    "osfamily": "Darwin",
+    "path": "/Applications/Postgres.app/Contents/Versions/9.5/bin:/usr/local/Homebrew/bin:/Users/bethglenfield/.rbenv/bin:/Applications/Postgres.app/Contents/Versions/9.5/bin:/usr/local/Homebrew/bin:/Users/bethglenfield/.rbenv/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/puppetlabs/bin",
+    "physicalprocessorcount": 2,
+    "processor0": "Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz",
+    "processor1": "Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz",
+    "processor2": "Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz",
+    "processor3": "Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz",
+    "processorcount": 4,
+    "processors": {
+      "count": 4,
+      "isa": "i386",
+      "models": [
+        "Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz",
+        "Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz",
+        "Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz",
+        "Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz"
+      ],
+      "physicalcount": 2,
+      "speed": "2.70 GHz"
+    },
+    "productname": "MacBookPro12,1",
+    "puppetversion": "4.7.0",
+    "ruby": {
+      "platform": "x86_64-darwin15.0",
+      "sitedir": "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.1.0",
+      "version": "2.1.9"
+    },
+    "rubyplatform": "x86_64-darwin15.0",
+    "rubysitedir": "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.1.0",
+    "rubyversion": "2.1.9",
+    "sp_boot_mode": "Normal",
+    "sp_boot_rom_version": "MBP121.0167.B21",
+    "sp_boot_volume": "Macintosh HD",
+    "sp_cpu_type": "Intel Core i5",
+    "sp_current_processor_speed": "2.7 GHz",
+    "sp_kernel_version": "Darwin 16.4.0",
+    "sp_l2_cache_core": "256 KB",
+    "sp_l3_cache": "3 MB",
+    "sp_local_host_name": "BethG",
+    "sp_machine_model": "MacBookPro12,1",
+    "sp_machine_name": "MacBook Pro",
+    "sp_number_processors": "2",
+    "sp_os_version": "macOS 10.12.3 (16D32)",
+    "sp_packages": "1",
+    "sp_physical_memory": "8 GB",
+    "sp_platform_uuid": "A6BA193A-D79E-589D-8EE2-019427FC6D70",
+    "sp_secure_vm": "Enabled",
+    "sp_serial_number": "C17RL1CPFVH3",
+    "sp_smc_version_system": "2.28f7",
+    "sp_uptime": "11:21",
+    "sp_user_name": "Elizabeth Glenfield (bethglenfield)",
+    "ssh": {
+      "dsa": {
+        "fingerprints": {
+          "sha1": "SSHFP 2 1 8f5f7c2b576cf60d880cf537dc4a5a5172062529",
+          "sha256": "SSHFP 2 2 0ff892aa76250f1f0757d36eb0700df7e86dde6afee41886e8c98edb5335184d"
+        },
+        "key": "AAAAB3NzaC1kc3MAAACBAM6YMbNjhKHhN4BAXsnAeVNZRTORgvVdaqT4Fk9bFbDKytg+EjtL53vJJtBrHKsWecSxPHexRvIAXyPO9/Dl2n//LqCyyahObzMMyE+XaCmLmHJf9d1D5kxmGfyk4GKXIel087F3IbCCDi1PWYPcJOfJ0iCFcgQWjO3brAilFJrrAAAAFQDUCUK8RPPUYtC11bZ+euO32Z32IQAAAIEAxTXp9kLqxP3jz/demrUIc4vm+PBWuFfMeybGn46WxTALqEwA531vzJekd2PtfTPAugBStDKREpkWWljKWJURI5QRqkOECEtTPVGdwWQ80ZcleGzHYhDzCs17O2tjvSAz6XlIoLnlk53ceD7NUGdDj2jPqPWut8wmEJq5w7lviSsAAACAODEupqxVEFpHKTbfU+X11kTQdLCFOFEx3yb+NdLkx5DndFl18Pk+FM6IUisvrg6vWMt+RisnRgW20GMVF+FoKasPCKH7AReMbMqvPZZANoB2Vv8jQy74J5PjHq6sqrain635fHz3RklGh3kyHqcxhctACkwnAJIg9AntYdjTNJM="
+      },
+      "ecdsa": {
+        "fingerprints": {
+          "sha1": "SSHFP 3 1 14c89792112e2b34ea3aeeee7184da766dec8985",
+          "sha256": "SSHFP 3 2 cbdc871f1eb9e8f0e2b4a0da44dc414da5d213fd101bfa4e9ab439c964362b73"
+        },
+        "key": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLuxtf+NWbpd7PkEA+gSzdLS0QXJI2+p976AZBS0LMjhleiYcqd2i5KsjyW+MNTVvGBFoyKItTMCY2IubN58kuI="
+      },
+      "ed25519": {
+        "fingerprints": {
+          "sha1": "SSHFP 4 1 4220fbd2f0c10b868916c6d932905e992980109a",
+          "sha256": "SSHFP 4 2 19b77406d4d2894095e8e3481874a782a453efa5a39967200f1fef4539ed3e8c"
+        },
+        "key": "AAAAC3NzaC1lZDI1NTE5AAAAINpy+vwrKXCJ41zX/KKVudG1l5/8to0qtD+P/aK9ssLC"
+      },
+      "rsa": {
+        "fingerprints": {
+          "sha1": "SSHFP 1 1 8e6451ed25b28f95aaaa3e68ad3562aa09e7b26f",
+          "sha256": "SSHFP 1 2 82b4e16dbb12f3d9336f580c35536863bc47bf93923a15a71a2a560a9d6dbd98"
+        },
+        "key": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDAa6Qzcnk5hFwzjuSbJZ+XTkgcGvujDkVXrD+mKseRrSitfEvRo9TRfsrf0mC1S4C94sdvhqEg6afZI+iC2IRY6rKmPp/RKPAasrcwsu9jhLJczmAPVRA7ZIdxNN0FRtNuHENVDmGKg6YLA1ZCVTGaXVdzIHMuc6nXlSemczoheH0moOqwYqBA0MwZw+RNwx5mcPYk5qUOzadQ+3hQ8YyHPGkgtwglad6jdNgaDOIxWsrCmLjY0Re7IyEliZu7dLjQCWrJI/P/f1F2GwzCcylZbx3x4KPGroROQ5DEdrZ3IG0dDbCHhvKnWgb6cLOn4SlZa2yjMFnto+Umx9jqeBFJ"
+      }
+    },
+    "sshdsakey": "AAAAB3NzaC1kc3MAAACBAM6YMbNjhKHhN4BAXsnAeVNZRTORgvVdaqT4Fk9bFbDKytg+EjtL53vJJtBrHKsWecSxPHexRvIAXyPO9/Dl2n//LqCyyahObzMMyE+XaCmLmHJf9d1D5kxmGfyk4GKXIel087F3IbCCDi1PWYPcJOfJ0iCFcgQWjO3brAilFJrrAAAAFQDUCUK8RPPUYtC11bZ+euO32Z32IQAAAIEAxTXp9kLqxP3jz/demrUIc4vm+PBWuFfMeybGn46WxTALqEwA531vzJekd2PtfTPAugBStDKREpkWWljKWJURI5QRqkOECEtTPVGdwWQ80ZcleGzHYhDzCs17O2tjvSAz6XlIoLnlk53ceD7NUGdDj2jPqPWut8wmEJq5w7lviSsAAACAODEupqxVEFpHKTbfU+X11kTQdLCFOFEx3yb+NdLkx5DndFl18Pk+FM6IUisvrg6vWMt+RisnRgW20GMVF+FoKasPCKH7AReMbMqvPZZANoB2Vv8jQy74J5PjHq6sqrain635fHz3RklGh3kyHqcxhctACkwnAJIg9AntYdjTNJM=",
+    "sshecdsakey": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLuxtf+NWbpd7PkEA+gSzdLS0QXJI2+p976AZBS0LMjhleiYcqd2i5KsjyW+MNTVvGBFoyKItTMCY2IubN58kuI=",
+    "sshed25519key": "AAAAC3NzaC1lZDI1NTE5AAAAINpy+vwrKXCJ41zX/KKVudG1l5/8to0qtD+P/aK9ssLC",
+    "sshfp_dsa": "SSHFP 2 1 8f5f7c2b576cf60d880cf537dc4a5a5172062529\nSSHFP 2 2 0ff892aa76250f1f0757d36eb0700df7e86dde6afee41886e8c98edb5335184d",
+    "sshfp_ecdsa": "SSHFP 3 1 14c89792112e2b34ea3aeeee7184da766dec8985\nSSHFP 3 2 cbdc871f1eb9e8f0e2b4a0da44dc414da5d213fd101bfa4e9ab439c964362b73",
+    "sshfp_ed25519": "SSHFP 4 1 4220fbd2f0c10b868916c6d932905e992980109a\nSSHFP 4 2 19b77406d4d2894095e8e3481874a782a453efa5a39967200f1fef4539ed3e8c",
+    "sshfp_rsa": "SSHFP 1 1 8e6451ed25b28f95aaaa3e68ad3562aa09e7b26f\nSSHFP 1 2 82b4e16dbb12f3d9336f580c35536863bc47bf93923a15a71a2a560a9d6dbd98",
+    "sshrsakey": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDAa6Qzcnk5hFwzjuSbJZ+XTkgcGvujDkVXrD+mKseRrSitfEvRo9TRfsrf0mC1S4C94sdvhqEg6afZI+iC2IRY6rKmPp/RKPAasrcwsu9jhLJczmAPVRA7ZIdxNN0FRtNuHENVDmGKg6YLA1ZCVTGaXVdzIHMuc6nXlSemczoheH0moOqwYqBA0MwZw+RNwx5mcPYk5qUOzadQ+3hQ8YyHPGkgtwglad6jdNgaDOIxWsrCmLjY0Re7IyEliZu7dLjQCWrJI/P/f1F2GwzCcylZbx3x4KPGroROQ5DEdrZ3IG0dDbCHhvKnWgb6cLOn4SlZa2yjMFnto+Umx9jqeBFJ",
+    "swapencrypted": true,
+    "swapfree": "1.31 GiB",
+    "swapfree_mb": 1337.75,
+    "swapsize": "2.00 GiB",
+    "swapsize_mb": 2048.0,
+    "system_profiler": {
+      "boot_mode": "Normal",
+      "boot_rom_version": "MBP121.0167.B21",
+      "boot_volume": "Macintosh HD",
+      "computer_name": "BethG",
+      "cores": "2",
+      "hardware_uuid": "A6BA193A-D79E-589D-8EE2-019427FC6D70",
+      "kernel_version": "Darwin 16.4.0",
+      "l2_cache_per_core": "256 KB",
+      "l3_cache": "3 MB",
+      "memory": "8 GB",
+      "model_identifier": "MacBookPro12,1",
+      "model_name": "MacBook Pro",
+      "processor_name": "Intel Core i5",
+      "processor_speed": "2.7 GHz",
+      "processors": "1",
+      "secure_virtual_memory": "Enabled",
+      "serial_number": "C17RL1CPFVH3",
+      "smc_version": "2.28f7",
+      "system_version": "macOS 10.12.3 (16D32)",
+      "uptime": "11:21",
+      "username": "Elizabeth Glenfield (bethglenfield)"
+    },
+    "system_uptime": {
+      "days": 0,
+      "hours": 11,
+      "seconds": 40866,
+      "uptime": "11:21 hours"
+    },
+    "timezone": "BST",
+    "uptime": "11:21 hours",
+    "uptime_days": 0,
+    "uptime_hours": 11,
+    "uptime_seconds": 40866,
+    "virtual": "physical"
+  }
+}

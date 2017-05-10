@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link href="https://www.highcharts.com/highslide/highslide.css" rel="stylesheet" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/highcharts.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/highcharts-more.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/modules/heatmap.js"></script>
+        <script type="text/javascript" src="https://code.highcharts.com/modules/exporting.js"></script>
+    </head>
+    <body style="margin:0;padding:0">
+                <div id="container" style="width:850px;height:600px;">Loading....</div>
+
+
+    <script>
+        $(function(){
+
+
+ 
+
+
+
+
+            Highcharts.setOptions({"lang": {}, "global": {}});
+            var option = {"drilldown": {}, "labels": {}, "chart": {"renderTo": "container", "width": 850, "height": 600, "zoomType": "xy", "type": "scatter"}, "xAxis": {"title": {"enabled": true, "text": "OSs"}, "categories": ["centos", "ubuntu"]}, "title": {"text": "Comparison of Users in different OSs"}, "plotOptions": {"scatter": {"turboThreshold": 30000, "allowPointSelect": true, "showInLegend": false}}, "yAxis": {"title": {"text": "User IDs"}, "tickInterval": 500}, "legend": {}, "subtitle": {"text": "Data gathered from Puppet runs on various machines"}, "credits": {"enabled": false}, "pane": {}, "tooltip": {"headerFormat": "<b>Package on {point.x}</b><br/>", "pointFormat": "{point.name} : {point.y}"}, "navigation": {}, "colors": {}, "series": {}, "exporting": {}, "loading": {}};
+
+
+            var data = [{"type": "scatter", "name": "Series 1", "data": [{"y": 0, "x": 0, "color": "f44e42", "name": "root"}, {"y": 1, "x": 0, "color": "f44e42", "name": "daemon"}, {"y": 2, "x": 0, "color": "f44e42", "name": "bin"}, {"y": 3, "x": 0, "color": "f44e42", "name": "sys"}, {"y": 4, "x": 0, "color": "f44e42", "name": "sync"}, {"y": 5, "x": 0, "color": "f44e42", "name": "games"}, {"y": 6, "x": 0, "color": "f44e42", "name": "man"}, {"y": 7, "x": 0, "color": "f44e42", "name": "lp"}, {"y": 8, "x": 0, "color": "f44e42", "name": "mail"}, {"y": 9, "x": 0, "color": "f44e42", "name": "news"}, {"y": 10, "x": 0, "color": "f44e42", "name": "uucp"}, {"y": 13, "x": 0, "color": "f44e42", "name": "proxy"}, {"y": 33, "x": 0, "color": "f44e42", "name": "www-data"}, {"y": 34, "x": 0, "color": "f44e42", "name": "backup"}, {"y": 38, "x": 0, "color": "f44e42", "name": "list"}, {"y": 39, "x": 0, "color": "f44e42", "name": "irc"}, {"y": 41, "x": 0, "color": "f44e42", "name": "gnats"}, {"y": 65534, "x": 0, "color": "f44e42", "name": "nobody"}, {"y": 100, "x": 0, "color": "f44e42", "name": "libuuid"}, {"y": 101, "x": 0, "color": "f44e42", "name": "Debian-exim"}, {"y": 102, "x": 0, "color": "f44e42", "name": "statd"}, {"y": 103, "x": 0, "color": "f44e42", "name": "ntp"}, {"y": 104, "x": 0, "color": "f44e42", "name": "sshd"}, {"y": 999, "x": 0, "color": "f44e42", "name": "vboxadd"}, {"y": 1000, "x": 0, "color": "f44e42", "name": "vagrant"}, {"y": 0, "x": 1, "color": "#2ead43", "name": "root"}, {"y": 1, "x": 1, "color": "#2ead43", "name": "daemon"}, {"y": 2, "x": 1, "color": "#2ead43", "name": "bin"}, {"y": 3, "x": 1, "color": "#2ead43", "name": "sys"}, {"y": 4, "x": 1, "color": "#2ead43", "name": "sync"}, {"y": 5, "x": 1, "color": "#2ead43", "name": "games"}, {"y": 6, "x": 1, "color": "#2ead43", "name": "man"}, {"y": 7, "x": 1, "color": "#2ead43", "name": "lp"}, {"y": 8, "x": 1, "color": "#2ead43", "name": "mail"}, {"y": 9, "x": 1, "color": "#2ead43", "name": "news"}, {"y": 10, "x": 1, "color": "#2ead43", "name": "uucp"}, {"y": 13, "x": 1, "color": "#2ead43", "name": "proxy"}, {"y": 33, "x": 1, "color": "#2ead43", "name": "www-data"}, {"y": 34, "x": 1, "color": "#2ead43", "name": "backup"}, {"y": 38, "x": 1, "color": "#2ead43", "name": "list"}, {"y": 39, "x": 1, "color": "#2ead43", "name": "irc"}, {"y": 41, "x": 1, "color": "#2ead43", "name": "gnats"}, {"y": 65534, "x": 1, "color": "#2ead43", "name": "nobody"}, {"y": 100, "x": 1, "color": "#2ead43", "name": "systemd-timesync"}, {"y": 101, "x": 1, "color": "#2ead43", "name": "systemd-network"}, {"y": 102, "x": 1, "color": "#2ead43", "name": "systemd-resolve"}, {"y": 103, "x": 1, "color": "#2ead43", "name": "systemd-bus-proxy"}, {"y": 104, "x": 1, "color": "#2ead43", "name": "syslog"}, {"y": 105, "x": 1, "color": "#2ead43", "name": "_apt"}, {"y": 106, "x": 1, "color": "#2ead43", "name": "messagebus"}, {"y": 107, "x": 1, "color": "#2ead43", "name": "uuidd"}, {"y": 108, "x": 1, "color": "#2ead43", "name": "ntp"}, {"y": 109, "x": 1, "color": "#2ead43", "name": "statd"}, {"y": 110, "x": 1, "color": "#2ead43", "name": "sshd"}, {"y": 999, "x": 1, "color": "#2ead43", "name": "vboxadd"}, {"y": 1000, "x": 1, "color": "#2ead43", "name": "vagrant"}]}];
+            option.series = data;
+
+ 
+
+            var chart = new Highcharts.Chart(option);
+
+
+
+
+
+ 
+
+
+        
+    });
+        </script>
+
+    </body>
+</html>

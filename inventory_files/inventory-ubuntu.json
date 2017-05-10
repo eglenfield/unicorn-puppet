@@ -1,0 +1,5206 @@
+{
+  "schema_version": 1,
+  "created": "2017-04-03T20:06:37Z",
+  "resources": [
+    {
+      "title": "root",
+      "resource": "user",
+      "uid": 0,
+      "gid": 0,
+      "groups": [
+
+      ],
+      "home": "/root",
+      "shell": "/bin/bash",
+      "comment": "root"
+    },
+    {
+      "title": "daemon",
+      "resource": "user",
+      "uid": 1,
+      "gid": 1,
+      "groups": [
+
+      ],
+      "home": "/usr/sbin",
+      "shell": "/usr/sbin/nologin",
+      "comment": "daemon"
+    },
+    {
+      "title": "bin",
+      "resource": "user",
+      "uid": 2,
+      "gid": 2,
+      "groups": [
+
+      ],
+      "home": "/bin",
+      "shell": "/usr/sbin/nologin",
+      "comment": "bin"
+    },
+    {
+      "title": "sys",
+      "resource": "user",
+      "uid": 3,
+      "gid": 3,
+      "groups": [
+
+      ],
+      "home": "/dev",
+      "shell": "/usr/sbin/nologin",
+      "comment": "sys"
+    },
+    {
+      "title": "sync",
+      "resource": "user",
+      "uid": 4,
+      "gid": 65534,
+      "groups": [
+
+      ],
+      "home": "/bin",
+      "shell": "/bin/sync",
+      "comment": "sync"
+    },
+    {
+      "title": "games",
+      "resource": "user",
+      "uid": 5,
+      "gid": 60,
+      "groups": [
+
+      ],
+      "home": "/usr/games",
+      "shell": "/usr/sbin/nologin",
+      "comment": "games"
+    },
+    {
+      "title": "man",
+      "resource": "user",
+      "uid": 6,
+      "gid": 12,
+      "groups": [
+
+      ],
+      "home": "/var/cache/man",
+      "shell": "/usr/sbin/nologin",
+      "comment": "man"
+    },
+    {
+      "title": "lp",
+      "resource": "user",
+      "uid": 7,
+      "gid": 7,
+      "groups": [
+
+      ],
+      "home": "/var/spool/lpd",
+      "shell": "/usr/sbin/nologin",
+      "comment": "lp"
+    },
+    {
+      "title": "mail",
+      "resource": "user",
+      "uid": 8,
+      "gid": 8,
+      "groups": [
+
+      ],
+      "home": "/var/mail",
+      "shell": "/usr/sbin/nologin",
+      "comment": "mail"
+    },
+    {
+      "title": "news",
+      "resource": "user",
+      "uid": 9,
+      "gid": 9,
+      "groups": [
+
+      ],
+      "home": "/var/spool/news",
+      "shell": "/usr/sbin/nologin",
+      "comment": "news"
+    },
+    {
+      "title": "uucp",
+      "resource": "user",
+      "uid": 10,
+      "gid": 10,
+      "groups": [
+
+      ],
+      "home": "/var/spool/uucp",
+      "shell": "/usr/sbin/nologin",
+      "comment": "uucp"
+    },
+    {
+      "title": "proxy",
+      "resource": "user",
+      "uid": 13,
+      "gid": 13,
+      "groups": [
+
+      ],
+      "home": "/bin",
+      "shell": "/usr/sbin/nologin",
+      "comment": "proxy"
+    },
+    {
+      "title": "www-data",
+      "resource": "user",
+      "uid": 33,
+      "gid": 33,
+      "groups": [
+
+      ],
+      "home": "/var/www",
+      "shell": "/usr/sbin/nologin",
+      "comment": "www-data"
+    },
+    {
+      "title": "backup",
+      "resource": "user",
+      "uid": 34,
+      "gid": 34,
+      "groups": [
+
+      ],
+      "home": "/var/backups",
+      "shell": "/usr/sbin/nologin",
+      "comment": "backup"
+    },
+    {
+      "title": "list",
+      "resource": "user",
+      "uid": 38,
+      "gid": 38,
+      "groups": [
+
+      ],
+      "home": "/var/list",
+      "shell": "/usr/sbin/nologin",
+      "comment": "Mailing List Manager"
+    },
+    {
+      "title": "irc",
+      "resource": "user",
+      "uid": 39,
+      "gid": 39,
+      "groups": [
+
+      ],
+      "home": "/var/run/ircd",
+      "shell": "/usr/sbin/nologin",
+      "comment": "ircd"
+    },
+    {
+      "title": "gnats",
+      "resource": "user",
+      "uid": 41,
+      "gid": 41,
+      "groups": [
+
+      ],
+      "home": "/var/lib/gnats",
+      "shell": "/usr/sbin/nologin",
+      "comment": "Gnats Bug-Reporting System (admin)"
+    },
+    {
+      "title": "nobody",
+      "resource": "user",
+      "uid": 65534,
+      "gid": 65534,
+      "groups": [
+
+      ],
+      "home": "/nonexistent",
+      "shell": "/usr/sbin/nologin",
+      "comment": "nobody"
+    },
+    {
+      "title": "systemd-timesync",
+      "resource": "user",
+      "uid": 100,
+      "gid": 102,
+      "groups": [
+
+      ],
+      "home": "/run/systemd",
+      "shell": "/bin/false",
+      "comment": "systemd Time Synchronization,,,"
+    },
+    {
+      "title": "systemd-network",
+      "resource": "user",
+      "uid": 101,
+      "gid": 103,
+      "groups": [
+
+      ],
+      "home": "/run/systemd/netif",
+      "shell": "/bin/false",
+      "comment": "systemd Network Management,,,"
+    },
+    {
+      "title": "systemd-resolve",
+      "resource": "user",
+      "uid": 102,
+      "gid": 104,
+      "groups": [
+
+      ],
+      "home": "/run/systemd/resolve",
+      "shell": "/bin/false",
+      "comment": "systemd Resolver,,,"
+    },
+    {
+      "title": "systemd-bus-proxy",
+      "resource": "user",
+      "uid": 103,
+      "gid": 105,
+      "groups": [
+
+      ],
+      "home": "/run/systemd",
+      "shell": "/bin/false",
+      "comment": "systemd Bus Proxy,,,"
+    },
+    {
+      "title": "syslog",
+      "resource": "user",
+      "uid": 104,
+      "gid": 108,
+      "groups": [
+        "adm"
+      ],
+      "home": "/home/syslog",
+      "shell": "/bin/false",
+      "comment": ""
+    },
+    {
+      "title": "_apt",
+      "resource": "user",
+      "uid": 105,
+      "gid": 65534,
+      "groups": [
+
+      ],
+      "home": "/nonexistent",
+      "shell": "/bin/false",
+      "comment": ""
+    },
+    {
+      "title": "messagebus",
+      "resource": "user",
+      "uid": 106,
+      "gid": 110,
+      "groups": [
+
+      ],
+      "home": "/var/run/dbus",
+      "shell": "/bin/false",
+      "comment": ""
+    },
+    {
+      "title": "uuidd",
+      "resource": "user",
+      "uid": 107,
+      "gid": 111,
+      "groups": [
+
+      ],
+      "home": "/run/uuidd",
+      "shell": "/bin/false",
+      "comment": ""
+    },
+    {
+      "title": "ntp",
+      "resource": "user",
+      "uid": 108,
+      "gid": 114,
+      "groups": [
+
+      ],
+      "home": "/home/ntp",
+      "shell": "/bin/false",
+      "comment": ""
+    },
+    {
+      "title": "statd",
+      "resource": "user",
+      "uid": 109,
+      "gid": 65534,
+      "groups": [
+
+      ],
+      "home": "/var/lib/nfs",
+      "shell": "/bin/false",
+      "comment": ""
+    },
+    {
+      "title": "sshd",
+      "resource": "user",
+      "uid": 110,
+      "gid": 65534,
+      "groups": [
+
+      ],
+      "home": "/var/run/sshd",
+      "shell": "/usr/sbin/nologin",
+      "comment": ""
+    },
+    {
+      "title": "vboxadd",
+      "resource": "user",
+      "uid": 999,
+      "gid": 1,
+      "groups": [
+
+      ],
+      "home": "/var/run/vboxadd",
+      "shell": "/bin/false",
+      "comment": ""
+    },
+    {
+      "title": "vagrant",
+      "resource": "user",
+      "uid": 1000,
+      "gid": 1000,
+      "groups": [
+        "vagrant"
+      ],
+      "home": "/home/vagrant",
+      "shell": "/bin/bash",
+      "comment": ""
+    },
+    {
+      "title": "accountsservice",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.6.40-2ubuntu11.1"
+      ]
+    },
+    {
+      "title": "adduser",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.113+nmu3ubuntu4"
+      ]
+    },
+    {
+      "title": "apparmor",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.10.95-0ubuntu2"
+      ]
+    },
+    {
+      "title": "apt",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.2.12~ubuntu16.04.1"
+      ]
+    },
+    {
+      "title": "apt-transport-https",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.2.12~ubuntu16.04.1"
+      ]
+    },
+    {
+      "title": "apt-utils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.2.12~ubuntu16.04.1"
+      ]
+    },
+    {
+      "title": "base-files",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "9.4ubuntu4"
+      ]
+    },
+    {
+      "title": "base-passwd",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.5.39"
+      ]
+    },
+    {
+      "title": "bash",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.3-14ubuntu1"
+      ]
+    },
+    {
+      "title": "bash-completion",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:2.1-4.2ubuntu1.1"
+      ]
+    },
+    {
+      "title": "bind9-host",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:9.10.3.dfsg.P4-8ubuntu1"
+      ]
+    },
+    {
+      "title": "binutils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.26-8ubuntu2.1"
+      ]
+    },
+    {
+      "title": "bsdmainutils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "9.0.6ubuntu3"
+      ]
+    },
+    {
+      "title": "bsdutils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:2.27.1-6ubuntu3"
+      ]
+    },
+    {
+      "title": "busybox-initramfs",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:1.22.0-15ubuntu1"
+      ]
+    },
+    {
+      "title": "busybox-static",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:1.22.0-15ubuntu1"
+      ]
+    },
+    {
+      "title": "bzip2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.0.6-8"
+      ]
+    },
+    {
+      "title": "ca-certificates",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "20160104ubuntu1"
+      ]
+    },
+    {
+      "title": "command-not-found",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.3ubuntu16.04.1"
+      ]
+    },
+    {
+      "title": "command-not-found-data",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.3ubuntu16.04.1"
+      ]
+    },
+    {
+      "title": "console-setup",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.108ubuntu15"
+      ]
+    },
+    {
+      "title": "console-setup-linux",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.108ubuntu15"
+      ]
+    },
+    {
+      "title": "coreutils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "8.25-2ubuntu2"
+      ]
+    },
+    {
+      "title": "cpio",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.11+dfsg-5ubuntu1"
+      ]
+    },
+    {
+      "title": "cpp",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4:5.3.1-1ubuntu1"
+      ]
+    },
+    {
+      "title": "cpp-5",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.1-14ubuntu2.1"
+      ]
+    },
+    {
+      "title": "crda",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.13-1"
+      ]
+    },
+    {
+      "title": "cron",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.0pl1-128ubuntu2"
+      ]
+    },
+    {
+      "title": "curl",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "7.47.0-1ubuntu2"
+      ]
+    },
+    {
+      "title": "dash",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.5.8-2.1ubuntu2"
+      ]
+    },
+    {
+      "title": "dbus",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.10.6-1ubuntu3"
+      ]
+    },
+    {
+      "title": "debconf",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.5.58ubuntu1"
+      ]
+    },
+    {
+      "title": "debconf-i18n",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.5.58ubuntu1"
+      ]
+    },
+    {
+      "title": "debianutils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.7"
+      ]
+    },
+    {
+      "title": "dh-python",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.20151103ubuntu1.1"
+      ]
+    },
+    {
+      "title": "diffutils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:3.3-3"
+      ]
+    },
+    {
+      "title": "distro-info-data",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.28ubuntu0.1"
+      ]
+    },
+    {
+      "title": "dmeventd",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:1.02.110-1ubuntu10"
+      ]
+    },
+    {
+      "title": "dmidecode",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.0-2ubuntu0.1"
+      ]
+    },
+    {
+      "title": "dmsetup",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:1.02.110-1ubuntu10"
+      ]
+    },
+    {
+      "title": "dnsutils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:9.10.3.dfsg.P4-8ubuntu1"
+      ]
+    },
+    {
+      "title": "dosfstools",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.0.28-2ubuntu0.1"
+      ]
+    },
+    {
+      "title": "dpkg",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.18.4ubuntu1.1"
+      ]
+    },
+    {
+      "title": "e2fslibs",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.42.13-1ubuntu1"
+      ]
+    },
+    {
+      "title": "e2fsprogs",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.42.13-1ubuntu1"
+      ]
+    },
+    {
+      "title": "ed",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.10-2"
+      ]
+    },
+    {
+      "title": "eject",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.1.5+deb1+cvs20081104-13.1"
+      ]
+    },
+    {
+      "title": "file",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:5.25-2ubuntu1"
+      ]
+    },
+    {
+      "title": "findutils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.6.0+git+20160126-2"
+      ]
+    },
+    {
+      "title": "friendly-recovery",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.2.31"
+      ]
+    },
+    {
+      "title": "ftp",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.17-33"
+      ]
+    },
+    {
+      "title": "fuse",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.9.4-1ubuntu3"
+      ]
+    },
+    {
+      "title": "gcc",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4:5.3.1-1ubuntu1"
+      ]
+    },
+    {
+      "title": "gcc-5",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.1-14ubuntu2.1"
+      ]
+    },
+    {
+      "title": "gcc-5-base",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.1-14ubuntu2.1"
+      ]
+    },
+    {
+      "title": "gcc-6-base",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "6.0.1-0ubuntu1"
+      ]
+    },
+    {
+      "title": "geoip-database",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "20160408-1"
+      ]
+    },
+    {
+      "title": "gettext-base",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.19.7-2ubuntu3"
+      ]
+    },
+    {
+      "title": "gir1.2-glib-2.0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.46.0-3ubuntu1"
+      ]
+    },
+    {
+      "title": "gnupg",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.4.20-1ubuntu3"
+      ]
+    },
+    {
+      "title": "gpgv",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.4.20-1ubuntu3"
+      ]
+    },
+    {
+      "title": "grep",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.24-1"
+      ]
+    },
+    {
+      "title": "groff-base",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.22.3-7"
+      ]
+    },
+    {
+      "title": "grub-common",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.02~beta2-36ubuntu3"
+      ]
+    },
+    {
+      "title": "grub-gfxpayload-lists",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.7"
+      ]
+    },
+    {
+      "title": "grub-pc",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.02~beta2-36ubuntu3"
+      ]
+    },
+    {
+      "title": "grub-pc-bin",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.02~beta2-36ubuntu3"
+      ]
+    },
+    {
+      "title": "grub2-common",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.02~beta2-36ubuntu3"
+      ]
+    },
+    {
+      "title": "gzip",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.6-4ubuntu1"
+      ]
+    },
+    {
+      "title": "hdparm",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "9.48+ds-1"
+      ]
+    },
+    {
+      "title": "hostname",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.16ubuntu2"
+      ]
+    },
+    {
+      "title": "ifupdown",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.8.10ubuntu1"
+      ]
+    },
+    {
+      "title": "info",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "6.1.0.dfsg.1-5"
+      ]
+    },
+    {
+      "title": "init",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.29ubuntu2"
+      ]
+    },
+    {
+      "title": "init-system-helpers",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.29ubuntu2"
+      ]
+    },
+    {
+      "title": "initramfs-tools",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.122ubuntu8"
+      ]
+    },
+    {
+      "title": "initramfs-tools-bin",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.122ubuntu8"
+      ]
+    },
+    {
+      "title": "initramfs-tools-core",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.122ubuntu8"
+      ]
+    },
+    {
+      "title": "initscripts",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.88dsf-59.3ubuntu2"
+      ]
+    },
+    {
+      "title": "insserv",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.14.0-5ubuntu3"
+      ]
+    },
+    {
+      "title": "install-info",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "6.1.0.dfsg.1-5"
+      ]
+    },
+    {
+      "title": "installation-report",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.60ubuntu1"
+      ]
+    },
+    {
+      "title": "iproute2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.3.0-1ubuntu3"
+      ]
+    },
+    {
+      "title": "iptables",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.6.0-2ubuntu3"
+      ]
+    },
+    {
+      "title": "iputils-ping",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3:20121221-5ubuntu2"
+      ]
+    },
+    {
+      "title": "iputils-tracepath",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3:20121221-5ubuntu2"
+      ]
+    },
+    {
+      "title": "irqbalance",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.1.0-2ubuntu1"
+      ]
+    },
+    {
+      "title": "isc-dhcp-client",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.3.3-5ubuntu12"
+      ]
+    },
+    {
+      "title": "isc-dhcp-common",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.3.3-5ubuntu12"
+      ]
+    },
+    {
+      "title": "iso-codes",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.65-1"
+      ]
+    },
+    {
+      "title": "iw",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.17-1"
+      ]
+    },
+    {
+      "title": "kbd",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.15.5-1ubuntu4"
+      ]
+    },
+    {
+      "title": "keyboard-configuration",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.108ubuntu15"
+      ]
+    },
+    {
+      "title": "keyutils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.5.9-8ubuntu1"
+      ]
+    },
+    {
+      "title": "klibc-utils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.0.4-8ubuntu1"
+      ]
+    },
+    {
+      "title": "kmod",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "22-1ubuntu4"
+      ]
+    },
+    {
+      "title": "krb5-locales",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.13.2+dfsg-5"
+      ]
+    },
+    {
+      "title": "language-pack-en",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:16.04+20160415"
+      ]
+    },
+    {
+      "title": "language-pack-en-base",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:16.04+20160415"
+      ]
+    },
+    {
+      "title": "language-pack-gnome-en",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:16.04+20160415"
+      ]
+    },
+    {
+      "title": "language-pack-gnome-en-base",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:16.04+20160415"
+      ]
+    },
+    {
+      "title": "language-selector-common",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.165.2"
+      ]
+    },
+    {
+      "title": "laptop-detect",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.13.7ubuntu2"
+      ]
+    },
+    {
+      "title": "less",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "481-2.1"
+      ]
+    },
+    {
+      "title": "libaccountsservice0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.6.40-2ubuntu11.1"
+      ]
+    },
+    {
+      "title": "libacl1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.2.52-3"
+      ]
+    },
+    {
+      "title": "libapparmor-perl",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.10.95-0ubuntu2"
+      ]
+    },
+    {
+      "title": "libapparmor1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.10.95-0ubuntu2"
+      ]
+    },
+    {
+      "title": "libapt-inst2.0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.2.12~ubuntu16.04.1"
+      ]
+    },
+    {
+      "title": "libapt-pkg5.0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.2.12~ubuntu16.04.1"
+      ]
+    },
+    {
+      "title": "libasan2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.1-14ubuntu2.1"
+      ]
+    },
+    {
+      "title": "libasn1-8-heimdal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.7~git20150920+dfsg-4ubuntu1"
+      ]
+    },
+    {
+      "title": "libasprintf0v5",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.19.7-2ubuntu3"
+      ]
+    },
+    {
+      "title": "libatm1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:2.5.1-1.5"
+      ]
+    },
+    {
+      "title": "libatomic1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.1-14ubuntu2.1"
+      ]
+    },
+    {
+      "title": "libattr1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:2.4.47-2"
+      ]
+    },
+    {
+      "title": "libaudit-common",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:2.4.5-1ubuntu2"
+      ]
+    },
+    {
+      "title": "libaudit1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:2.4.5-1ubuntu2"
+      ]
+    },
+    {
+      "title": "libbind9-140",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:9.10.3.dfsg.P4-8ubuntu1"
+      ]
+    },
+    {
+      "title": "libblkid1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.27.1-6ubuntu3"
+      ]
+    },
+    {
+      "title": "libbsd0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.8.2-1"
+      ]
+    },
+    {
+      "title": "libbz2-1.0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.0.6-8"
+      ]
+    },
+    {
+      "title": "libc-bin",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.23-0ubuntu3"
+      ]
+    },
+    {
+      "title": "libc-dev-bin",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.23-0ubuntu3"
+      ]
+    },
+    {
+      "title": "libc6",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.23-0ubuntu3"
+      ]
+    },
+    {
+      "title": "libc6-dev",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.23-0ubuntu3"
+      ]
+    },
+    {
+      "title": "libcap-ng0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.7.7-1"
+      ]
+    },
+    {
+      "title": "libcap2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:2.24-12"
+      ]
+    },
+    {
+      "title": "libcap2-bin",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:2.24-12"
+      ]
+    },
+    {
+      "title": "libcc1-0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.1-14ubuntu2.1"
+      ]
+    },
+    {
+      "title": "libcilkrts5",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.1-14ubuntu2.1"
+      ]
+    },
+    {
+      "title": "libcomerr2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.42.13-1ubuntu1"
+      ]
+    },
+    {
+      "title": "libcryptsetup4",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:1.6.6-5ubuntu2"
+      ]
+    },
+    {
+      "title": "libcurl3-gnutls",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "7.47.0-1ubuntu2"
+      ]
+    },
+    {
+      "title": "libdb5.3",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.28-11"
+      ]
+    },
+    {
+      "title": "libdbus-1-3",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.10.6-1ubuntu3"
+      ]
+    },
+    {
+      "title": "libdbus-glib-1-2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.106-1"
+      ]
+    },
+    {
+      "title": "libdebconfclient0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.198ubuntu1"
+      ]
+    },
+    {
+      "title": "libdevmapper-event1.02.1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:1.02.110-1ubuntu10"
+      ]
+    },
+    {
+      "title": "libdevmapper1.02.1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:1.02.110-1ubuntu10"
+      ]
+    },
+    {
+      "title": "libdns-export162",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:9.10.3.dfsg.P4-8ubuntu1"
+      ]
+    },
+    {
+      "title": "libdns162",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:9.10.3.dfsg.P4-8ubuntu1"
+      ]
+    },
+    {
+      "title": "libdrm2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.4.67-1ubuntu0.16.04.1"
+      ]
+    },
+    {
+      "title": "libedit2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.1-20150325-1ubuntu2"
+      ]
+    },
+    {
+      "title": "libelf1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.165-3ubuntu1"
+      ]
+    },
+    {
+      "title": "libestr0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.1.10-1"
+      ]
+    },
+    {
+      "title": "libevent-2.0-5",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.0.21-stable-2"
+      ]
+    },
+    {
+      "title": "libexpat1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.1.0-7ubuntu0.16.04.1"
+      ]
+    },
+    {
+      "title": "libfdisk1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.27.1-6ubuntu3"
+      ]
+    },
+    {
+      "title": "libffi6",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.2.1-4"
+      ]
+    },
+    {
+      "title": "libfreetype6",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.6.1-0.1ubuntu2"
+      ]
+    },
+    {
+      "title": "libfribidi0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.19.7-1"
+      ]
+    },
+    {
+      "title": "libfuse2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.9.4-1ubuntu3"
+      ]
+    },
+    {
+      "title": "libgcc-5-dev",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.1-14ubuntu2.1"
+      ]
+    },
+    {
+      "title": "libgcc1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:6.0.1-0ubuntu1"
+      ]
+    },
+    {
+      "title": "libgcrypt20",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.6.5-2"
+      ]
+    },
+    {
+      "title": "libgdbm3",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.8.3-13.1"
+      ]
+    },
+    {
+      "title": "libgeoip1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.6.9-1"
+      ]
+    },
+    {
+      "title": "libgirepository-1.0-1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.46.0-3ubuntu1"
+      ]
+    },
+    {
+      "title": "libglib2.0-0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.48.0-1ubuntu4"
+      ]
+    },
+    {
+      "title": "libglib2.0-data",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.48.0-1ubuntu4"
+      ]
+    },
+    {
+      "title": "libgmp10",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:6.1.0+dfsg-2"
+      ]
+    },
+    {
+      "title": "libgnutls-openssl27",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.4.10-4ubuntu1"
+      ]
+    },
+    {
+      "title": "libgnutls30",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.4.10-4ubuntu1"
+      ]
+    },
+    {
+      "title": "libgomp1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.1-14ubuntu2.1"
+      ]
+    },
+    {
+      "title": "libgpg-error0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.21-2ubuntu1"
+      ]
+    },
+    {
+      "title": "libgssapi-krb5-2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.13.2+dfsg-5"
+      ]
+    },
+    {
+      "title": "libgssapi3-heimdal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.7~git20150920+dfsg-4ubuntu1"
+      ]
+    },
+    {
+      "title": "libhcrypto4-heimdal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.7~git20150920+dfsg-4ubuntu1"
+      ]
+    },
+    {
+      "title": "libheimbase1-heimdal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.7~git20150920+dfsg-4ubuntu1"
+      ]
+    },
+    {
+      "title": "libheimntlm0-heimdal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.7~git20150920+dfsg-4ubuntu1"
+      ]
+    },
+    {
+      "title": "libhogweed4",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.2-1"
+      ]
+    },
+    {
+      "title": "libhx509-5-heimdal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.7~git20150920+dfsg-4ubuntu1"
+      ]
+    },
+    {
+      "title": "libicu55",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "55.1-7"
+      ]
+    },
+    {
+      "title": "libidn11",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.32-3ubuntu1"
+      ]
+    },
+    {
+      "title": "libisc-export160",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:9.10.3.dfsg.P4-8ubuntu1"
+      ]
+    },
+    {
+      "title": "libisc160",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:9.10.3.dfsg.P4-8ubuntu1"
+      ]
+    },
+    {
+      "title": "libisccc140",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:9.10.3.dfsg.P4-8ubuntu1"
+      ]
+    },
+    {
+      "title": "libisccfg140",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:9.10.3.dfsg.P4-8ubuntu1"
+      ]
+    },
+    {
+      "title": "libisl15",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.16.1-1"
+      ]
+    },
+    {
+      "title": "libitm1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.1-14ubuntu2.1"
+      ]
+    },
+    {
+      "title": "libjson-c2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.11-4ubuntu2"
+      ]
+    },
+    {
+      "title": "libk5crypto3",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.13.2+dfsg-5"
+      ]
+    },
+    {
+      "title": "libkeyutils1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.5.9-8ubuntu1"
+      ]
+    },
+    {
+      "title": "libklibc",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.0.4-8ubuntu1"
+      ]
+    },
+    {
+      "title": "libkmod2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "22-1ubuntu4"
+      ]
+    },
+    {
+      "title": "libkrb5-26-heimdal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.7~git20150920+dfsg-4ubuntu1"
+      ]
+    },
+    {
+      "title": "libkrb5-3",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.13.2+dfsg-5"
+      ]
+    },
+    {
+      "title": "libkrb5support0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.13.2+dfsg-5"
+      ]
+    },
+    {
+      "title": "libldap-2.4-2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.4.42+dfsg-2ubuntu3.1"
+      ]
+    },
+    {
+      "title": "liblocale-gettext-perl",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.07-1build1"
+      ]
+    },
+    {
+      "title": "liblvm2app2.2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.02.133-1ubuntu10"
+      ]
+    },
+    {
+      "title": "liblvm2cmd2.02",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.02.133-1ubuntu10"
+      ]
+    },
+    {
+      "title": "liblwres141",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:9.10.3.dfsg.P4-8ubuntu1"
+      ]
+    },
+    {
+      "title": "liblz4-1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.0~r131-2ubuntu2"
+      ]
+    },
+    {
+      "title": "liblzma5",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.1.1alpha+20120614-2ubuntu2"
+      ]
+    },
+    {
+      "title": "libmagic1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:5.25-2ubuntu1"
+      ]
+    },
+    {
+      "title": "libmnl0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.0.3-5"
+      ]
+    },
+    {
+      "title": "libmount1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.27.1-6ubuntu3"
+      ]
+    },
+    {
+      "title": "libmpc3",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.0.3-1"
+      ]
+    },
+    {
+      "title": "libmpdec2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.4.2-1"
+      ]
+    },
+    {
+      "title": "libmpfr4",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.1.4-1"
+      ]
+    },
+    {
+      "title": "libmpx0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.1-14ubuntu2.1"
+      ]
+    },
+    {
+      "title": "libncurses5",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "6.0+20160213-1ubuntu1"
+      ]
+    },
+    {
+      "title": "libncursesw5",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "6.0+20160213-1ubuntu1"
+      ]
+    },
+    {
+      "title": "libnettle6",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.2-1"
+      ]
+    },
+    {
+      "title": "libnewt0.52",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.52.18-1ubuntu2"
+      ]
+    },
+    {
+      "title": "libnfnetlink0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.0.1-3"
+      ]
+    },
+    {
+      "title": "libnfsidmap2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.25-5"
+      ]
+    },
+    {
+      "title": "libnih1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.0.3-4.3ubuntu1"
+      ]
+    },
+    {
+      "title": "libnl-3-200",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.2.27-1"
+      ]
+    },
+    {
+      "title": "libnl-genl-3-200",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.2.27-1"
+      ]
+    },
+    {
+      "title": "libnuma1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.0.11-1ubuntu1"
+      ]
+    },
+    {
+      "title": "libopts25",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:5.18.7-3"
+      ]
+    },
+    {
+      "title": "libp11-kit0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.23.2-3"
+      ]
+    },
+    {
+      "title": "libpam-modules",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.1.8-3.2ubuntu2"
+      ]
+    },
+    {
+      "title": "libpam-modules-bin",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.1.8-3.2ubuntu2"
+      ]
+    },
+    {
+      "title": "libpam-runtime",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.1.8-3.2ubuntu2"
+      ]
+    },
+    {
+      "title": "libpam-systemd",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "229-4ubuntu6"
+      ]
+    },
+    {
+      "title": "libpam0g",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.1.8-3.2ubuntu2"
+      ]
+    },
+    {
+      "title": "libparted2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.2-15"
+      ]
+    },
+    {
+      "title": "libpcap0.8",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.7.4-2"
+      ]
+    },
+    {
+      "title": "libpci3",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:3.3.1-1.1ubuntu1"
+      ]
+    },
+    {
+      "title": "libpcre3",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:8.38-3.1"
+      ]
+    },
+    {
+      "title": "libperl5.22",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.22.1-9"
+      ]
+    },
+    {
+      "title": "libpipeline1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.4.1-2"
+      ]
+    },
+    {
+      "title": "libplymouth4",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.9.2-3ubuntu13.1"
+      ]
+    },
+    {
+      "title": "libpng12-0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.2.54-1ubuntu1"
+      ]
+    },
+    {
+      "title": "libpolkit-gobject-1-0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.105-14.1"
+      ]
+    },
+    {
+      "title": "libpopt0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.16-10"
+      ]
+    },
+    {
+      "title": "libprocps4",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:3.3.10-4ubuntu2"
+      ]
+    },
+    {
+      "title": "libpython-stdlib",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.7.11-1"
+      ]
+    },
+    {
+      "title": "libpython2.7-minimal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.7.11-7ubuntu1"
+      ]
+    },
+    {
+      "title": "libpython2.7-stdlib",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.7.11-7ubuntu1"
+      ]
+    },
+    {
+      "title": "libpython3-stdlib",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.5.1-3"
+      ]
+    },
+    {
+      "title": "libpython3.5-minimal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.5.1-10"
+      ]
+    },
+    {
+      "title": "libpython3.5-stdlib",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.5.1-10"
+      ]
+    },
+    {
+      "title": "libquadmath0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.1-14ubuntu2.1"
+      ]
+    },
+    {
+      "title": "libreadline5",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.2+dfsg-3build1"
+      ]
+    },
+    {
+      "title": "libreadline6",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "6.3-8ubuntu2"
+      ]
+    },
+    {
+      "title": "libroken18-heimdal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.7~git20150920+dfsg-4ubuntu1"
+      ]
+    },
+    {
+      "title": "librtmp1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.4+20151223.gitfa8646d-1build1"
+      ]
+    },
+    {
+      "title": "libsasl2-2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.1.26.dfsg1-14build1"
+      ]
+    },
+    {
+      "title": "libsasl2-modules",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.1.26.dfsg1-14build1"
+      ]
+    },
+    {
+      "title": "libsasl2-modules-db",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.1.26.dfsg1-14build1"
+      ]
+    },
+    {
+      "title": "libseccomp2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.2.3-3ubuntu3"
+      ]
+    },
+    {
+      "title": "libselinux1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.4-3build2"
+      ]
+    },
+    {
+      "title": "libsemanage-common",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.3-1build3"
+      ]
+    },
+    {
+      "title": "libsemanage1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.3-1build3"
+      ]
+    },
+    {
+      "title": "libsepol1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.4-2"
+      ]
+    },
+    {
+      "title": "libslang2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.3.0-2ubuntu1"
+      ]
+    },
+    {
+      "title": "libsmartcols1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.27.1-6ubuntu3"
+      ]
+    },
+    {
+      "title": "libsqlite3-0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.11.0-1ubuntu1"
+      ]
+    },
+    {
+      "title": "libss2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.42.13-1ubuntu1"
+      ]
+    },
+    {
+      "title": "libssl1.0.0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.0.2g-1ubuntu4.1"
+      ]
+    },
+    {
+      "title": "libstdc++6",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.1-14ubuntu2.1"
+      ]
+    },
+    {
+      "title": "libsystemd0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "229-4ubuntu6"
+      ]
+    },
+    {
+      "title": "libtasn1-6",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.7-3ubuntu0.16.04.1"
+      ]
+    },
+    {
+      "title": "libtext-charwidth-perl",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.04-7build5"
+      ]
+    },
+    {
+      "title": "libtext-iconv-perl",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.7-5build4"
+      ]
+    },
+    {
+      "title": "libtext-wrapi18n-perl",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.06-7.1"
+      ]
+    },
+    {
+      "title": "libtinfo5",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "6.0+20160213-1ubuntu1"
+      ]
+    },
+    {
+      "title": "libtirpc1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.2.5-1"
+      ]
+    },
+    {
+      "title": "libubsan0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3.1-14ubuntu2.1"
+      ]
+    },
+    {
+      "title": "libudev1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "229-4ubuntu6"
+      ]
+    },
+    {
+      "title": "libusb-0.1-4",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:0.1.12-28"
+      ]
+    },
+    {
+      "title": "libusb-1.0-0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:1.0.20-1"
+      ]
+    },
+    {
+      "title": "libustr-1.0-1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.0.4-5"
+      ]
+    },
+    {
+      "title": "libuuid1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.27.1-6ubuntu3"
+      ]
+    },
+    {
+      "title": "libwind0-heimdal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.7~git20150920+dfsg-4ubuntu1"
+      ]
+    },
+    {
+      "title": "libwrap0",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "7.6.q-25"
+      ]
+    },
+    {
+      "title": "libx11-6",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:1.6.3-1ubuntu2"
+      ]
+    },
+    {
+      "title": "libx11-data",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:1.6.3-1ubuntu2"
+      ]
+    },
+    {
+      "title": "libxau6",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:1.0.8-1"
+      ]
+    },
+    {
+      "title": "libxcb1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.11.1-1ubuntu1"
+      ]
+    },
+    {
+      "title": "libxdmcp6",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:1.1.2-1.1"
+      ]
+    },
+    {
+      "title": "libxext6",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:1.3.3-1"
+      ]
+    },
+    {
+      "title": "libxml2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.9.3+dfsg1-1"
+      ]
+    },
+    {
+      "title": "libxmuu1",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:1.1.2-2"
+      ]
+    },
+    {
+      "title": "libxtables11",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.6.0-2ubuntu3"
+      ]
+    },
+    {
+      "title": "linux-base",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.0ubuntu1"
+      ]
+    },
+    {
+      "title": "linux-firmware",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.157"
+      ]
+    },
+    {
+      "title": "linux-generic",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.4.0.21.22"
+      ]
+    },
+    {
+      "title": "linux-headers-4.4.0-21",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.4.0-21.37"
+      ]
+    },
+    {
+      "title": "linux-headers-4.4.0-21-generic",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.4.0-21.37"
+      ]
+    },
+    {
+      "title": "linux-headers-generic",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.4.0.21.22"
+      ]
+    },
+    {
+      "title": "linux-image-4.4.0-21-generic",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.4.0-21.37"
+      ]
+    },
+    {
+      "title": "linux-image-extra-4.4.0-21-generic",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.4.0-21.37"
+      ]
+    },
+    {
+      "title": "linux-image-generic",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.4.0.21.22"
+      ]
+    },
+    {
+      "title": "linux-libc-dev",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.4.0-22.40"
+      ]
+    },
+    {
+      "title": "locales",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.23-0ubuntu3"
+      ]
+    },
+    {
+      "title": "login",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:4.2-3.1ubuntu5"
+      ]
+    },
+    {
+      "title": "logrotate",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.8.7-2ubuntu2"
+      ]
+    },
+    {
+      "title": "lsb-base",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "9.20160110"
+      ]
+    },
+    {
+      "title": "lsb-release",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "9.20160110"
+      ]
+    },
+    {
+      "title": "lshw",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "02.17-1.1ubuntu3"
+      ]
+    },
+    {
+      "title": "lsof",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.89+dfsg-0.1"
+      ]
+    },
+    {
+      "title": "ltrace",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.7.3-5.1ubuntu4"
+      ]
+    },
+    {
+      "title": "lvm2",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.02.133-1ubuntu10"
+      ]
+    },
+    {
+      "title": "make",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.1-6"
+      ]
+    },
+    {
+      "title": "makedev",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.3.1-93ubuntu1"
+      ]
+    },
+    {
+      "title": "man-db",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.7.5-1"
+      ]
+    },
+    {
+      "title": "manpages",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.04-2"
+      ]
+    },
+    {
+      "title": "manpages-dev",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.04-2"
+      ]
+    },
+    {
+      "title": "mawk",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.3.3-17ubuntu2"
+      ]
+    },
+    {
+      "title": "mime-support",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.59ubuntu1"
+      ]
+    },
+    {
+      "title": "mlocate",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.26-1ubuntu2"
+      ]
+    },
+    {
+      "title": "mount",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.27.1-6ubuntu3"
+      ]
+    },
+    {
+      "title": "mtr-tiny",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.86-1"
+      ]
+    },
+    {
+      "title": "multiarch-support",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.23-0ubuntu3"
+      ]
+    },
+    {
+      "title": "nano",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.5.3-2"
+      ]
+    },
+    {
+      "title": "ncurses-base",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "6.0+20160213-1ubuntu1"
+      ]
+    },
+    {
+      "title": "ncurses-bin",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "6.0+20160213-1ubuntu1"
+      ]
+    },
+    {
+      "title": "ncurses-term",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "6.0+20160213-1ubuntu1"
+      ]
+    },
+    {
+      "title": "net-tools",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.60-26ubuntu1"
+      ]
+    },
+    {
+      "title": "netbase",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.3"
+      ]
+    },
+    {
+      "title": "netcat-openbsd",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.105-7ubuntu1"
+      ]
+    },
+    {
+      "title": "nfs-common",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:1.2.8-9ubuntu12"
+      ]
+    },
+    {
+      "title": "ntfs-3g",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:2015.3.14AR.1-1build1"
+      ]
+    },
+    {
+      "title": "ntp",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:4.2.8p4+dfsg-3ubuntu5"
+      ]
+    },
+    {
+      "title": "openssh-client",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:7.2p2-4ubuntu1"
+      ]
+    },
+    {
+      "title": "openssh-server",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:7.2p2-4ubuntu1"
+      ]
+    },
+    {
+      "title": "openssh-sftp-server",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:7.2p2-4ubuntu1"
+      ]
+    },
+    {
+      "title": "openssl",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.0.2g-1ubuntu4.1"
+      ]
+    },
+    {
+      "title": "os-prober",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.70ubuntu3"
+      ]
+    },
+    {
+      "title": "parted",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.2-15"
+      ]
+    },
+    {
+      "title": "passwd",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:4.2-3.1ubuntu5"
+      ]
+    },
+    {
+      "title": "pciutils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:3.3.1-1.1ubuntu1"
+      ]
+    },
+    {
+      "title": "perl",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.22.1-9"
+      ]
+    },
+    {
+      "title": "perl-base",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.22.1-9"
+      ]
+    },
+    {
+      "title": "perl-modules-5.22",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.22.1-9"
+      ]
+    },
+    {
+      "title": "plymouth",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.9.2-3ubuntu13.1"
+      ]
+    },
+    {
+      "title": "plymouth-theme-ubuntu-text",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.9.2-3ubuntu13.1"
+      ]
+    },
+    {
+      "title": "popularity-contest",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.64ubuntu2"
+      ]
+    },
+    {
+      "title": "powermgmt-base",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.31+nmu1"
+      ]
+    },
+    {
+      "title": "procps",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:3.3.10-4ubuntu2"
+      ]
+    },
+    {
+      "title": "psmisc",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "22.21-2.1build1"
+      ]
+    },
+    {
+      "title": "puppet-agent",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.5.1-1xenial"
+      ]
+    },
+    {
+      "title": "python",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.7.11-1"
+      ]
+    },
+    {
+      "title": "python-apt-common",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.1.0~beta1build1"
+      ]
+    },
+    {
+      "title": "python-minimal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.7.11-1"
+      ]
+    },
+    {
+      "title": "python2.7",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.7.11-7ubuntu1"
+      ]
+    },
+    {
+      "title": "python2.7-minimal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.7.11-7ubuntu1"
+      ]
+    },
+    {
+      "title": "python3",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.5.1-3"
+      ]
+    },
+    {
+      "title": "python3-apt",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.1.0~beta1build1"
+      ]
+    },
+    {
+      "title": "python3-chardet",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.3.0-2"
+      ]
+    },
+    {
+      "title": "python3-commandnotfound",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.3ubuntu16.04.1"
+      ]
+    },
+    {
+      "title": "python3-dbus",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.2.0-3"
+      ]
+    },
+    {
+      "title": "python3-distupgrade",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:16.04.14"
+      ]
+    },
+    {
+      "title": "python3-gdbm",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.5.1-1"
+      ]
+    },
+    {
+      "title": "python3-gi",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.20.0-0ubuntu1"
+      ]
+    },
+    {
+      "title": "python3-minimal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.5.1-3"
+      ]
+    },
+    {
+      "title": "python3-pkg-resources",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "20.7.0-1"
+      ]
+    },
+    {
+      "title": "python3-requests",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.9.1-3"
+      ]
+    },
+    {
+      "title": "python3-six",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.10.0-3"
+      ]
+    },
+    {
+      "title": "python3-update-manager",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:16.04.3"
+      ]
+    },
+    {
+      "title": "python3-urllib3",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.13.1-2ubuntu0.16.04.1"
+      ]
+    },
+    {
+      "title": "python3.5",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.5.1-10"
+      ]
+    },
+    {
+      "title": "python3.5-minimal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.5.1-10"
+      ]
+    },
+    {
+      "title": "readline-common",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "6.3-8ubuntu2"
+      ]
+    },
+    {
+      "title": "rename",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.20-4"
+      ]
+    },
+    {
+      "title": "resolvconf",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.78ubuntu2"
+      ]
+    },
+    {
+      "title": "rpcbind",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.2.3-0.2"
+      ]
+    },
+    {
+      "title": "rsync",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.1.1-3ubuntu1"
+      ]
+    },
+    {
+      "title": "rsyslog",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "8.16.0-1ubuntu3"
+      ]
+    },
+    {
+      "title": "sed",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.2.2-7"
+      ]
+    },
+    {
+      "title": "sensible-utils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.0.9"
+      ]
+    },
+    {
+      "title": "sgml-base",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.26+nmu4ubuntu1"
+      ]
+    },
+    {
+      "title": "shared-mime-info",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.5-2"
+      ]
+    },
+    {
+      "title": "ssh-import-id",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "5.5-0ubuntu1"
+      ]
+    },
+    {
+      "title": "strace",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.11-1ubuntu3"
+      ]
+    },
+    {
+      "title": "sudo",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.8.16-0ubuntu1.1"
+      ]
+    },
+    {
+      "title": "systemd",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "229-4ubuntu6"
+      ]
+    },
+    {
+      "title": "systemd-sysv",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "229-4ubuntu6"
+      ]
+    },
+    {
+      "title": "sysv-rc",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.88dsf-59.3ubuntu2"
+      ]
+    },
+    {
+      "title": "sysvinit-utils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.88dsf-59.3ubuntu2"
+      ]
+    },
+    {
+      "title": "tar",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.28-2.1"
+      ]
+    },
+    {
+      "title": "tasksel",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.34ubuntu3"
+      ]
+    },
+    {
+      "title": "tasksel-data",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.34ubuntu3"
+      ]
+    },
+    {
+      "title": "tcpd",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "7.6.q-25"
+      ]
+    },
+    {
+      "title": "tcpdump",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "4.7.4-1ubuntu1"
+      ]
+    },
+    {
+      "title": "telnet",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.17-40"
+      ]
+    },
+    {
+      "title": "time",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.7-25.1"
+      ]
+    },
+    {
+      "title": "tzdata",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2016d-0ubuntu0.16.04"
+      ]
+    },
+    {
+      "title": "ubuntu-keyring",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2012.05.19"
+      ]
+    },
+    {
+      "title": "ubuntu-minimal",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.361"
+      ]
+    },
+    {
+      "title": "ubuntu-release-upgrader-core",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:16.04.14"
+      ]
+    },
+    {
+      "title": "ubuntu-standard",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.361"
+      ]
+    },
+    {
+      "title": "ucf",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "3.0036"
+      ]
+    },
+    {
+      "title": "udev",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "229-4ubuntu6"
+      ]
+    },
+    {
+      "title": "ufw",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.35-0ubuntu2"
+      ]
+    },
+    {
+      "title": "update-manager-core",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:16.04.3"
+      ]
+    },
+    {
+      "title": "ureadahead",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.100.0-19"
+      ]
+    },
+    {
+      "title": "usbutils",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:007-4"
+      ]
+    },
+    {
+      "title": "util-linux",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.27.1-6ubuntu3"
+      ]
+    },
+    {
+      "title": "uuid-runtime",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.27.1-6ubuntu3"
+      ]
+    },
+    {
+      "title": "vim-common",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:7.4.1689-3ubuntu1"
+      ]
+    },
+    {
+      "title": "vim-tiny",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2:7.4.1689-3ubuntu1"
+      ]
+    },
+    {
+      "title": "wget",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1.17.1-1ubuntu1"
+      ]
+    },
+    {
+      "title": "whiptail",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.52.18-1ubuntu2"
+      ]
+    },
+    {
+      "title": "wireless-regdb",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2015.07.20-1ubuntu1"
+      ]
+    },
+    {
+      "title": "xauth",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:1.0.9-1ubuntu2"
+      ]
+    },
+    {
+      "title": "xdg-user-dirs",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.15-2ubuntu6"
+      ]
+    },
+    {
+      "title": "xkb-data",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "2.16-1ubuntu1"
+      ]
+    },
+    {
+      "title": "xml-core",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "0.13+nmu2"
+      ]
+    },
+    {
+      "title": "zlib1g",
+      "resource": "package",
+      "provider": "apt",
+      "versions": [
+        "1:1.2.8.dfsg-2ubuntu4"
+      ]
+    },
+    {
+      "title": "bigdecimal",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "1.2.4"
+      ]
+    },
+    {
+      "title": "deep_merge",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "1.0.1"
+      ]
+    },
+    {
+      "title": "facter",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "3.2.0"
+      ]
+    },
+    {
+      "title": "hiera",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "3.2.0"
+      ]
+    },
+    {
+      "title": "hocon",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "0.9.3"
+      ]
+    },
+    {
+      "title": "io-console",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "0.4.3"
+      ]
+    },
+    {
+      "title": "json",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "1.8.1"
+      ]
+    },
+    {
+      "title": "minitest",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "4.7.5"
+      ]
+    },
+    {
+      "title": "net-ssh",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "2.9.2"
+      ]
+    },
+    {
+      "title": "psych",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "2.0.5"
+      ]
+    },
+    {
+      "title": "puppet",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "4.5.1"
+      ]
+    },
+    {
+      "title": "rake",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "10.1.0"
+      ]
+    },
+    {
+      "title": "rdoc",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "4.1.0"
+      ]
+    },
+    {
+      "title": "semantic_puppet",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "0.1.2"
+      ]
+    },
+    {
+      "title": "stomp",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "1.3.3"
+      ]
+    },
+    {
+      "title": "test-unit",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "2.1.9.0"
+      ]
+    },
+    {
+      "title": "accounts-daemon.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "autovt@.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "bootlogd.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "bootlogs.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "bootmisc.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "checkfs.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "checkroot-bootclean.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "checkroot.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "console-getty.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "console-shell.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "cron.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "cryptdisks-early.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "cryptdisks.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "dbus-org.freedesktop.network1.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "dbus-org.freedesktop.resolve1.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "debug-shell.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "dm-event.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "friendly-recovery.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "fuse.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "getty@.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "halt.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "hostname.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "hwclock.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "idmapd.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "killprocs.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "lvm2-lvmetad.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "lvm2-lvmpolld.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "lvm2-monitor.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "lvm2.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "mcollective.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "motd.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "mountall-bootclean.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "mountall.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "mountdevsubfs.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "mountkernfs.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "mountnfs-bootclean.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "mountnfs.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "networking.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "puppet.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "pxp-agent.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "rc.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "rcS.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "reboot.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "resolvconf.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "rmnologin.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "rpc-statd-notify.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "rpc-statd.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "rsync.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "rsyslog.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "sendsigs.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "serial-getty@.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "single.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "ssh.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "sshd.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "stop-bootlogd-single.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "stop-bootlogd.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "syslog.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "systemd-bootchart.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "systemd-networkd-wait-online.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "systemd-networkd.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "systemd-resolved.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "systemd-timesyncd.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "ufw.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "umountfs.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "umountnfs.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "umountroot.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "ureadahead.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "vboxadd-service.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "vboxadd-x11.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "vboxadd.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "x11-common.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "console-setup",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "killprocs",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "debian"
+    },
+    {
+      "title": "grub-common",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "urandom",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "networking",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "umountroot",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "debian"
+    },
+    {
+      "title": "umountfs",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "debian"
+    },
+    {
+      "title": "sendsigs",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "debian"
+    },
+    {
+      "title": "checkroot.sh",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "udev",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "checkfs.sh",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "ntp",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "apparmor",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "resolvconf",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "rsyslog",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "bootmisc.sh",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "mountdevsubfs.sh",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "umountnfs.sh",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "debian"
+    },
+    {
+      "title": "mountall-bootclean.sh",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "mountnfs.sh",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "rpcbind",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "checkroot-bootclean.sh",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "ssh",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "ondemand",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "ufw",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "irqbalance",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "rc",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "debian"
+    },
+    {
+      "title": "dbus",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "mountnfs-bootclean.sh",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "lvm2-lvmetad",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "hostname.sh",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "kmod",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "cron",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "uuidd",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "plymouth-log",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "mountall.sh",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "rsync",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "lvm2",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "plymouth",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "hwclock.sh",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "lvm2-lvmpolld",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "procps",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "rc.local",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "mountkernfs.sh",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "debian"
+    },
+    {
+      "title": "root",
+      "resource": "group",
+      "gid": 0
+    },
+    {
+      "title": "daemon",
+      "resource": "group",
+      "gid": 1
+    },
+    {
+      "title": "bin",
+      "resource": "group",
+      "gid": 2
+    },
+    {
+      "title": "sys",
+      "resource": "group",
+      "gid": 3
+    },
+    {
+      "title": "adm",
+      "resource": "group",
+      "gid": 4
+    },
+    {
+      "title": "tty",
+      "resource": "group",
+      "gid": 5
+    },
+    {
+      "title": "disk",
+      "resource": "group",
+      "gid": 6
+    },
+    {
+      "title": "lp",
+      "resource": "group",
+      "gid": 7
+    },
+    {
+      "title": "mail",
+      "resource": "group",
+      "gid": 8
+    },
+    {
+      "title": "news",
+      "resource": "group",
+      "gid": 9
+    },
+    {
+      "title": "uucp",
+      "resource": "group",
+      "gid": 10
+    },
+    {
+      "title": "man",
+      "resource": "group",
+      "gid": 12
+    },
+    {
+      "title": "proxy",
+      "resource": "group",
+      "gid": 13
+    },
+    {
+      "title": "kmem",
+      "resource": "group",
+      "gid": 15
+    },
+    {
+      "title": "dialout",
+      "resource": "group",
+      "gid": 20
+    },
+    {
+      "title": "fax",
+      "resource": "group",
+      "gid": 21
+    },
+    {
+      "title": "voice",
+      "resource": "group",
+      "gid": 22
+    },
+    {
+      "title": "cdrom",
+      "resource": "group",
+      "gid": 24
+    },
+    {
+      "title": "floppy",
+      "resource": "group",
+      "gid": 25
+    },
+    {
+      "title": "tape",
+      "resource": "group",
+      "gid": 26
+    },
+    {
+      "title": "sudo",
+      "resource": "group",
+      "gid": 27
+    },
+    {
+      "title": "audio",
+      "resource": "group",
+      "gid": 29
+    },
+    {
+      "title": "dip",
+      "resource": "group",
+      "gid": 30
+    },
+    {
+      "title": "www-data",
+      "resource": "group",
+      "gid": 33
+    },
+    {
+      "title": "backup",
+      "resource": "group",
+      "gid": 34
+    },
+    {
+      "title": "operator",
+      "resource": "group",
+      "gid": 37
+    },
+    {
+      "title": "list",
+      "resource": "group",
+      "gid": 38
+    },
+    {
+      "title": "irc",
+      "resource": "group",
+      "gid": 39
+    },
+    {
+      "title": "src",
+      "resource": "group",
+      "gid": 40
+    },
+    {
+      "title": "gnats",
+      "resource": "group",
+      "gid": 41
+    },
+    {
+      "title": "shadow",
+      "resource": "group",
+      "gid": 42
+    },
+    {
+      "title": "utmp",
+      "resource": "group",
+      "gid": 43
+    },
+    {
+      "title": "video",
+      "resource": "group",
+      "gid": 44
+    },
+    {
+      "title": "sasl",
+      "resource": "group",
+      "gid": 45
+    },
+    {
+      "title": "plugdev",
+      "resource": "group",
+      "gid": 46
+    },
+    {
+      "title": "staff",
+      "resource": "group",
+      "gid": 50
+    },
+    {
+      "title": "games",
+      "resource": "group",
+      "gid": 60
+    },
+    {
+      "title": "users",
+      "resource": "group",
+      "gid": 100
+    },
+    {
+      "title": "nogroup",
+      "resource": "group",
+      "gid": 65534
+    },
+    {
+      "title": "systemd-journal",
+      "resource": "group",
+      "gid": 101
+    },
+    {
+      "title": "systemd-timesync",
+      "resource": "group",
+      "gid": 102
+    },
+    {
+      "title": "systemd-network",
+      "resource": "group",
+      "gid": 103
+    },
+    {
+      "title": "systemd-resolve",
+      "resource": "group",
+      "gid": 104
+    },
+    {
+      "title": "systemd-bus-proxy",
+      "resource": "group",
+      "gid": 105
+    },
+    {
+      "title": "input",
+      "resource": "group",
+      "gid": 106
+    },
+    {
+      "title": "crontab",
+      "resource": "group",
+      "gid": 107
+    },
+    {
+      "title": "syslog",
+      "resource": "group",
+      "gid": 108
+    },
+    {
+      "title": "netdev",
+      "resource": "group",
+      "gid": 109
+    },
+    {
+      "title": "messagebus",
+      "resource": "group",
+      "gid": 110
+    },
+    {
+      "title": "uuidd",
+      "resource": "group",
+      "gid": 111
+    },
+    {
+      "title": "mlocate",
+      "resource": "group",
+      "gid": 112
+    },
+    {
+      "title": "ssh",
+      "resource": "group",
+      "gid": 113
+    },
+    {
+      "title": "ntp",
+      "resource": "group",
+      "gid": 114
+    },
+    {
+      "title": "vboxsf",
+      "resource": "group",
+      "gid": 999
+    },
+    {
+      "title": "vagrant",
+      "resource": "group",
+      "gid": 1000
+    }
+  ],
+  "facts": {
+    "aio_agent_version": "1.5.1",
+    "architecture": "i386",
+    "augeas": {
+      "version": "1.4.0"
+    },
+    "augeasversion": "1.4.0",
+    "bios_release_date": "12/01/2006",
+    "bios_vendor": "innotek GmbH",
+    "bios_version": "VirtualBox",
+    "blockdevice_sda_model": "VBOX HARDDISK",
+    "blockdevice_sda_size": 0,
+    "blockdevice_sda_vendor": "ATA",
+    "blockdevices": "sda",
+    "boardmanufacturer": "Oracle Corporation",
+    "boardproductname": "VirtualBox",
+    "boardserialnumber": "0",
+    "chassistype": "Other",
+    "dhcp_servers": {
+      "enp0s3": "10.0.2.2",
+      "system": "10.0.2.2"
+    },
+    "disks": {
+      "sda": {
+        "model": "VBOX HARDDISK",
+        "size": "20.00 GiB",
+        "size_bytes": 0,
+        "vendor": "ATA"
+      }
+    },
+    "dmi": {
+      "bios": {
+        "release_date": "12/01/2006",
+        "vendor": "innotek GmbH",
+        "version": "VirtualBox"
+      },
+      "board": {
+        "manufacturer": "Oracle Corporation",
+        "product": "VirtualBox",
+        "serial_number": "0"
+      },
+      "chassis": {
+        "type": "Other"
+      },
+      "manufacturer": "innotek GmbH",
+      "product": {
+        "name": "VirtualBox",
+        "serial_number": "0",
+        "uuid": "D4E5CAAC-CECF-4568-A8A2-A9265EFE5ABA"
+      }
+    },
+    "domain": "home",
+    "facterversion": "3.2.0",
+    "filesystems": "ext2,ext3,ext4,vfat",
+    "fqdn": "localhost.home",
+    "gid": "root",
+    "hardwareisa": "i686",
+    "hardwaremodel": "i686",
+    "hostname": "localhost",
+    "id": "root",
+    "identity": {
+      "gid": 0,
+      "group": "root",
+      "uid": 0,
+      "user": "root"
+    },
+    "interfaces": "enp0s3,lo",
+    "ipaddress": "10.0.2.15",
+    "ipaddress6": "fe80::a00:27ff:fef0:82d6",
+    "ipaddress6_enp0s3": "fe80::a00:27ff:fef0:82d6",
+    "ipaddress6_lo": "::1",
+    "ipaddress_enp0s3": "10.0.2.15",
+    "ipaddress_lo": "127.0.0.1",
+    "is_virtual": true,
+    "kernel": "Linux",
+    "kernelmajversion": "4.4",
+    "kernelrelease": "4.4.0-21-generic",
+    "kernelversion": "4.4.0",
+    "load_averages": {
+      "15m": 0.08,
+      "1m": 0.94,
+      "5m": 0.24
+    },
+    "lsbdistcodename": "xenial",
+    "lsbdistdescription": "Ubuntu 16.04 LTS",
+    "lsbdistid": "Ubuntu",
+    "lsbdistrelease": "16.04",
+    "lsbmajdistrelease": "16.04",
+    "macaddress": "08:00:27:f0:82:d6",
+    "macaddress_enp0s3": "08:00:27:f0:82:d6",
+    "manufacturer": "innotek GmbH",
+    "memory": {
+      "swap": {
+        "available": "512.00 MiB",
+        "available_bytes": 536866816,
+        "capacity": "0%",
+        "total": "512.00 MiB",
+        "total_bytes": 536866816,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "system": {
+        "available": "381.79 MiB",
+        "available_bytes": 400338944,
+        "capacity": "22.65%",
+        "total": "493.59 MiB",
+        "total_bytes": 517562368,
+        "used": "111.79 MiB",
+        "used_bytes": 117223424
+      }
+    },
+    "memoryfree": "381.79 MiB",
+    "memoryfree_mb": 381.79296875,
+    "memorysize": "493.59 MiB",
+    "memorysize_mb": 493.5859375,
+    "mountpoints": {
+      "/": {
+        "available": "1.33 GiB",
+        "available_bytes": 1425960960,
+        "capacity": "48.83%",
+        "device": "/dev/mapper/localhost--vg-root",
+        "filesystem": "ext4",
+        "options": [
+          "rw",
+          "relatime",
+          "errors=remount-ro",
+          "data=ordered"
+        ],
+        "size": "2.60 GiB",
+        "size_bytes": -1507987456,
+        "used": "1.27 GiB",
+        "used_bytes": 1361018880
+      },
+      "/boot": {
+        "available": "421.03 MiB",
+        "available_bytes": 441484288,
+        "capacity": "10.72%",
+        "device": "/dev/sda1",
+        "filesystem": "ext2",
+        "options": [
+          "rw",
+          "relatime",
+          "block_validity",
+          "barrier",
+          "user_xattr",
+          "acl"
+        ],
+        "size": "471.60 MiB",
+        "size_bytes": 494512128,
+        "used": "50.57 MiB",
+        "used_bytes": 53027840
+      }
+    },
+    "mtu_enp0s3": 1500,
+    "mtu_lo": 65536,
+    "netmask": "255.255.255.0",
+    "netmask6": "ffff:ffff:ffff:ffff::",
+    "netmask6_enp0s3": "ffff:ffff:ffff:ffff::",
+    "netmask6_lo": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+    "netmask_enp0s3": "255.255.255.0",
+    "netmask_lo": "255.0.0.0",
+    "network": "10.0.2.0",
+    "network6": "fe80::",
+    "network6_enp0s3": "fe80::",
+    "network6_lo": "::1",
+    "network_enp0s3": "10.0.2.0",
+    "network_lo": "127.0.0.0",
+    "networking": {
+      "dhcp": "10.0.2.2",
+      "domain": "home",
+      "fqdn": "localhost.home",
+      "hostname": "localhost",
+      "interfaces": {
+        "enp0s3": {
+          "bindings": [
+            {
+              "address": "10.0.2.15",
+              "netmask": "255.255.255.0",
+              "network": "10.0.2.0"
+            }
+          ],
+          "bindings6": [
+            {
+              "address": "fe80::a00:27ff:fef0:82d6",
+              "netmask": "ffff:ffff:ffff:ffff::",
+              "network": "fe80::"
+            }
+          ],
+          "dhcp": "10.0.2.2",
+          "ip": "10.0.2.15",
+          "ip6": "fe80::a00:27ff:fef0:82d6",
+          "mac": "08:00:27:f0:82:d6",
+          "mtu": 1500,
+          "netmask": "255.255.255.0",
+          "netmask6": "ffff:ffff:ffff:ffff::",
+          "network": "10.0.2.0",
+          "network6": "fe80::"
+        },
+        "lo": {
+          "bindings": [
+            {
+              "address": "127.0.0.1",
+              "netmask": "255.0.0.0",
+              "network": "127.0.0.0"
+            }
+          ],
+          "bindings6": [
+            {
+              "address": "::1",
+              "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+              "network": "::1"
+            }
+          ],
+          "ip": "127.0.0.1",
+          "ip6": "::1",
+          "mtu": 65536,
+          "netmask": "255.0.0.0",
+          "netmask6": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+          "network": "127.0.0.0",
+          "network6": "::1"
+        }
+      },
+      "ip": "10.0.2.15",
+      "ip6": "fe80::a00:27ff:fef0:82d6",
+      "mac": "08:00:27:f0:82:d6",
+      "mtu": 1500,
+      "netmask": "255.255.255.0",
+      "netmask6": "ffff:ffff:ffff:ffff::",
+      "network": "10.0.2.0",
+      "network6": "fe80::",
+      "primary": "enp0s3"
+    },
+    "operatingsystem": "Ubuntu",
+    "operatingsystemmajrelease": "16.04",
+    "operatingsystemrelease": "16.04",
+    "os": {
+      "architecture": "i386",
+      "distro": {
+        "codename": "xenial",
+        "description": "Ubuntu 16.04 LTS",
+        "id": "Ubuntu",
+        "release": {
+          "full": "16.04",
+          "major": "16.04"
+        }
+      },
+      "family": "Debian",
+      "hardware": "i686",
+      "name": "Ubuntu",
+      "release": {
+        "full": "16.04",
+        "major": "16.04"
+      },
+      "selinux": {
+        "enabled": false
+      }
+    },
+    "osfamily": "Debian",
+    "partitions": {
+      "/dev/mapper/localhost--vg-root": {
+        "filesystem": "ext4",
+        "mount": "/",
+        "size": "19.02 GiB",
+        "size_bytes": -1052770304,
+        "uuid": "d92be3ce-17d5-4899-a840-03974c7e17a2"
+      },
+      "/dev/mapper/localhost--vg-swap_1": {
+        "filesystem": "swap",
+        "size": "512.00 MiB",
+        "size_bytes": 536870912,
+        "uuid": "26790b39-2389-4a37-8d12-946bf0d432b3"
+      },
+      "/dev/sda1": {
+        "filesystem": "ext2",
+        "mount": "/boot",
+        "partuuid": "cdc8eeaa-01",
+        "size": "487.00 MiB",
+        "size_bytes": 510656512,
+        "uuid": "670f4a23-0537-40b5-919d-b71a2d1a87ad"
+      },
+      "/dev/sda2": {
+        "size": "1.00 KiB",
+        "size_bytes": 1024
+      },
+      "/dev/sda5": {
+        "filesystem": "LVM2_member",
+        "partuuid": "cdc8eeaa-05",
+        "size": "19.52 GiB",
+        "size_bytes": -513802240,
+        "uuid": "T1TVaR-vllw-geKK-x1uW-l519-R3PY-ryq5xQ"
+      }
+    },
+    "path": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/puppetlabs/bin",
+    "physicalprocessorcount": 1,
+    "processor0": "Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz",
+    "processorcount": 1,
+    "processors": {
+      "count": 1,
+      "isa": "i686",
+      "models": [
+        "Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz"
+      ],
+      "physicalcount": 1
+    },
+    "productname": "VirtualBox",
+    "puppetversion": "4.5.1",
+    "ruby": {
+      "platform": "i686-linux",
+      "sitedir": "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.1.0",
+      "version": "2.1.9"
+    },
+    "rubyplatform": "i686-linux",
+    "rubysitedir": "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.1.0",
+    "rubyversion": "2.1.9",
+    "selinux": false,
+    "serialnumber": "0",
+    "ssh": {
+      "dsa": {
+        "fingerprints": {
+          "sha1": "SSHFP 2 1 165b40dadb3aeb45229303170c68d38f3788de42",
+          "sha256": "SSHFP 2 2 7346111bd14243bc90c4fa44c5bafdc2ecd43b329d7b2f2abcf9e5a53d8e8d84"
+        },
+        "key": "AAAAB3NzaC1kc3MAAACBAP+cK28LgA0SZsVngHzcZBqBFodTS0m/uM5kHhqNg6J54Cp66IMqAYz84TnU8TeuRApNQ32Jbi0TvpaGxd8xGHjVMeIMD9HWkisnuDNuhXBPi5y33YSIcq1ms9fUZBalEKPAnK+cANrtvYR7UsC6hj7T/oIS/P9CoLPlkC8lzDDTAAAAFQCs7fYbYkJhOu9GudLIdIK8T9gYowAAAIAXyn4BnAS/T7hRVEoEoAauJwFtcmcTweaCI+e4ATBZE3UUCW7qx2bavseWzmBzIwKZPi8KVyyxWWacgKnzQLGGeMUh/gs6IqZ8rql6uMg9KbTsGJiAeD7zz7JYRXNKLvv2Dc8LskqIDqHTMCL3nP8hP3hsI1CnU8qzw1T6bhV3TgAAAIA6LuF0KNTcqgCjmBRDdfIyRPdceAWMgQXLiOOpXQ3DExDav+g3EzeatU7vTSMWTvImOsoFPSe83i3+OFOQsPTJ44PXYopn8wWuW5FSqofjfyz7CpolidoaAdhZ1KXVlRiPBwk7O76Me9iwj3/KhzSjOYNn29REf9BsObtTkZcGCQ=="
+      },
+      "ecdsa": {
+        "fingerprints": {
+          "sha1": "SSHFP 3 1 7a16e9894d5cd269d6bb7745759ed54b4e37a67e",
+          "sha256": "SSHFP 3 2 7ac6a77f7c14dc4f3879c5af0c097937fd3d28565cdcaa9cdd57e9243c0b1b2e"
+        },
+        "key": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBqyege8LEOZGBaqJfVsTyHMSEAwb6spAs/lISRo6mw8mhM7bpjMKUKvN3QHTaMOms7d2AGA9x967gT7Dodbl7c="
+      },
+      "ed25519": {
+        "fingerprints": {
+          "sha1": "SSHFP 4 1 8c0a75115725fe5452094a6e92a7a2348e41af24",
+          "sha256": "SSHFP 4 2 bc54d7be2f4a2f39a39f32344a001fd4775e5d12856080b42a00f92be8bdaccd"
+        },
+        "key": "AAAAC3NzaC1lZDI1NTE5AAAAIOUtsF3s9R349TcZMFIM+XrWsPL5eXvVOqGhpZ7SB0dT"
+      },
+      "rsa": {
+        "fingerprints": {
+          "sha1": "SSHFP 1 1 6188b7d70cb6a11053b02b90ecb7d25a451491e3",
+          "sha256": "SSHFP 1 2 36720a0ad33c5a1d87f37db99b10ba3c49fcff30f2c1ce2149e6ba8da4fff17c"
+        },
+        "key": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDAq/wUeAF5W8eqQykPcNznlvAjsDZzpKS+fTCGzdpFapd5nlUJrqBwd5Q9675uGt3PLd0yDbCEdDB+TH+U9KhK+HXlKbuje/AO8tTqbFR9bbufvZcRIdnMhpz+GfYXxc348JWXouTwRonneQMSU+udYhm+lotq8Ldaa12pZy5jNCVdnc8Xgrtaun10nCtcaYASBiBUFb1FLpTkTsrBU0RBfuobhfG9/ADMy7ulm3v07X3c7Yv71W6h39/CsrVGH99mPGmPUGiOYXaORdpawX++LCa140l+dafCNcNkvraS9b6coTweEljg5daFDju9e9z7EOe4EVr+h6fnoRHCTVE5"
+      }
+    },
+    "sshdsakey": "AAAAB3NzaC1kc3MAAACBAP+cK28LgA0SZsVngHzcZBqBFodTS0m/uM5kHhqNg6J54Cp66IMqAYz84TnU8TeuRApNQ32Jbi0TvpaGxd8xGHjVMeIMD9HWkisnuDNuhXBPi5y33YSIcq1ms9fUZBalEKPAnK+cANrtvYR7UsC6hj7T/oIS/P9CoLPlkC8lzDDTAAAAFQCs7fYbYkJhOu9GudLIdIK8T9gYowAAAIAXyn4BnAS/T7hRVEoEoAauJwFtcmcTweaCI+e4ATBZE3UUCW7qx2bavseWzmBzIwKZPi8KVyyxWWacgKnzQLGGeMUh/gs6IqZ8rql6uMg9KbTsGJiAeD7zz7JYRXNKLvv2Dc8LskqIDqHTMCL3nP8hP3hsI1CnU8qzw1T6bhV3TgAAAIA6LuF0KNTcqgCjmBRDdfIyRPdceAWMgQXLiOOpXQ3DExDav+g3EzeatU7vTSMWTvImOsoFPSe83i3+OFOQsPTJ44PXYopn8wWuW5FSqofjfyz7CpolidoaAdhZ1KXVlRiPBwk7O76Me9iwj3/KhzSjOYNn29REf9BsObtTkZcGCQ==",
+    "sshecdsakey": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBBqyege8LEOZGBaqJfVsTyHMSEAwb6spAs/lISRo6mw8mhM7bpjMKUKvN3QHTaMOms7d2AGA9x967gT7Dodbl7c=",
+    "sshed25519key": "AAAAC3NzaC1lZDI1NTE5AAAAIOUtsF3s9R349TcZMFIM+XrWsPL5eXvVOqGhpZ7SB0dT",
+    "sshfp_dsa": "SSHFP 2 1 165b40dadb3aeb45229303170c68d38f3788de42\nSSHFP 2 2 7346111bd14243bc90c4fa44c5bafdc2ecd43b329d7b2f2abcf9e5a53d8e8d84",
+    "sshfp_ecdsa": "SSHFP 3 1 7a16e9894d5cd269d6bb7745759ed54b4e37a67e\nSSHFP 3 2 7ac6a77f7c14dc4f3879c5af0c097937fd3d28565cdcaa9cdd57e9243c0b1b2e",
+    "sshfp_ed25519": "SSHFP 4 1 8c0a75115725fe5452094a6e92a7a2348e41af24\nSSHFP 4 2 bc54d7be2f4a2f39a39f32344a001fd4775e5d12856080b42a00f92be8bdaccd",
+    "sshfp_rsa": "SSHFP 1 1 6188b7d70cb6a11053b02b90ecb7d25a451491e3\nSSHFP 1 2 36720a0ad33c5a1d87f37db99b10ba3c49fcff30f2c1ce2149e6ba8da4fff17c",
+    "sshrsakey": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDAq/wUeAF5W8eqQykPcNznlvAjsDZzpKS+fTCGzdpFapd5nlUJrqBwd5Q9675uGt3PLd0yDbCEdDB+TH+U9KhK+HXlKbuje/AO8tTqbFR9bbufvZcRIdnMhpz+GfYXxc348JWXouTwRonneQMSU+udYhm+lotq8Ldaa12pZy5jNCVdnc8Xgrtaun10nCtcaYASBiBUFb1FLpTkTsrBU0RBfuobhfG9/ADMy7ulm3v07X3c7Yv71W6h39/CsrVGH99mPGmPUGiOYXaORdpawX++LCa140l+dafCNcNkvraS9b6coTweEljg5daFDju9e9z7EOe4EVr+h6fnoRHCTVE5",
+    "swapfree": "512.00 MiB",
+    "swapfree_mb": 511.99609375,
+    "swapsize": "512.00 MiB",
+    "swapsize_mb": 511.99609375,
+    "system_uptime": {
+      "days": 0,
+      "hours": 0,
+      "seconds": 38,
+      "uptime": "0:00 hours"
+    },
+    "timezone": "PDT",
+    "uptime": "0:00 hours",
+    "uptime_days": 0,
+    "uptime_hours": 0,
+    "uptime_seconds": 38,
+    "uuid": "D4E5CAAC-CECF-4568-A8A2-A9265EFE5ABA",
+    "virtual": "virtualbox"
+  }
+}

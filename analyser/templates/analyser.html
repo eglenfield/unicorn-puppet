@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    {% load static %}
+
+    <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'js/analyser.js' %}"></script>
+
+
+        <head>
+            <meta charset="utf-8"/>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
+            <link rel="stylesheet" type="text/html" href="{% static 'analyser/bootstrap.css' %}">
+            <link rel="stylesheet" type="text/html" href="{% static 'analyser/custom.css' %}">
+            <!--<link href="images/favicon.ico" rel="shortcut icon">-->
+            <title>Puppet Run Analyser</title>
+        </head>
+
+        <body>
+            {% if error %}
+                <h4 class="analyser-continue-header" style="text-align: center; margin-top: 5%;">Click below to view graph</h4>
+                <div class="analyser-continue-div" style="text-align: center;">
+                <a href="{% url 'graph' %}">
+                     <button class="btn btn-warning btn-lg continue-button" id="continue-button">Continue</button>
+                </a>
+            </div>
+            {% else %}
+                <div class="chart-container" id="chart-container" style="text-align: -webkit-center; text-align: -moz-center;margin-top: 2%; margin-left: auto; margin-right: auto;">
+                    {% include "chart.html" %}
+                    <div class="home-page">
+                        <a href="{% url 'home' %}">
+                            <button class="btn btn-warning btn-lg home-page-button" id="home-page-button" style="margin-right: 45px; !important;
+                            margin-top: -80px; !important; z-index: 2; position: relative; float: right;">Home</button>
+                        </a>
+                    </div>
+                </div>
+
+                <table id="analyser-table" class="table-div table table-bordered" style="width: 95%; margin-left: 30px">
+                     <thead>
+                        <tr>
+                         <th>Node</th>
+                            {% for elem in data_return %}
+                        <th>{{ elem }}</th>
+                                {% endfor %}
+                        </tr>
+                     </thead>
+                     <tbody>
+                        {% for elem in table_data %}
+                            <tr>
+                            <td>{{ elem.os }}</td>
+                            <td>{{ elem.title }}</td>
+                            <td>{{ elem.value }}</td>
+                            <td>{{ elem.value2 }}</td>
+                            </tr>
+                            {% endfor %}
+                     </tbody>
+                </table>
+                <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+                <script type="text/javascript"  src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+                <script>
+                $(document).ready(function() {
+                   $("#analyser-table").dataTable({"bSort": true, "bPaginate": true, "iDisplayLength": 10});
+                $(".dataTables_length").css("margin-bottom", "10px");
+                $(".dataTables_length").css("margin-left", "10px");
+                $(".dataTables_filter").css("margin-right", "15px");
+                $(".dataTables_info").css("margin-left", "10px");
+                $(".dataTables_info").css("margin-top", "10px");
+                $(".dataTables_paginate").css("margin-right", "10px");
+                $(".dataTables_paginate").css("margin-top", "10px");
+                });
+                </script>
+            {% endif %}
+        </body>
+
+
+</html>
+

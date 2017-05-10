@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+{% load static %}
+
+<script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+<script src="{% static 'js/home.js' %}"></script>
+
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'analyser/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'analyser/custom.css' %}">
+    <!--<link href="images/favicon.ico" rel="shortcut icon">-->
+    <title>Puppet Run Analyser</title>
+</head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="analyser-header">
+                <h2>Puppet Run Analyser</h2>
+            </div>
+
+
+            <h4 class="resource-header">What would you like to view? Choose one</h4>
+                <div class="btn-group resource-buttons" data-toggle="buttons">
+                    {% if object_types %}
+                        {% for obj in object_types %}
+                            <label >
+                                <input class="btn btn-warning btn-lg {{obj}}-button" id="{{obj}}-button" name="resource" type="button" autocomplete="off" value="{{ obj }}">
+                            </label>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+
+
+            <h4 class="os-header">Choose the nodes you would like to compare</h4>
+                <div class="btn-group os-buttons" data-toggle="buttons">
+                    {% if os_types %}
+                        {% for os in os_types %}
+                                <label >
+                                    <input class="btn btn-warning btn-lg {{os}}-button" id="{{os}}-button" name="os[]" type="button" autocomplete="off" value="{{ os }}">
+                                </label>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            <div class="next-page-div">
+                <span class="next-page">
+                    <a href="{% url 'graph' %}">
+                        <input class="btn btn-warning btn-lg next-page-button" id="next-page-button" type="submit" value="Next">
+                    </a>
+                </span>
+            </div>
+        <div class="error-div">
+            <div class="alert alert-danger">
+                <strong>Please</strong>
+                select at least one resource and two nodes to compare</div>
+        </div>
+        </div>
+    </body>
+
+</html>
