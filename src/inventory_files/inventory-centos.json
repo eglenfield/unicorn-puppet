@@ -1,0 +1,4311 @@
+{
+  "schema_version": 1,
+  "created": "2017-04-03T20:07:45Z",
+  "resources": [
+    {
+      "title": "root",
+      "resource": "group",
+      "gid": 0
+    },
+    {
+      "title": "bin",
+      "resource": "group",
+      "gid": 1
+    },
+    {
+      "title": "daemon",
+      "resource": "group",
+      "gid": 2
+    },
+    {
+      "title": "sys",
+      "resource": "group",
+      "gid": 3
+    },
+    {
+      "title": "adm",
+      "resource": "group",
+      "gid": 4
+    },
+    {
+      "title": "tty",
+      "resource": "group",
+      "gid": 5
+    },
+    {
+      "title": "disk",
+      "resource": "group",
+      "gid": 6
+    },
+    {
+      "title": "lp",
+      "resource": "group",
+      "gid": 7
+    },
+    {
+      "title": "mem",
+      "resource": "group",
+      "gid": 8
+    },
+    {
+      "title": "kmem",
+      "resource": "group",
+      "gid": 9
+    },
+    {
+      "title": "wheel",
+      "resource": "group",
+      "gid": 10
+    },
+    {
+      "title": "cdrom",
+      "resource": "group",
+      "gid": 11
+    },
+    {
+      "title": "mail",
+      "resource": "group",
+      "gid": 12
+    },
+    {
+      "title": "man",
+      "resource": "group",
+      "gid": 15
+    },
+    {
+      "title": "dialout",
+      "resource": "group",
+      "gid": 18
+    },
+    {
+      "title": "floppy",
+      "resource": "group",
+      "gid": 19
+    },
+    {
+      "title": "games",
+      "resource": "group",
+      "gid": 20
+    },
+    {
+      "title": "tape",
+      "resource": "group",
+      "gid": 30
+    },
+    {
+      "title": "video",
+      "resource": "group",
+      "gid": 39
+    },
+    {
+      "title": "ftp",
+      "resource": "group",
+      "gid": 50
+    },
+    {
+      "title": "lock",
+      "resource": "group",
+      "gid": 54
+    },
+    {
+      "title": "audio",
+      "resource": "group",
+      "gid": 63
+    },
+    {
+      "title": "nobody",
+      "resource": "group",
+      "gid": 99
+    },
+    {
+      "title": "users",
+      "resource": "group",
+      "gid": 100
+    },
+    {
+      "title": "avahi-autoipd",
+      "resource": "group",
+      "gid": 170
+    },
+    {
+      "title": "utmp",
+      "resource": "group",
+      "gid": 22
+    },
+    {
+      "title": "utempter",
+      "resource": "group",
+      "gid": 35
+    },
+    {
+      "title": "ssh_keys",
+      "resource": "group",
+      "gid": 999
+    },
+    {
+      "title": "input",
+      "resource": "group",
+      "gid": 998
+    },
+    {
+      "title": "systemd-journal",
+      "resource": "group",
+      "gid": 190
+    },
+    {
+      "title": "systemd-bus-proxy",
+      "resource": "group",
+      "gid": 997
+    },
+    {
+      "title": "systemd-network",
+      "resource": "group",
+      "gid": 996
+    },
+    {
+      "title": "dbus",
+      "resource": "group",
+      "gid": 81
+    },
+    {
+      "title": "polkitd",
+      "resource": "group",
+      "gid": 995
+    },
+    {
+      "title": "rpc",
+      "resource": "group",
+      "gid": 32
+    },
+    {
+      "title": "tss",
+      "resource": "group",
+      "gid": 59
+    },
+    {
+      "title": "dip",
+      "resource": "group",
+      "gid": 40
+    },
+    {
+      "title": "rpcuser",
+      "resource": "group",
+      "gid": 29
+    },
+    {
+      "title": "nfsnobody",
+      "resource": "group",
+      "gid": 65534
+    },
+    {
+      "title": "postdrop",
+      "resource": "group",
+      "gid": 90
+    },
+    {
+      "title": "postfix",
+      "resource": "group",
+      "gid": 89
+    },
+    {
+      "title": "sshd",
+      "resource": "group",
+      "gid": 74
+    },
+    {
+      "title": "vboxsf",
+      "resource": "group",
+      "gid": 994
+    },
+    {
+      "title": "vagrant",
+      "resource": "group",
+      "gid": 1000
+    },
+    {
+      "title": "systemd-sysv",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "219-19.el7"
+      ]
+    },
+    {
+      "title": "centos-release",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "7-2.1511.el7.centos.2.10"
+      ]
+    },
+    {
+      "title": "initscripts",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "9.49.30-1.el7"
+      ]
+    },
+    {
+      "title": "filesystem",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.2-20.el7"
+      ]
+    },
+    {
+      "title": "dhclient",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.2.5-42.el7.centos"
+      ]
+    },
+    {
+      "title": "linux-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "20150904-43.git6ebf5d5.el7"
+      ]
+    },
+    {
+      "title": "polkit-pkla-compat",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.1-4.el7"
+      ]
+    },
+    {
+      "title": "bind-license",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "9.9.4-29.el7"
+      ]
+    },
+    {
+      "title": "cronie",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.4.11-14.el7"
+      ]
+    },
+    {
+      "title": "kbd-misc",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.15.5-11.el7"
+      ]
+    },
+    {
+      "title": "os-prober",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.58-5.el7"
+      ]
+    },
+    {
+      "title": "ncurses-base",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.9-13.20130511.el7"
+      ]
+    },
+    {
+      "title": "dracut-network",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "033-359.el7"
+      ]
+    },
+    {
+      "title": "lvm2-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.02.130-5.el7"
+      ]
+    },
+    {
+      "title": "xz-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.1.2-12alpha.el7"
+      ]
+    },
+    {
+      "title": "dnsmasq",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.66-14.el7_1"
+      ]
+    },
+    {
+      "title": "ncurses-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.9-13.20130511.el7"
+      ]
+    },
+    {
+      "title": "rpcbind",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.2.0-32.el7"
+      ]
+    },
+    {
+      "title": "libsepol",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.1.9-3.el7"
+      ]
+    },
+    {
+      "title": "gnutls",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.3.8-12.el7_1.1"
+      ]
+    },
+    {
+      "title": "libselinux",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.2.2-6.el7"
+      ]
+    },
+    {
+      "title": "libsoup",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.48.1-3.el7"
+      ]
+    },
+    {
+      "title": "info",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.1-4.el7"
+      ]
+    },
+    {
+      "title": "ppp",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.4.5-33.el7"
+      ]
+    },
+    {
+      "title": "audit-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.4.1-5.el7"
+      ]
+    },
+    {
+      "title": "hwdata",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.252-8.1.el7"
+      ]
+    },
+    {
+      "title": "libuuid",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.23.2-26.el7"
+      ]
+    },
+    {
+      "title": "libdrm",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.4.60-3.el7"
+      ]
+    },
+    {
+      "title": "chkconfig",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.3.61-5.el7"
+      ]
+    },
+    {
+      "title": "plymouth",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.8.9-0.24.20140113.el7.centos"
+      ]
+    },
+    {
+      "title": "nss-util",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.19.1-4.el7_1"
+      ]
+    },
+    {
+      "title": "alsa-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.28-2.el7"
+      ]
+    },
+    {
+      "title": "bzip2-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.6-13.el7"
+      ]
+    },
+    {
+      "title": "gssproxy",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.4.1-7.el7"
+      ]
+    },
+    {
+      "title": "dbus-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.6.12-13.el7"
+      ]
+    },
+    {
+      "title": "jansson",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.4-6.el7"
+      ]
+    },
+    {
+      "title": "readline",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "6.2-9.el7"
+      ]
+    },
+    {
+      "title": "kbd-legacy",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.15.5-11.el7"
+      ]
+    },
+    {
+      "title": "elfutils-libelf",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.163-3.el7"
+      ]
+    },
+    {
+      "title": "NetworkManager-team",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.6-27.el7"
+      ]
+    },
+    {
+      "title": "libcap",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.22-8.el7"
+      ]
+    },
+    {
+      "title": "nfs-utils",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.3.0-0.21.el7"
+      ]
+    },
+    {
+      "title": "libffi",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.0.13-16.el7"
+      ]
+    },
+    {
+      "title": "firewalld",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.3.9-14.el7"
+      ]
+    },
+    {
+      "title": "libgpg-error",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.12-3.el7"
+      ]
+    },
+    {
+      "title": "kexec-tools",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.0.7-38.el7"
+      ]
+    },
+    {
+      "title": "sqlite",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.7.17-8.el7"
+      ]
+    },
+    {
+      "title": "kernel",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.10.0-327.el7"
+      ]
+    },
+    {
+      "title": "cpio",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.11-24.el7"
+      ]
+    },
+    {
+      "title": "postfix",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.10.1-6.el7"
+      ]
+    },
+    {
+      "title": "keyutils-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.5.8-3.el7"
+      ]
+    },
+    {
+      "title": "irqbalance",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.7-5.el7"
+      ]
+    },
+    {
+      "title": "libnl3",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.2.21-10.el7"
+      ]
+    },
+    {
+      "title": "aic94xx-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "30-6.el7"
+      ]
+    },
+    {
+      "title": "elfutils-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.163-3.el7"
+      ]
+    },
+    {
+      "title": "microcode_ctl",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.1-12.el7"
+      ]
+    },
+    {
+      "title": "libidn",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.28-4.el7"
+      ]
+    },
+    {
+      "title": "libcap-ng",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.7.5-4.el7"
+      ]
+    },
+    {
+      "title": "parted",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.1-23.el7"
+      ]
+    },
+    {
+      "title": "groff-base",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.22.2-8.el7"
+      ]
+    },
+    {
+      "title": "libgomp",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.8.5-4.el7"
+      ]
+    },
+    {
+      "title": "man-db",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.6.3-9.el7"
+      ]
+    },
+    {
+      "title": "libverto",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.2.5-4.el7"
+      ]
+    },
+    {
+      "title": "iprutils",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.4.8-1.el7"
+      ]
+    },
+    {
+      "title": "perl-parent",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.225-244.el7"
+      ]
+    },
+    {
+      "title": "sudo",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.8.6p7-16.el7"
+      ]
+    },
+    {
+      "title": "perl-podlators",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.5.1-3.el7"
+      ]
+    },
+    {
+      "title": "e2fsprogs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.42.9-7.el7"
+      ]
+    },
+    {
+      "title": "perl-Pod-Escapes",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.04-286.el7"
+      ]
+    },
+    {
+      "title": "btrfs-progs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.19.1-1.el7"
+      ]
+    },
+    {
+      "title": "perl-Encode",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.51-7.el7"
+      ]
+    },
+    {
+      "title": "kernel-devel",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.10.0-327.el7"
+      ]
+    },
+    {
+      "title": "perl-macros",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.16.3-286.el7"
+      ]
+    },
+    {
+      "title": "patch",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.7.1-8.el7"
+      ]
+    },
+    {
+      "title": "perl-Storable",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.45-3.el7"
+      ]
+    },
+    {
+      "title": "libsysfs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.1.0-16.el7"
+      ]
+    },
+    {
+      "title": "perl-Exporter",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.68-3.el7"
+      ]
+    },
+    {
+      "title": "iwl3945-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "15.32.2.9-43.el7"
+      ]
+    },
+    {
+      "title": "perl-threads",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.87-4.el7"
+      ]
+    },
+    {
+      "title": "iwl3160-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "22.0.7.0-43.el7"
+      ]
+    },
+    {
+      "title": "perl-Socket",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.010-3.el7"
+      ]
+    },
+    {
+      "title": "iwl2030-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "18.168.6.1-43.el7"
+      ]
+    },
+    {
+      "title": "perl-Scalar-List-Utils",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.27-248.el7"
+      ]
+    },
+    {
+      "title": "iwl5000-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "8.83.5.1_1-43.el7"
+      ]
+    },
+    {
+      "title": "perl-Carp",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.26-244.el7"
+      ]
+    },
+    {
+      "title": "iwl6000g2a-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "17.168.5.3-43.el7"
+      ]
+    },
+    {
+      "title": "perl-File-Path",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.09-2.el7"
+      ]
+    },
+    {
+      "title": "iwl105-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "18.168.6.1-43.el7"
+      ]
+    },
+    {
+      "title": "perl-Pod-Simple",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.28-4.el7"
+      ]
+    },
+    {
+      "title": "iwl1000-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "39.31.5.1-43.el7"
+      ]
+    },
+    {
+      "title": "perl",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.16.3-286.el7"
+      ]
+    },
+    {
+      "title": "iwl135-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "18.168.6.1-43.el7"
+      ]
+    },
+    {
+      "title": "libmpc",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.1-3.el7"
+      ]
+    },
+    {
+      "title": "iwl100-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "39.31.5.1-43.el7"
+      ]
+    },
+    {
+      "title": "nss-softokn",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.16.2.3-13.el7_1"
+      ]
+    },
+    {
+      "title": "openssl-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.1e-51.el7_2.4"
+      ]
+    },
+    {
+      "title": "cyrus-sasl-lib",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.1.26-19.2.el7"
+      ]
+    },
+    {
+      "title": "glibc",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.17-106.el7_2.4"
+      ]
+    },
+    {
+      "title": "libunistring",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.9.3-9.el7"
+      ]
+    },
+    {
+      "title": "glibc-headers",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.17-106.el7_2.4"
+      ]
+    },
+    {
+      "title": "libtasn1",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.8-2.el7"
+      ]
+    },
+    {
+      "title": "openssh",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "6.6.1p1-23.el7_2"
+      ]
+    },
+    {
+      "title": "slang",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.2.4-11.el7"
+      ]
+    },
+    {
+      "title": "openssh-clients",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "6.6.1p1-23.el7_2"
+      ]
+    },
+    {
+      "title": "libtalloc",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.1.2-1.el7"
+      ]
+    },
+    {
+      "title": "puppet-agent",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.3.5-1.el7"
+      ]
+    },
+    {
+      "title": "libnfnetlink",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.1-4.el7"
+      ]
+    },
+    {
+      "title": "libbasicobjects",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.1.1-25.el7"
+      ]
+    },
+    {
+      "title": "ethtool",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.15-2.el7"
+      ]
+    },
+    {
+      "title": "lzo",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.06-8.el7"
+      ]
+    },
+    {
+      "title": "libdaemon",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.14-7.el7"
+      ]
+    },
+    {
+      "title": "libverto-tevent",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.2.5-4.el7"
+      ]
+    },
+    {
+      "title": "cpp",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.8.5-4.el7"
+      ]
+    },
+    {
+      "title": "keyutils",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.5.8-3.el7"
+      ]
+    },
+    {
+      "title": "glib2",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.42.2-5.el7"
+      ]
+    },
+    {
+      "title": "dbus-glib",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.100-7.el7"
+      ]
+    },
+    {
+      "title": "gettext-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.18.2.1-4.el7"
+      ]
+    },
+    {
+      "title": "gsettings-desktop-schemas",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.14.2-1.el7"
+      ]
+    },
+    {
+      "title": "vim-minimal",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "7.4.160-1.el7"
+      ]
+    },
+    {
+      "title": "nettle",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.7.1-4.el7"
+      ]
+    },
+    {
+      "title": "libdb-utils",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.3.21-19.el7"
+      ]
+    },
+    {
+      "title": "pinentry",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.8.1-14.el7"
+      ]
+    },
+    {
+      "title": "make",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.82-21.el7"
+      ]
+    },
+    {
+      "title": "libselinux-utils",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.2.2-6.el7"
+      ]
+    },
+    {
+      "title": "ncurses",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.9-13.20130511.el7"
+      ]
+    },
+    {
+      "title": "ca-certificates",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2015.2.4-71.el7"
+      ]
+    },
+    {
+      "title": "python-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.7.5-34.el7"
+      ]
+    },
+    {
+      "title": "gzip",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.5-8.el7"
+      ]
+    },
+    {
+      "title": "python-decorator",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.4.0-3.el7"
+      ]
+    },
+    {
+      "title": "libmount",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.23.2-26.el7"
+      ]
+    },
+    {
+      "title": "libpwquality",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.2.3-4.el7"
+      ]
+    },
+    {
+      "title": "systemd-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "219-19.el7"
+      ]
+    },
+    {
+      "title": "procps-ng",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.3.10-3.el7"
+      ]
+    },
+    {
+      "title": "pygobject3-base",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.14.0-3.el7"
+      ]
+    },
+    {
+      "title": "binutils",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.23.52.0.1-55.el7"
+      ]
+    },
+    {
+      "title": "plymouth-core-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.8.9-0.24.20140113.el7.centos"
+      ]
+    },
+    {
+      "title": "libselinux-python",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.2.2-6.el7"
+      ]
+    },
+    {
+      "title": "python-slip-dbus",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.4.0-2.el7"
+      ]
+    },
+    {
+      "title": "python-configobj",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.7.2-7.el7"
+      ]
+    },
+    {
+      "title": "pyxattr",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.5.1-5.el7"
+      ]
+    },
+    {
+      "title": "newt-python",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.52.15-4.el7"
+      ]
+    },
+    {
+      "title": "grubby",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "8.28-17.el7"
+      ]
+    },
+    {
+      "title": "nss",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.19.1-18.el7"
+      ]
+    },
+    {
+      "title": "nss-tools",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.19.1-18.el7"
+      ]
+    },
+    {
+      "title": "logrotate",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.8.6-6.el7"
+      ]
+    },
+    {
+      "title": "mariadb-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.5.44-2.el7.centos"
+      ]
+    },
+    {
+      "title": "fipscheck-lib",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.4.1-5.el7"
+      ]
+    },
+    {
+      "title": "libevent",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.0.21-4.el7"
+      ]
+    },
+    {
+      "title": "libcurl",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "7.29.0-25.el7.centos"
+      ]
+    },
+    {
+      "title": "rpm-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.11.3-17.el7"
+      ]
+    },
+    {
+      "title": "openldap",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.4.40-8.el7"
+      ]
+    },
+    {
+      "title": "dhcp-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.2.5-42.el7.centos"
+      ]
+    },
+    {
+      "title": "libnfsidmap",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.25-12.el7"
+      ]
+    },
+    {
+      "title": "python-urlgrabber",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.10-7.el7"
+      ]
+    },
+    {
+      "title": "libmodman",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.0.1-8.el7"
+      ]
+    },
+    {
+      "title": "snappy",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.1.0-3.el7"
+      ]
+    },
+    {
+      "title": "hardlink",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0-19.el7"
+      ]
+    },
+    {
+      "title": "gnupg2",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.0.22-3.el7"
+      ]
+    },
+    {
+      "title": "pygpgme",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.3-9.el7"
+      ]
+    },
+    {
+      "title": "rpm-python",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.11.3-17.el7"
+      ]
+    },
+    {
+      "title": "yum",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.4.3-132.el7.centos.0.1"
+      ]
+    },
+    {
+      "title": "libini_config",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.2.0-25.el7"
+      ]
+    },
+    {
+      "title": "libaio",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.3.109-13.el7"
+      ]
+    },
+    {
+      "title": "libpipeline",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.2.3-3.el7"
+      ]
+    },
+    {
+      "title": "json-c",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.11-4.el7_0"
+      ]
+    },
+    {
+      "title": "libpcap",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.5.3-8.el7"
+      ]
+    },
+    {
+      "title": "ustr",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.4-16.el7"
+      ]
+    },
+    {
+      "title": "shadow-utils",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.1.5.1-18.el7"
+      ]
+    },
+    {
+      "title": "libutempter",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.1.6-4.el7"
+      ]
+    },
+    {
+      "title": "policycoreutils",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.2.5-20.el7"
+      ]
+    },
+    {
+      "title": "selinux-policy",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.13.1-60.el7"
+      ]
+    },
+    {
+      "title": "libmnl",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.3-7.el7"
+      ]
+    },
+    {
+      "title": "iptables",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.4.21-16.el7"
+      ]
+    },
+    {
+      "title": "qrencode-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.4.1-3.el7"
+      ]
+    },
+    {
+      "title": "device-mapper",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.02.107-5.el7"
+      ]
+    },
+    {
+      "title": "cryptsetup-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.6.7-1.el7"
+      ]
+    },
+    {
+      "title": "kmod",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "20-5.el7"
+      ]
+    },
+    {
+      "title": "dbus",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.6.12-13.el7"
+      ]
+    },
+    {
+      "title": "libgcc",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.8.5-4.el7"
+      ]
+    },
+    {
+      "title": "iputils",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "20121221-7.el7"
+      ]
+    },
+    {
+      "title": "setup",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.8.71-6.el7"
+      ]
+    },
+    {
+      "title": "device-mapper-event-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.02.107-5.el7"
+      ]
+    },
+    {
+      "title": "basesystem",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "10.0-7.el7.centos"
+      ]
+    },
+    {
+      "title": "polkit",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.112-5.el7"
+      ]
+    },
+    {
+      "title": "quota-nls",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.01-11.el7"
+      ]
+    },
+    {
+      "title": "cronie-anacron",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.4.11-14.el7"
+      ]
+    },
+    {
+      "title": "kernel-headers",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.10.0-327.el7"
+      ]
+    },
+    {
+      "title": "crontabs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.11-6.20121102git.el7"
+      ]
+    },
+    {
+      "title": "tzdata",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2015g-1.el7"
+      ]
+    },
+    {
+      "title": "grub2-tools",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.02-0.29.el7.centos"
+      ]
+    },
+    {
+      "title": "nss-softokn-freebl",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.16.2.3-13.el7_1"
+      ]
+    },
+    {
+      "title": "device-mapper-event",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.02.107-5.el7"
+      ]
+    },
+    {
+      "title": "quota",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.01-11.el7"
+      ]
+    },
+    {
+      "title": "libstdc++",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.8.5-4.el7"
+      ]
+    },
+    {
+      "title": "wpa_supplicant",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.0-17.el7_1"
+      ]
+    },
+    {
+      "title": "bash",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.2.46-19.el7"
+      ]
+    },
+    {
+      "title": "trousers",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.3.13-1.el7"
+      ]
+    },
+    {
+      "title": "pcre",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "8.32-15.el7"
+      ]
+    },
+    {
+      "title": "glib-networking",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.42.0-1.el7"
+      ]
+    },
+    {
+      "title": "zlib",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.2.7-15.el7"
+      ]
+    },
+    {
+      "title": "ebtables",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.0.10-13.el7"
+      ]
+    },
+    {
+      "title": "libcom_err",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.42.9-7.el7"
+      ]
+    },
+    {
+      "title": "NetworkManager",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.6-27.el7"
+      ]
+    },
+    {
+      "title": "sed",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.2.2-5.el7"
+      ]
+    },
+    {
+      "title": "libpciaccess",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.13.4-2.el7"
+      ]
+    },
+    {
+      "title": "popt",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.13-16.el7"
+      ]
+    },
+    {
+      "title": "plymouth-scripts",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.8.9-0.24.20140113.el7.centos"
+      ]
+    },
+    {
+      "title": "nspr",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.10.8-2.el7_1"
+      ]
+    },
+    {
+      "title": "fxload",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2002_04_11-16.el7"
+      ]
+    },
+    {
+      "title": "grep",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.20-2.el7"
+      ]
+    },
+    {
+      "title": "alsa-tools-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.28-2.el7"
+      ]
+    },
+    {
+      "title": "libdb",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.3.21-19.el7"
+      ]
+    },
+    {
+      "title": "libestr",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.1.9-2.el7"
+      ]
+    },
+    {
+      "title": "gawk",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.0.2-4.el7"
+      ]
+    },
+    {
+      "title": "teamd",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.17-5.el7"
+      ]
+    },
+    {
+      "title": "gmp",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "6.0.0-11.el7"
+      ]
+    },
+    {
+      "title": "kbd",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.15.5-11.el7"
+      ]
+    },
+    {
+      "title": "libattr",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.4.46-12.el7"
+      ]
+    },
+    {
+      "title": "rsyslog",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "7.4.7-12.el7"
+      ]
+    },
+    {
+      "title": "libacl",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.2.51-12.el7"
+      ]
+    },
+    {
+      "title": "NetworkManager-tui",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.6-27.el7"
+      ]
+    },
+    {
+      "title": "tcp_wrappers-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "7.6-77.el7"
+      ]
+    },
+    {
+      "title": "lvm2",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.02.130-5.el7"
+      ]
+    },
+    {
+      "title": "libgcrypt",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.5.3-12.el7_1.1"
+      ]
+    },
+    {
+      "title": "grub2",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.02-0.29.el7.centos"
+      ]
+    },
+    {
+      "title": "findutils",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.5.11-5.el7"
+      ]
+    },
+    {
+      "title": "audit",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.4.1-5.el7"
+      ]
+    },
+    {
+      "title": "libxml2",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.9.1-5.el7_1.2"
+      ]
+    },
+    {
+      "title": "rdma",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "7.2_4.1_rc6-1.el7"
+      ]
+    },
+    {
+      "title": "expat",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.1.0-8.el7"
+      ]
+    },
+    {
+      "title": "net-tools",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.0-0.17.20131004git.el7"
+      ]
+    },
+    {
+      "title": "p11-kit",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.20.7-3.el7"
+      ]
+    },
+    {
+      "title": "biosdevname",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.6.2-1.el7"
+      ]
+    },
+    {
+      "title": "lua",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.1.4-14.el7"
+      ]
+    },
+    {
+      "title": "tuned",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.5.1-4.el7"
+      ]
+    },
+    {
+      "title": "diffutils",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.3-4.el7"
+      ]
+    },
+    {
+      "title": "dracut-config-rescue",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "033-359.el7"
+      ]
+    },
+    {
+      "title": "mpfr",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.1.1-4.el7"
+      ]
+    },
+    {
+      "title": "selinux-policy-targeted",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.13.1-60.el7"
+      ]
+    },
+    {
+      "title": "e2fsprogs-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.42.9-7.el7"
+      ]
+    },
+    {
+      "title": "authconfig",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "6.2.8-10.el7"
+      ]
+    },
+    {
+      "title": "file-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.11-31.el7"
+      ]
+    },
+    {
+      "title": "kernel-tools",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.10.0-327.el7"
+      ]
+    },
+    {
+      "title": "gdbm",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.10-8.el7"
+      ]
+    },
+    {
+      "title": "passwd",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.79-4.el7"
+      ]
+    },
+    {
+      "title": "perl-HTTP-Tiny",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.033-3.el7"
+      ]
+    },
+    {
+      "title": "gcc",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.8.5-4.el7"
+      ]
+    },
+    {
+      "title": "perl-Pod-Perldoc",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.20-4.el7"
+      ]
+    },
+    {
+      "title": "xfsprogs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.2.2-2.el7"
+      ]
+    },
+    {
+      "title": "perl-Text-ParseWords",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.29-4.el7"
+      ]
+    },
+    {
+      "title": "wget",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.14-10.el7_0.1"
+      ]
+    },
+    {
+      "title": "perl-Pod-Usage",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.63-3.el7"
+      ]
+    },
+    {
+      "title": "tar",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.26-29.el7"
+      ]
+    },
+    {
+      "title": "perl-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.16.3-286.el7"
+      ]
+    },
+    {
+      "title": "bzip2",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.6-13.el7"
+      ]
+    },
+    {
+      "title": "perl-Filter",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.49-3.el7"
+      ]
+    },
+    {
+      "title": "iwl6000-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "9.221.4.1-43.el7"
+      ]
+    },
+    {
+      "title": "perl-Time-HiRes",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.9725-3.el7"
+      ]
+    },
+    {
+      "title": "iwl6050-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "41.28.5.1-43.el7"
+      ]
+    },
+    {
+      "title": "perl-constant",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.27-2.el7"
+      ]
+    },
+    {
+      "title": "iwl7265-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "22.0.7.0-43.el7"
+      ]
+    },
+    {
+      "title": "perl-threads-shared",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.43-6.el7"
+      ]
+    },
+    {
+      "title": "rootfiles",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "8.1-11.el7"
+      ]
+    },
+    {
+      "title": "perl-Time-Local",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.2300-2.el7"
+      ]
+    },
+    {
+      "title": "iwl4965-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "228.61.2.24-43.el7"
+      ]
+    },
+    {
+      "title": "perl-File-Temp",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.23.01-3.el7"
+      ]
+    },
+    {
+      "title": "iwl6000g2b-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "17.168.5.2-43.el7"
+      ]
+    },
+    {
+      "title": "perl-PathTools",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.40-5.el7"
+      ]
+    },
+    {
+      "title": "iwl2000-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "18.168.6.1-43.el7"
+      ]
+    },
+    {
+      "title": "perl-Getopt-Long",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.40-2.el7"
+      ]
+    },
+    {
+      "title": "iwl5150-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "8.24.2.2-43.el7"
+      ]
+    },
+    {
+      "title": "file",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.11-31.el7"
+      ]
+    },
+    {
+      "title": "iwl7260-firmware",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "22.0.7.0-43.el7"
+      ]
+    },
+    {
+      "title": "libnl3-cli",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.2.21-10.el7"
+      ]
+    },
+    {
+      "title": "gpg-pubkey",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "f4a80eb5-53a7ff4b"
+      ]
+    },
+    {
+      "title": "libassuan",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.1.0-3.el7"
+      ]
+    },
+    {
+      "title": "openssl",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.1e-51.el7_2.4"
+      ]
+    },
+    {
+      "title": "which",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.20-7.el7"
+      ]
+    },
+    {
+      "title": "glibc-common",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.17-106.el7_2.4"
+      ]
+    },
+    {
+      "title": "xz",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "5.1.2-12alpha.el7"
+      ]
+    },
+    {
+      "title": "glibc-devel",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.17-106.el7_2.4"
+      ]
+    },
+    {
+      "title": "p11-kit-trust",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.20.7-3.el7"
+      ]
+    },
+    {
+      "title": "openssh-server",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "6.6.1p1-23.el7_2"
+      ]
+    },
+    {
+      "title": "newt",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.52.15-4.el7"
+      ]
+    },
+    {
+      "title": "sysvinit-tools",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.88-14.dsf.el7"
+      ]
+    },
+    {
+      "title": "rsync",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.0.9-17.el7"
+      ]
+    },
+    {
+      "title": "libref_array",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.1.5-25.el7"
+      ]
+    },
+    {
+      "title": "pciutils-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.2.1-4.el7"
+      ]
+    },
+    {
+      "title": "libcollection",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.6.2-25.el7"
+      ]
+    },
+    {
+      "title": "hostname",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.13-3.el7"
+      ]
+    },
+    {
+      "title": "libtevent",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.9.25-1.el7"
+      ]
+    },
+    {
+      "title": "libteam",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.17-5.el7"
+      ]
+    },
+    {
+      "title": "less",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "458-9.el7"
+      ]
+    },
+    {
+      "title": "pkgconfig",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.27.1-4.el7"
+      ]
+    },
+    {
+      "title": "shared-mime-info",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.1-9.el7"
+      ]
+    },
+    {
+      "title": "libcroco",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.6.8-5.el7"
+      ]
+    },
+    {
+      "title": "gobject-introspection",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.42.0-1.el7"
+      ]
+    },
+    {
+      "title": "tcp_wrappers",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "7.6-77.el7"
+      ]
+    },
+    {
+      "title": "acl",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.2.51-12.el7"
+      ]
+    },
+    {
+      "title": "avahi-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.6.31-15.el7"
+      ]
+    },
+    {
+      "title": "mozjs17",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "17.0.0-12.el7"
+      ]
+    },
+    {
+      "title": "libss",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.42.9-7.el7"
+      ]
+    },
+    {
+      "title": "kmod-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "20-5.el7"
+      ]
+    },
+    {
+      "title": "freetype",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.4.11-11.el7"
+      ]
+    },
+    {
+      "title": "krb5-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.13.2-10.el7"
+      ]
+    },
+    {
+      "title": "coreutils",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "8.22-15.el7"
+      ]
+    },
+    {
+      "title": "libblkid",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.23.2-26.el7"
+      ]
+    },
+    {
+      "title": "python",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.7.5-34.el7"
+      ]
+    },
+    {
+      "title": "cracklib",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.9.0-11.el7"
+      ]
+    },
+    {
+      "title": "dbus-python",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.1.1-9.el7"
+      ]
+    },
+    {
+      "title": "cracklib-dicts",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.9.0-11.el7"
+      ]
+    },
+    {
+      "title": "pam",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.1.8-12.el7_1.1"
+      ]
+    },
+    {
+      "title": "libgudev1",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "219-19.el7"
+      ]
+    },
+    {
+      "title": "gettext",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.18.2.1-4.el7"
+      ]
+    },
+    {
+      "title": "centos-logos",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "70.0.6-3.el7.centos"
+      ]
+    },
+    {
+      "title": "libtirpc",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.2.4-0.6.el7"
+      ]
+    },
+    {
+      "title": "python-perf",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.10.0-327.el7"
+      ]
+    },
+    {
+      "title": "python-slip",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.4.0-2.el7"
+      ]
+    },
+    {
+      "title": "yum-metadata-parser",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.1.4-10.el7"
+      ]
+    },
+    {
+      "title": "pyliblzma",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.5.3-11.el7"
+      ]
+    },
+    {
+      "title": "python-iniparse",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.4-9.el7"
+      ]
+    },
+    {
+      "title": "python-pyudev",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.15-7.el7"
+      ]
+    },
+    {
+      "title": "nss-sysinit",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.19.1-18.el7"
+      ]
+    },
+    {
+      "title": "NetworkManager-libnm",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.6-27.el7"
+      ]
+    },
+    {
+      "title": "alsa-lib",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.28-2.el7"
+      ]
+    },
+    {
+      "title": "bind-libs-lite",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "9.9.4-29.el7"
+      ]
+    },
+    {
+      "title": "fipscheck",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.4.1-5.el7"
+      ]
+    },
+    {
+      "title": "libssh2",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.4.3-10.el7"
+      ]
+    },
+    {
+      "title": "curl",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "7.29.0-25.el7.centos"
+      ]
+    },
+    {
+      "title": "rpm",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.11.3-17.el7"
+      ]
+    },
+    {
+      "title": "libuser",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.60-7.el7_1"
+      ]
+    },
+    {
+      "title": "dhcp-common",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.2.5-42.el7.centos"
+      ]
+    },
+    {
+      "title": "python-pycurl",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "7.19.0-17.el7"
+      ]
+    },
+    {
+      "title": "libedit",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.0-12.20121213cvs.el7"
+      ]
+    },
+    {
+      "title": "libproxy",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.4.11-8.el7"
+      ]
+    },
+    {
+      "title": "lsscsi",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.27-3.el7"
+      ]
+    },
+    {
+      "title": "pth",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.0.7-23.el7"
+      ]
+    },
+    {
+      "title": "gpgme",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.3.2-5.el7"
+      ]
+    },
+    {
+      "title": "rpm-build-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "4.11.3-17.el7"
+      ]
+    },
+    {
+      "title": "yum-plugin-fastestmirror",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.1.31-34.el7"
+      ]
+    },
+    {
+      "title": "libpath_utils",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.2.1-25.el7"
+      ]
+    },
+    {
+      "title": "kernel-tools-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.10.0-327.el7"
+      ]
+    },
+    {
+      "title": "device-mapper-persistent-data",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.5.5-1.el7"
+      ]
+    },
+    {
+      "title": "numactl-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.0.9-5.el7_1"
+      ]
+    },
+    {
+      "title": "dmidecode",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.12-9.el7"
+      ]
+    },
+    {
+      "title": "libndp",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.2-4.el7"
+      ]
+    },
+    {
+      "title": "libsemanage",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.1.10-18.el7"
+      ]
+    },
+    {
+      "title": "avahi-autoipd",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.6.31-15.el7"
+      ]
+    },
+    {
+      "title": "util-linux",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "2.23.2-26.el7"
+      ]
+    },
+    {
+      "title": "virt-what",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.13-6.el7"
+      ]
+    },
+    {
+      "title": "libnetfilter_conntrack",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.0.4-2.el7"
+      ]
+    },
+    {
+      "title": "iproute",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "3.10.0-54.el7"
+      ]
+    },
+    {
+      "title": "kpartx",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "0.4.9-85.el7"
+      ]
+    },
+    {
+      "title": "device-mapper-libs",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "1.02.107-5.el7"
+      ]
+    },
+    {
+      "title": "dracut",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "033-359.el7"
+      ]
+    },
+    {
+      "title": "systemd",
+      "resource": "package",
+      "provider": "yum",
+      "versions": [
+        "219-19.el7"
+      ]
+    },
+    {
+      "title": "bigdecimal",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "1.2.4"
+      ]
+    },
+    {
+      "title": "deep_merge",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "1.0.1"
+      ]
+    },
+    {
+      "title": "facter",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "3.1.4"
+      ]
+    },
+    {
+      "title": "hiera",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "3.0.6"
+      ]
+    },
+    {
+      "title": "hocon",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "0.9.3"
+      ]
+    },
+    {
+      "title": "io-console",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "0.4.3"
+      ]
+    },
+    {
+      "title": "json",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "1.8.1"
+      ]
+    },
+    {
+      "title": "minitest",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "4.7.5"
+      ]
+    },
+    {
+      "title": "net-ssh",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "2.9.2"
+      ]
+    },
+    {
+      "title": "psych",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "2.0.5"
+      ]
+    },
+    {
+      "title": "puppet",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "4.3.2"
+      ]
+    },
+    {
+      "title": "rake",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "10.1.0"
+      ]
+    },
+    {
+      "title": "rdoc",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "4.1.0"
+      ]
+    },
+    {
+      "title": "stomp",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "1.3.3"
+      ]
+    },
+    {
+      "title": "test-unit",
+      "resource": "package",
+      "provider": "puppet_gem",
+      "versions": [
+        "2.1.8.0"
+      ]
+    },
+    {
+      "title": "arp-ethers.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "auditd.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "autovt@.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "blk-availability.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "console-getty.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "console-shell.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "cpupower.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "crond.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "dbus-org.fedoraproject.FirewallD1.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "dbus-org.freedesktop.NetworkManager.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "dbus-org.freedesktop.nm-dispatcher.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "debug-shell.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "dm-event.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "dnsmasq.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "ebtables.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "firewalld.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "getty@.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "gssproxy.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "iprdump.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "iprinit.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "iprupdate.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "irqbalance.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "kdump.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "lvm2-lvmetad.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "lvm2-lvmpolld.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "lvm2-monitor.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "mcollective.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "microcode.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "NetworkManager-dispatcher.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "NetworkManager-wait-online.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "NetworkManager.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "nfs-blkmap.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "nfs-server.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "nfs.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "plymouth-halt.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "plymouth-kexec.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "plymouth-poweroff.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "plymouth-quit-wait.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "plymouth-quit.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "plymouth-read-write.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "plymouth-reboot.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "plymouth-start.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "postfix.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "puppet.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "pxp-agent.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "rdisc.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "rdma.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "rhel-dmesg.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "rhel-domainname.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "rsyncd.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "rsyslog.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "serial-getty@.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "sshd.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "systemd-bootchart.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "systemd-nspawn@.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "systemd-readahead-collect.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "systemd-readahead-drop.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "systemd-readahead-replay.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "tcsd.service",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "tuned.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "vboxadd-service.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "vboxadd-x11.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "vboxadd.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "true",
+      "provider": "systemd"
+    },
+    {
+      "title": "wpa_supplicant.service",
+      "resource": "service",
+      "ensure": "running",
+      "enable": "false",
+      "provider": "systemd"
+    },
+    {
+      "title": "netconsole",
+      "resource": "service",
+      "ensure": "stopped",
+      "enable": null,
+      "provider": "init"
+    },
+    {
+      "title": "network",
+      "resource": "service",
+      "ensure": "running",
+      "enable": null,
+      "provider": "init"
+    },
+    {
+      "title": "root",
+      "resource": "user",
+      "uid": 0,
+      "gid": 0,
+      "groups": [
+
+      ],
+      "home": "/root",
+      "shell": "/bin/bash",
+      "comment": "root"
+    },
+    {
+      "title": "bin",
+      "resource": "user",
+      "uid": 1,
+      "gid": 1,
+      "groups": [
+
+      ],
+      "home": "/bin",
+      "shell": "/sbin/nologin",
+      "comment": "bin"
+    },
+    {
+      "title": "daemon",
+      "resource": "user",
+      "uid": 2,
+      "gid": 2,
+      "groups": [
+
+      ],
+      "home": "/sbin",
+      "shell": "/sbin/nologin",
+      "comment": "daemon"
+    },
+    {
+      "title": "adm",
+      "resource": "user",
+      "uid": 3,
+      "gid": 4,
+      "groups": [
+
+      ],
+      "home": "/var/adm",
+      "shell": "/sbin/nologin",
+      "comment": "adm"
+    },
+    {
+      "title": "lp",
+      "resource": "user",
+      "uid": 4,
+      "gid": 7,
+      "groups": [
+
+      ],
+      "home": "/var/spool/lpd",
+      "shell": "/sbin/nologin",
+      "comment": "lp"
+    },
+    {
+      "title": "sync",
+      "resource": "user",
+      "uid": 5,
+      "gid": 0,
+      "groups": [
+
+      ],
+      "home": "/sbin",
+      "shell": "/bin/sync",
+      "comment": "sync"
+    },
+    {
+      "title": "shutdown",
+      "resource": "user",
+      "uid": 6,
+      "gid": 0,
+      "groups": [
+
+      ],
+      "home": "/sbin",
+      "shell": "/sbin/shutdown",
+      "comment": "shutdown"
+    },
+    {
+      "title": "halt",
+      "resource": "user",
+      "uid": 7,
+      "gid": 0,
+      "groups": [
+
+      ],
+      "home": "/sbin",
+      "shell": "/sbin/halt",
+      "comment": "halt"
+    },
+    {
+      "title": "mail",
+      "resource": "user",
+      "uid": 8,
+      "gid": 12,
+      "groups": [
+
+      ],
+      "home": "/var/spool/mail",
+      "shell": "/sbin/nologin",
+      "comment": "mail"
+    },
+    {
+      "title": "operator",
+      "resource": "user",
+      "uid": 11,
+      "gid": 0,
+      "groups": [
+
+      ],
+      "home": "/root",
+      "shell": "/sbin/nologin",
+      "comment": "operator"
+    },
+    {
+      "title": "games",
+      "resource": "user",
+      "uid": 12,
+      "gid": 100,
+      "groups": [
+
+      ],
+      "home": "/usr/games",
+      "shell": "/sbin/nologin",
+      "comment": "games"
+    },
+    {
+      "title": "ftp",
+      "resource": "user",
+      "uid": 14,
+      "gid": 50,
+      "groups": [
+
+      ],
+      "home": "/var/ftp",
+      "shell": "/sbin/nologin",
+      "comment": "FTP User"
+    },
+    {
+      "title": "nobody",
+      "resource": "user",
+      "uid": 99,
+      "gid": 99,
+      "groups": [
+
+      ],
+      "home": "/",
+      "shell": "/sbin/nologin",
+      "comment": "Nobody"
+    },
+    {
+      "title": "avahi-autoipd",
+      "resource": "user",
+      "uid": 170,
+      "gid": 170,
+      "groups": [
+
+      ],
+      "home": "/var/lib/avahi-autoipd",
+      "shell": "/sbin/nologin",
+      "comment": "Avahi IPv4LL Stack"
+    },
+    {
+      "title": "systemd-bus-proxy",
+      "resource": "user",
+      "uid": 999,
+      "gid": 997,
+      "groups": [
+
+      ],
+      "home": "/",
+      "shell": "/sbin/nologin",
+      "comment": "systemd Bus Proxy"
+    },
+    {
+      "title": "systemd-network",
+      "resource": "user",
+      "uid": 998,
+      "gid": 996,
+      "groups": [
+
+      ],
+      "home": "/",
+      "shell": "/sbin/nologin",
+      "comment": "systemd Network Management"
+    },
+    {
+      "title": "dbus",
+      "resource": "user",
+      "uid": 81,
+      "gid": 81,
+      "groups": [
+
+      ],
+      "home": "/",
+      "shell": "/sbin/nologin",
+      "comment": "System message bus"
+    },
+    {
+      "title": "polkitd",
+      "resource": "user",
+      "uid": 997,
+      "gid": 995,
+      "groups": [
+
+      ],
+      "home": "/",
+      "shell": "/sbin/nologin",
+      "comment": "User for polkitd"
+    },
+    {
+      "title": "rpc",
+      "resource": "user",
+      "uid": 32,
+      "gid": 32,
+      "groups": [
+
+      ],
+      "home": "/var/lib/rpcbind",
+      "shell": "/sbin/nologin",
+      "comment": "Rpcbind Daemon"
+    },
+    {
+      "title": "tss",
+      "resource": "user",
+      "uid": 59,
+      "gid": 59,
+      "groups": [
+
+      ],
+      "home": "/dev/null",
+      "shell": "/sbin/nologin",
+      "comment": "Account used by the trousers package to sandbox the tcsd daemon"
+    },
+    {
+      "title": "rpcuser",
+      "resource": "user",
+      "uid": 29,
+      "gid": 29,
+      "groups": [
+
+      ],
+      "home": "/var/lib/nfs",
+      "shell": "/sbin/nologin",
+      "comment": "RPC Service User"
+    },
+    {
+      "title": "nfsnobody",
+      "resource": "user",
+      "uid": 65534,
+      "gid": 65534,
+      "groups": [
+
+      ],
+      "home": "/var/lib/nfs",
+      "shell": "/sbin/nologin",
+      "comment": "Anonymous NFS User"
+    },
+    {
+      "title": "postfix",
+      "resource": "user",
+      "uid": 89,
+      "gid": 89,
+      "groups": [
+        "mail"
+      ],
+      "home": "/var/spool/postfix",
+      "shell": "/sbin/nologin",
+      "comment": ""
+    },
+    {
+      "title": "sshd",
+      "resource": "user",
+      "uid": 74,
+      "gid": 74,
+      "groups": [
+
+      ],
+      "home": "/var/empty/sshd",
+      "shell": "/sbin/nologin",
+      "comment": "Privilege-separated SSH"
+    },
+    {
+      "title": "vboxadd",
+      "resource": "user",
+      "uid": 996,
+      "gid": 1,
+      "groups": [
+
+      ],
+      "home": "/var/run/vboxadd",
+      "shell": "/bin/false",
+      "comment": ""
+    },
+    {
+      "title": "vagrant",
+      "resource": "user",
+      "uid": 1000,
+      "gid": 1000,
+      "groups": [
+        "vagrant"
+      ],
+      "home": "/home/vagrant",
+      "shell": "/bin/bash",
+      "comment": ""
+    }
+  ],
+  "facts": {
+    "architecture": "x86_64",
+    "augeas": {
+      "version": "1.4.0"
+    },
+    "augeasversion": "1.4.0",
+    "bios_release_date": "12/01/2006",
+    "bios_vendor": "innotek GmbH",
+    "bios_version": "VirtualBox",
+    "blockdevice_sda_model": "VBOX HARDDISK",
+    "blockdevice_sda_size": 21474836480,
+    "blockdevice_sda_vendor": "ATA",
+    "blockdevices": "sda",
+    "boardmanufacturer": "Oracle Corporation",
+    "boardproductname": "VirtualBox",
+    "boardserialnumber": "0",
+    "chassistype": "Other",
+    "dhcp_servers": {
+      "enp0s3": "10.0.2.2",
+      "system": "10.0.2.2"
+    },
+    "disks": {
+      "sda": {
+        "model": "VBOX HARDDISK",
+        "size": "20.00 GiB",
+        "size_bytes": 21474836480,
+        "vendor": "ATA"
+      }
+    },
+    "dmi": {
+      "bios": {
+        "release_date": "12/01/2006",
+        "vendor": "innotek GmbH",
+        "version": "VirtualBox"
+      },
+      "board": {
+        "manufacturer": "Oracle Corporation",
+        "product": "VirtualBox",
+        "serial_number": "0"
+      },
+      "chassis": {
+        "type": "Other"
+      },
+      "manufacturer": "innotek GmbH",
+      "product": {
+        "name": "VirtualBox",
+        "serial_number": "0",
+        "uuid": "F2EBB3C8-3A19-4CB5-B467-C8960D91E93D"
+      }
+    },
+    "domain": "localdomain",
+    "facterversion": "3.1.4",
+    "filesystems": "xfs",
+    "fqdn": "localhost.localdomain",
+    "gid": "root",
+    "hardwareisa": "x86_64",
+    "hardwaremodel": "x86_64",
+    "hostname": "localhost",
+    "id": "root",
+    "identity": {
+      "gid": 0,
+      "group": "root",
+      "uid": 0,
+      "user": "root"
+    },
+    "interfaces": "enp0s3,lo",
+    "ipaddress": "10.0.2.15",
+    "ipaddress6": "fe80::a00:27ff:fed9:a524",
+    "ipaddress6_enp0s3": "fe80::a00:27ff:fed9:a524",
+    "ipaddress6_lo": "::1",
+    "ipaddress_enp0s3": "10.0.2.15",
+    "ipaddress_lo": "127.0.0.1",
+    "is_virtual": true,
+    "kernel": "Linux",
+    "kernelmajversion": "3.10",
+    "kernelrelease": "3.10.0-327.el7.x86_64",
+    "kernelversion": "3.10.0",
+    "load_averages": {
+      "15m": 0.07,
+      "1m": 0.79,
+      "5m": 0.2
+    },
+    "macaddress": "08:00:27:d9:a5:24",
+    "macaddress_enp0s3": "08:00:27:d9:a5:24",
+    "manufacturer": "innotek GmbH",
+    "memory": {
+      "swap": {
+        "available": "1.00 GiB",
+        "available_bytes": 1073737728,
+        "capacity": "0%",
+        "total": "1.00 GiB",
+        "total_bytes": 1073737728,
+        "used": "0 bytes",
+        "used_bytes": 0
+      },
+      "system": {
+        "available": "260.71 MiB",
+        "available_bytes": 273375232,
+        "capacity": "46.69%",
+        "total": "489.04 MiB",
+        "total_bytes": 512798720,
+        "used": "228.33 MiB",
+        "used_bytes": 239423488
+      }
+    },
+    "memoryfree": "260.71 MiB",
+    "memoryfree_mb": 260.7109375,
+    "memorysize": "489.04 MiB",
+    "memorysize_mb": 489.04296875,
+    "mountpoints": {
+      "/": {
+        "available": "17.19 GiB",
+        "available_bytes": 18452709376,
+        "capacity": "6.88%",
+        "device": "/dev/mapper/centos-root",
+        "filesystem": "xfs",
+        "options": [
+          "rw",
+          "relatime",
+          "attr2",
+          "inode64",
+          "noquota"
+        ],
+        "size": "18.46 GiB",
+        "size_bytes": 19815989248,
+        "used": "1.27 GiB",
+        "used_bytes": 1363279872
+      },
+      "/boot": {
+        "available": "372.52 MiB",
+        "available_bytes": 390619136,
+        "capacity": "25.00%",
+        "device": "/dev/sda1",
+        "filesystem": "xfs",
+        "options": [
+          "rw",
+          "relatime",
+          "attr2",
+          "inode64",
+          "noquota"
+        ],
+        "size": "496.67 MiB",
+        "size_bytes": 520794112,
+        "used": "124.14 MiB",
+        "used_bytes": 130174976
+      }
+    },
+    "mtu_enp0s3": 1500,
+    "mtu_lo": 65536,
+    "netmask": "255.255.255.0",
+    "netmask6": "ffff:ffff:ffff:ffff::",
+    "netmask6_enp0s3": "ffff:ffff:ffff:ffff::",
+    "netmask6_lo": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+    "netmask_enp0s3": "255.255.255.0",
+    "netmask_lo": "255.0.0.0",
+    "network": "10.0.2.0",
+    "network6": "fe80::",
+    "network6_enp0s3": "fe80::",
+    "network6_lo": "::1",
+    "network_enp0s3": "10.0.2.0",
+    "network_lo": "127.0.0.0",
+    "networking": {
+      "dhcp": "10.0.2.2",
+      "domain": "localdomain",
+      "fqdn": "localhost.localdomain",
+      "hostname": "localhost",
+      "interfaces": {
+        "enp0s3": {
+          "bindings": [
+            {
+              "address": "10.0.2.15",
+              "netmask": "255.255.255.0",
+              "network": "10.0.2.0"
+            }
+          ],
+          "bindings6": [
+            {
+              "address": "fe80::a00:27ff:fed9:a524",
+              "netmask": "ffff:ffff:ffff:ffff::",
+              "network": "fe80::"
+            }
+          ],
+          "dhcp": "10.0.2.2",
+          "ip": "10.0.2.15",
+          "ip6": "fe80::a00:27ff:fed9:a524",
+          "mac": "08:00:27:d9:a5:24",
+          "mtu": 1500,
+          "netmask": "255.255.255.0",
+          "netmask6": "ffff:ffff:ffff:ffff::",
+          "network": "10.0.2.0",
+          "network6": "fe80::"
+        },
+        "lo": {
+          "bindings": [
+            {
+              "address": "127.0.0.1",
+              "netmask": "255.0.0.0",
+              "network": "127.0.0.0"
+            }
+          ],
+          "bindings6": [
+            {
+              "address": "::1",
+              "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+              "network": "::1"
+            }
+          ],
+          "ip": "127.0.0.1",
+          "ip6": "::1",
+          "mtu": 65536,
+          "netmask": "255.0.0.0",
+          "netmask6": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+          "network": "127.0.0.0",
+          "network6": "::1"
+        }
+      },
+      "ip": "10.0.2.15",
+      "ip6": "fe80::a00:27ff:fed9:a524",
+      "mac": "08:00:27:d9:a5:24",
+      "mtu": 1500,
+      "netmask": "255.255.255.0",
+      "netmask6": "ffff:ffff:ffff:ffff::",
+      "network": "10.0.2.0",
+      "network6": "fe80::",
+      "primary": "enp0s3"
+    },
+    "operatingsystem": "CentOS",
+    "operatingsystemmajrelease": "7",
+    "operatingsystemrelease": "7.2.1511",
+    "os": {
+      "architecture": "x86_64",
+      "family": "RedHat",
+      "hardware": "x86_64",
+      "name": "CentOS",
+      "release": {
+        "full": "7.2.1511",
+        "major": "7",
+        "minor": "2"
+      },
+      "selinux": {
+        "enabled": false
+      }
+    },
+    "osfamily": "RedHat",
+    "partitions": {
+      "/dev/mapper/centos-root": {
+        "filesystem": "xfs",
+        "mount": "/",
+        "size": "18.46 GiB",
+        "size_bytes": 19826475008,
+        "uuid": "c5e9538a-9f0f-4666-88e7-28bb52b62e43"
+      },
+      "/dev/mapper/centos-swap": {
+        "filesystem": "swap",
+        "size": "1.00 GiB",
+        "size_bytes": 1073741824,
+        "uuid": "8e3c7c45-a31b-479f-bd47-25764cf80fab"
+      },
+      "/dev/sda1": {
+        "filesystem": "xfs",
+        "mount": "/boot",
+        "size": "500.00 MiB",
+        "size_bytes": 524288000,
+        "uuid": "5dc0799f-b2a8-465e-8a47-60b677be09b3"
+      },
+      "/dev/sda2": {
+        "filesystem": "LVM2_member",
+        "size": "19.51 GiB",
+        "size_bytes": 20949499904,
+        "uuid": "PpSFVZ-SS3P-n3a6-ctPF-sb9H-6M85-i0TqBv"
+      }
+    },
+    "path": "/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/opt/puppetlabs/bin:/root/bin",
+    "physicalprocessorcount": 1,
+    "processor0": "Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz",
+    "processorcount": 1,
+    "processors": {
+      "count": 1,
+      "isa": "x86_64",
+      "models": [
+        "Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz"
+      ],
+      "physicalcount": 1
+    },
+    "productname": "VirtualBox",
+    "puppetversion": "4.3.2",
+    "ruby": {
+      "platform": "x86_64-linux",
+      "sitedir": "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.1.0",
+      "version": "2.1.8"
+    },
+    "rubyplatform": "x86_64-linux",
+    "rubysitedir": "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.1.0",
+    "rubyversion": "2.1.8",
+    "selinux": false,
+    "serialnumber": "0",
+    "ssh": {
+      "ecdsa": {
+        "fingerprints": {
+          "sha1": "SSHFP 3 1 4b80cff845085540397b35a95d2b96afdcb16731",
+          "sha256": "SSHFP 3 2 f9bb974b48a084ea13675f181b1acee9f02f7017670173c7b36b527a34988a38"
+        },
+        "key": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHwC5YtWj+dmqADHLkZHmYzkCqvTDwc2e1/UzYD3pNjTNEjnXz4NbYX/fi6IzpsoTncIKDz/KIyNyavAZzwB3Iw="
+      },
+      "ed25519": {
+        "fingerprints": {
+          "sha1": "SSHFP 4 1 03dc83a5291156202d219701ca246ae52dfcb196",
+          "sha256": "SSHFP 4 2 65401a580116be078bfbdf59d9b720083cd68db7f0dbe22b095aa8d4300ca750"
+        },
+        "key": "AAAAC3NzaC1lZDI1NTE5AAAAIHd8LpD7gj/4leXZaK0CuX+A6Eyp9thXdAsgyOTlprau"
+      },
+      "rsa": {
+        "fingerprints": {
+          "sha1": "SSHFP 1 1 c6583019aa0b3c40f9000b0276043f17173ef2d8",
+          "sha256": "SSHFP 1 2 da7a06517bd53ab42abef342df3b5e776775dcee19049781131c1ad654295a51"
+        },
+        "key": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDjp1PuZnOUZOUieQ2qMv0MlTaIjkAnYkpsgKumicsa8wjqGvvLngHB7DuFSJvXKeR5UFOYOGgw6wlKzj7oinNAmFFgkegnUsqlPCXfyVUljZw4/DfmH49KDZJpp8hKN87Ne0Z4tUhaD9ndjm+fWUUKy8Ykn6N5ClOjOiTrI+85YMb4I3/g0NciUdnnJ6ItWlttyUJmeNykYMsQie8OJWqw3bvc7um586lh0/i1DAlhu+DcNbJ9poaUeGLaXJSRGeymlLtAqpUTHl0fAiG7bs/8aRZzzjKlc1QCoHVzBte8meHQ2m9CJDdeTHOX2XBjG28NUErlpFi0vdI3X37xerqf"
+      }
+    },
+    "sshecdsakey": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHwC5YtWj+dmqADHLkZHmYzkCqvTDwc2e1/UzYD3pNjTNEjnXz4NbYX/fi6IzpsoTncIKDz/KIyNyavAZzwB3Iw=",
+    "sshed25519key": "AAAAC3NzaC1lZDI1NTE5AAAAIHd8LpD7gj/4leXZaK0CuX+A6Eyp9thXdAsgyOTlprau",
+    "sshfp_ecdsa": "SSHFP 3 1 4b80cff845085540397b35a95d2b96afdcb16731\nSSHFP 3 2 f9bb974b48a084ea13675f181b1acee9f02f7017670173c7b36b527a34988a38",
+    "sshfp_ed25519": "SSHFP 4 1 03dc83a5291156202d219701ca246ae52dfcb196\nSSHFP 4 2 65401a580116be078bfbdf59d9b720083cd68db7f0dbe22b095aa8d4300ca750",
+    "sshfp_rsa": "SSHFP 1 1 c6583019aa0b3c40f9000b0276043f17173ef2d8\nSSHFP 1 2 da7a06517bd53ab42abef342df3b5e776775dcee19049781131c1ad654295a51",
+    "sshrsakey": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDjp1PuZnOUZOUieQ2qMv0MlTaIjkAnYkpsgKumicsa8wjqGvvLngHB7DuFSJvXKeR5UFOYOGgw6wlKzj7oinNAmFFgkegnUsqlPCXfyVUljZw4/DfmH49KDZJpp8hKN87Ne0Z4tUhaD9ndjm+fWUUKy8Ykn6N5ClOjOiTrI+85YMb4I3/g0NciUdnnJ6ItWlttyUJmeNykYMsQie8OJWqw3bvc7um586lh0/i1DAlhu+DcNbJ9poaUeGLaXJSRGeymlLtAqpUTHl0fAiG7bs/8aRZzzjKlc1QCoHVzBte8meHQ2m9CJDdeTHOX2XBjG28NUErlpFi0vdI3X37xerqf",
+    "swapfree": "1.00 GiB",
+    "swapfree_mb": 1023.99609375,
+    "swapsize": "1.00 GiB",
+    "swapsize_mb": 1023.99609375,
+    "system_uptime": {
+      "days": 0,
+      "hours": 0,
+      "seconds": 46,
+      "uptime": "0:00 hours"
+    },
+    "timezone": "UTC",
+    "uptime": "0:00 hours",
+    "uptime_days": 0,
+    "uptime_hours": 0,
+    "uptime_seconds": 46,
+    "uuid": "F2EBB3C8-3A19-4CB5-B467-C8960D91E93D",
+    "virtual": "virtualbox"
+  }
+}

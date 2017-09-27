@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+{% load static %}
+
+<script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+<script src="{% static 'js/welcome.js' %}"></script>
+
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'analyser/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'analyser/custom.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--<link href="images/favicon.ico" rel="shortcut icon">-->
+    <title>Puppet Run Analyser</title>
+</head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="analyser-header">
+                <h2>Puppet Run Analyser</h2>
+            </div>
+
+
+            <h4 class="begin-header">Welcome to the Puppet Run Analyser! Click the button below to begin</h4>
+
+            <button class="btn btn-warning btn-lg begin-button" id="begin-button">Begin</button>
+            <div id="loader">
+                <img id="spinner" src="{% static 'images/loading-spinner.gif' %}">
+                <h4 id="welcomeText">
+                </h4>
+            </div>
+            <h4 class="continue-header">Your data has been gathered, continue to the analyser by clicking below</h4>
+            <div class="continue-div">
+                <a href="{% url 'home' %}">
+                     <button class="btn btn-warning btn-lg continue-button" id="continue-button">Continue</button>
+                </a>
+            </div>
+        </div>
+    </body>
+
+</html>
