@@ -1,5 +1,17 @@
 # Puppet Run Analyser
 
+## Running app on Docker
+
+First run the following command to build the Docker images:
+
+`docker-compose build`
+
+Once the images are created the next command will attach them to containers, where the analyser can be accessed at `0.0.0.0:8000`:
+
+`docker-compose up -d`
+
+## Running app on Heroku (OLD WAY)
+
 To run the analyser you will need to have the following software installed:
 
 -	Vagrant
@@ -18,4 +30,3 @@ Once you have the required software installed, to run the data gathering bash sc
 `./data.sh`
 
 The script then runs through various conditions to first determine if it is running on a Darwin operating system, and if it is not to run the Vagrant command ‘vagrant up’. The Vagrant command gathers the relevant boxes, and provisions each box using the vagrant_script.sh file to gathering data regarding each machine. After the execution of the scripts, an inventory_files will be generated with four files inside it, one for each node.
-
