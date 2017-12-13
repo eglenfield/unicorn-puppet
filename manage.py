@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-import os
+ImportError: No module named django.core.managementimport os
 import sys
 
 if __name__ == "__main__":
